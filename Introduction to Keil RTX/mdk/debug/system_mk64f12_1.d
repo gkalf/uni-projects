@@ -1,0 +1,9 @@
+debug\system_mk64f12_1.o: RTE\Device\MK64FN1M0xxx12\system_MK64F12.c
+debug\system_mk64f12_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+debug\system_mk64f12_1.o: ../../../../../../devices/MK64F12/MK64F12.h
+debug\system_mk64f12_1.o: ../../../../../../CMSIS/Include/core_cm4.h
+debug\system_mk64f12_1.o: ../../../../../../CMSIS/Include/core_cmInstr.h
+debug\system_mk64f12_1.o: ../../../../../../CMSIS/Include/cmsis_armcc.h
+debug\system_mk64f12_1.o: ../../../../../../CMSIS/Include/core_cmFunc.h
+debug\system_mk64f12_1.o: ../../../../../../CMSIS/Include/core_cmSimd.h
+debug\system_mk64f12_1.o: ../../../../../../devices/MK64F12/system_MK64F12.h

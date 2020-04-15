@@ -1,0 +1,22 @@
+--cpu=Cortex-M4.fp.sp
+"debug\startup_mk64f12.o"
+"debug\system_mk64f12.o"
+"debug\fsl_uart.o"
+"debug\fsl_gpio.o"
+"debug\fsl_common.o"
+"debug\fsl_smc.o"
+"debug\fsl_clock.o"
+"debug\fsl_adc16.o"
+"debug\fsl_pdb.o"
+"debug\main.o"
+"debug\elec422.o"
+"debug\pin_mux.o"
+"debug\board.o"
+"debug\clock_config.o"
+"debug\fsl_debug_console.o"
+"..\..\..\..\..\..\..\..\..\AppData\Local\Arm\Packs\ARM\CMSIS\5.6.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM4.lib"
+"debug\rtx_conf_cm.o"
+--library_type=microlib --diag_suppress 6314 --strict --scatter "MK64FN1M0xxx12_flash.scf"
+--remove --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\output\LEDS-SIGNALS-UART.map" -o debug\LEDS-SIGNALS-UART.out
