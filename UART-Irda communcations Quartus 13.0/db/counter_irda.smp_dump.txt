@@ -1,0 +1,27 @@
+
+State Machine - |top|ir_receiver:RECEIV2|ctrl_receiver:receiver_inst|state
+Name state.enable_output state.receiving_data state.idle 
+state.idle 0 0 0 
+state.receiving_data 0 1 1 
+state.enable_output 1 0 1 
+
+State Machine - |top|uart_transmitter:TRANSM2|ctrl:CTRL|state
+Name state.sending 
+state.idle 0 
+state.sending 1 
+
+State Machine - |top|sync_data:SYNC_data|state
+Name state.read 
+state.idle 0 
+state.read 1 
+
+State Machine - |top|uart_receiver:RECEIV|ctrl_receiver:receiver_inst|state
+Name state.enable_output state.receiving_data state.idle 
+state.idle 0 0 0 
+state.receiving_data 0 1 1 
+state.enable_output 1 0 1 
+
+State Machine - |top|ir_transmitter:TRANSM|ctrl:CTRL|state
+Name state.sending 
+state.idle 0 
+state.sending 1 
