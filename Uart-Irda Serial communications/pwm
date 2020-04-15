@@ -1,0 +1,51 @@
+#initialize everything
+lui $4,0x0000
+lui $5,0xFFFF
+lui $3,0x0002 #10% wait FFA120
+lui $2,0x0000 
+lui $6,0x0000
+lui $7,0x0000
+lui $8,0x0000
+lui $9,0x0000
+# 1s is 10M cycles, the wait function needs 3 instructions to count 1 time
+#So 1s is 3,333M iterations
+#If we want in 1s the LED to turn On,and off with 10% duty cycle and spit it in
+#equal waiting time. The waiting time for every duty cycle is 166.667iterations
+###############################
+addiu $3,$3,0x8B0B #max = 10^6
+addiu $7,$4,0 #i=0
+addiu $8,$8,409 #10
+addiu $5,$5,0x3000 #store register
+addiu $9,$4,0x1193
+#while(1){add to Compare Register 10%
+#	  if (Compare register >4090) jump to fade_out else wait()
+fade_in:
+add $6,$6,$8
+beq $6,$9,fade_out
+sw $6,0($5)
+addiu $7,$4,0 #i=0
+#for (i=0;i==max_count;i++);
+wait:
+beq $7,$3,fade_in
+addiu $7,$7,1
+j wait
+#while(1){sub to Compare Register 10%
+#	  if (Compare register >4090) jump to wait for zero value else wait()
+fade_out:
+sub $6,$6,$8
+beq $6,0,wait0
+sw $6,0($5)
+addiu $7,$4,0 #i=0
+#for (i=0;i==max_count;i++);
+wait2:
+beq $7,$3,fade_out
+addiu $7,$7,1
+j wait2
+#waut for 1 time and then go to fade_in
+wait0:
+addiu $7,$4,0 #i=0
+sw $6,0($5)
+repeat:
+beq $7,$3,fade_in
+addiu $7,$7,1
+j repeat

@@ -1,0 +1,589 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/geoka/Google Drive/Liverpool/elec473/assign3/simulation/modelsim
+vadder
+Z1 !s110 1585738607
+!i10b 1
+!s100 JCW9HK81lc]U24CS:1bSE1
+I;=9Uea;iHkOR8e6XLWecH1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1581883478
+Z4 8C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/MIPS_CPU/mipsparts.v
+Z5 FC:/Users/geoka/Google Drive/Liverpool/elec473/assign3/MIPS_CPU/mipsparts.v
+L0 52
+Z6 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z7 !s108 1585738607.000000
+Z8 !s107 C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/MIPS_CPU/mipsparts.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/MIPS_CPU|C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/MIPS_CPU/mipsparts.v|
+!s101 -O0
+!i113 1
+Z10 o-vlog01compat -work work -O0
+Z11 !s92 -vlog01compat -work work {+incdir+C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/MIPS_CPU} -O0
+vAddr_Decoder
+Z12 !s110 1585738608
+!i10b 1
+!s100 Zkd>^HLTef]0S0[lIL<S91
+ITK:hLW@==mf[li>7PRBic1
+R2
+R0
+w1584747374
+8C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/Decoder/Addr_Decoder.v
+FC:/Users/geoka/Google Drive/Liverpool/elec473/assign3/Decoder/Addr_Decoder.v
+L0 1
+R6
+r1
+!s85 0
+31
+Z13 !s108 1585738608.000000
+!s107 C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/Decoder/Addr_Decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/Decoder|C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/Decoder/Addr_Decoder.v|
+!s101 -O0
+!i113 1
+R10
+!s92 -vlog01compat -work work {+incdir+C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/Decoder} -O0
+n@addr_@decoder
+vALTPLL_clkgen
+R12
+!i10b 1
+!s100 LcfSQ:FJG0:<=@AjE:XVL2
+IYNNA34dXE:Cb8>^ZUe?=>0
+R2
+R0
+w1361267228
+8C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/Altera_PLL/ALTPLL_clkgen.v
+FC:/Users/geoka/Google Drive/Liverpool/elec473/assign3/Altera_PLL/ALTPLL_clkgen.v
+Z14 L0 39
+R6
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/Altera_PLL/ALTPLL_clkgen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/Altera_PLL|C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/Altera_PLL/ALTPLL_clkgen.v|
+!s101 -O0
+!i113 1
+R10
+!s92 -vlog01compat -work work {+incdir+C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/Altera_PLL} -O0
+n@a@l@t@p@l@l_clkgen
+valu
+R1
+!i10b 1
+!s100 jA4GS_V?733`LiK8]>nBz3
+IAI;D[^@fG2X2=lYC:06]f2
+R2
+R0
+R3
+R4
+R5
+L0 22
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+valudec
+R1
+!i10b 1
+!s100 0JcfHVBIEJ@594Uhz0KK33
+IWZlECc_njjU0a8e:5bE2a1
+R2
+R0
+Z15 w1584729161
+Z16 8C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/MIPS_CPU/mips.v
+Z17 FC:/Users/geoka/Google Drive/Liverpool/elec473/assign3/MIPS_CPU/mips.v
+L0 135
+R6
+r1
+!s85 0
+31
+R7
+Z18 !s107 C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/MIPS_CPU/mips.v|
+Z19 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/MIPS_CPU|C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/MIPS_CPU/mips.v|
+!s101 -O0
+!i113 1
+R10
+R11
+vcompare_register
+Z20 !s110 1585738610
+!i10b 1
+!s100 z>KXNWC]N=S1d1ogKz]i22
+I`=ZBWd<cdNYalH_ACekaK2
+R2
+R0
+w1584731709
+8C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/CompareR.v
+FC:/Users/geoka/Google Drive/Liverpool/elec473/assign3/CompareR.v
+L0 1
+R6
+r1
+!s85 0
+31
+Z21 !s108 1585738609.000000
+!s107 C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/CompareR.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/geoka/Google Drive/Liverpool/elec473/assign3|C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/CompareR.v|
+!s101 -O0
+!i113 1
+R10
+Z22 !s92 -vlog01compat -work work {+incdir+C:/Users/geoka/Google Drive/Liverpool/elec473/assign3} -O0
+vControl_output
+Z23 !s110 1585738609
+!i10b 1
+!s100 C:@_5:^M1HPaHnM?Vd`2?2
+I17dTYnG33i?@8TGJ51^oP0
+R2
+R0
+w1584729536
+8C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/control_out.v
+FC:/Users/geoka/Google Drive/Liverpool/elec473/assign3/control_out.v
+L0 1
+R6
+r1
+!s85 0
+31
+R21
+!s107 C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/control_out.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/geoka/Google Drive/Liverpool/elec473/assign3|C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/control_out.v|
+!s101 -O0
+!i113 1
+R10
+R22
+n@control_output
+vcontroller
+R1
+!i10b 1
+!s100 G;LIe^<DoBKo<DT[F8Nj91
+IEm`dz3P_I=SSFX97=gmDo3
+R2
+R0
+R15
+R16
+R17
+L0 67
+R6
+r1
+!s85 0
+31
+R7
+R18
+R19
+!s101 -O0
+!i113 1
+R10
+R11
+vcounter
+R23
+!i10b 1
+!s100 JMBjZ=ZUlkg?R3?JEBDO03
+InA3WdV`EeFIc4eaE_^?P83
+R2
+R0
+w1584728979
+8C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/counter.v
+FC:/Users/geoka/Google Drive/Liverpool/elec473/assign3/counter.v
+L0 1
+R6
+r1
+!s85 0
+31
+R21
+!s107 C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/geoka/Google Drive/Liverpool/elec473/assign3|C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/counter.v|
+!s101 -O0
+!i113 1
+R10
+R22
+vdatapath
+R1
+!i10b 1
+!s100 a]^@mF9=Ld?LZLaU_YgHQ2
+IA3gLMZ?N7acG03dO=YH]?0
+R2
+R0
+R15
+R16
+R17
+L0 159
+R6
+r1
+!s85 0
+31
+R7
+R18
+R19
+!s101 -O0
+!i113 1
+R10
+R11
+vflopenr
+R1
+!i10b 1
+!s100 1TZ07:]2Xd_QI0YB[edSc0
+IG:c9DjXJ[^2mPh9d2>3DN0
+R2
+R0
+R3
+R4
+R5
+L0 110
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+vflopr
+R1
+!i10b 1
+!s100 `]oBH5Fm6FmJj[ngRYeXL2
+Ic?:mN::bnV9<E2P;LSQ^j1
+R2
+R0
+R3
+R4
+R5
+L0 97
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+vGPIO
+R12
+!i10b 1
+!s100 k]VgER[GO0jZM5hV:5DNl2
+I[VV]iJ48MQ1TaUc]9A4U32
+R2
+R0
+Z24 w1360327732
+Z25 8C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/GPIO/GPIO.v
+Z26 FC:/Users/geoka/Google Drive/Liverpool/elec473/assign3/GPIO/GPIO.v
+L0 20
+R6
+r1
+!s85 0
+31
+R13
+Z27 !s107 C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/GPIO/GPIO.v|
+Z28 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/GPIO|C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/GPIO/GPIO.v|
+!s101 -O0
+!i113 1
+R10
+Z29 !s92 -vlog01compat -work work {+incdir+C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/GPIO} -O0
+n@g@p@i@o
+vkey_detect
+R12
+!i10b 1
+!s100 RzTog4cQP3NmVL60jz:=U3
+INGlS3:[2cO72ZgJAAfj<z2
+R2
+R0
+R24
+R25
+R26
+L0 257
+R6
+r1
+!s85 0
+31
+R13
+R27
+R28
+!s101 -O0
+!i113 1
+R10
+R29
+vmaindec
+R1
+!i10b 1
+!s100 KN]`O5X]7o52eP9i:[Yz@2
+IelAHLO<>lAHCAAXmM9Oof1
+R2
+R0
+R15
+R16
+R17
+L0 103
+R6
+r1
+!s85 0
+31
+R7
+R18
+R19
+!s101 -O0
+!i113 1
+R10
+R11
+vmips
+R1
+!i10b 1
+!s100 MY?aiQThW90UScn?4L0hV1
+IAaC80aE9?PSYo1O=Xa43n3
+R2
+R0
+R15
+R16
+R17
+L0 15
+R6
+r1
+!s85 0
+31
+R7
+R18
+R19
+!s101 -O0
+!i113 1
+R10
+R11
+vMIPS_System
+R1
+!i10b 1
+!s100 CD1`NSMFVePn[0Ez4[MjF2
+IfGN<Si?ODgQSd`Kf`aQ:U3
+R2
+R0
+w1584670976
+8C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/MIPS_System.v
+FC:/Users/geoka/Google Drive/Liverpool/elec473/assign3/MIPS_System.v
+L0 21
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/MIPS_System.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/geoka/Google Drive/Liverpool/elec473/assign3|C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/MIPS_System.v|
+!s101 -O0
+!i113 1
+R10
+R22
+n@m@i@p@s_@system
+vmux2
+R1
+!i10b 1
+!s100 Uj;GW5B7=l]kVWIccohhn2
+IzU:o]=7]`>5L2ge<FPi2M3
+R2
+R0
+R3
+R4
+R5
+L0 124
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+vPWM
+R23
+!i10b 1
+!s100 dE[I`:l]QkYbcfJhiLdnj0
+IRm9:=:B84g2Qa9^[@]<hz3
+R2
+R0
+w1584747373
+8C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/pwm.v
+FC:/Users/geoka/Google Drive/Liverpool/elec473/assign3/pwm.v
+L0 1
+R6
+r1
+!s85 0
+31
+R21
+!s107 C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/pwm.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/geoka/Google Drive/Liverpool/elec473/assign3|C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/pwm.v|
+!s101 -O0
+!i113 1
+R10
+R22
+n@p@w@m
+vram2port_inst_data
+R1
+!i10b 1
+!s100 8Z0CbLeo5T92dBC`>WdfB3
+IGo8lkc?PlNJS1bjZC8;Tk2
+R2
+R0
+w1361270472
+8C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/Alera_Mem_Dual_Port/ram2port_inst_data.v
+FC:/Users/geoka/Google Drive/Liverpool/elec473/assign3/Alera_Mem_Dual_Port/ram2port_inst_data.v
+R14
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/Alera_Mem_Dual_Port/ram2port_inst_data.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/Alera_Mem_Dual_Port|C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/Alera_Mem_Dual_Port/ram2port_inst_data.v|
+!s101 -O0
+!i113 1
+R10
+!s92 -vlog01compat -work work {+incdir+C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/Alera_Mem_Dual_Port} -O0
+vregfile
+R1
+!i10b 1
+!s100 MRX145l6`_W]oCj;MMJfM2
+I<kJN7PFFfN6TOJP<Nkem91
+R2
+R0
+R3
+R4
+R5
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+vshift_left_16
+R1
+!i10b 1
+!s100 ?1DNkeZLb=lOo3>I74MiJ0
+ILCFl6847NI?GEk;]zW;D@0
+R2
+R0
+R3
+R4
+R5
+L0 83
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+vsign_zero_ext
+R1
+!i10b 1
+!s100 d;7_3`h@GRcLdh1?k[aY42
+Ia6kDIg^jH@JT6Q?B6Z=c93
+R2
+R0
+R3
+R4
+R5
+L0 69
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+vsl2
+R1
+!i10b 1
+!s100 ;K[lI1G@JLdI`=2KU7zfc1
+I@C^?`^1mXXGUGYhOzP3KB1
+R2
+R0
+R3
+R4
+R5
+L0 60
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!s101 -O0
+!i113 1
+R10
+R11
+vtestbench
+R20
+!i10b 1
+!s100 94nP38ZFHUY4=LHbF^TgW0
+IgZKYBBjO7=8@O]nmLo`Y^2
+R2
+R0
+w1581424444
+8C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/MIPS_System_tb.v
+FC:/Users/geoka/Google Drive/Liverpool/elec473/assign3/MIPS_System_tb.v
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1585738610.000000
+!s107 C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/MIPS_System_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/geoka/Google Drive/Liverpool/elec473/assign3|C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/MIPS_System_tb.v|
+!s101 -O0
+!i113 1
+R10
+R22
+vTimerCounter
+R12
+!i10b 1
+!s100 [;o0TdnV]EZ8dFQHIFZ`n1
+IA5JhIEN`X2RHcZnGZkV0P2
+R2
+R0
+w1583893770
+8C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/Timer/TimerCounter.v
+FC:/Users/geoka/Google Drive/Liverpool/elec473/assign3/Timer/TimerCounter.v
+L0 1
+R6
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/Timer/TimerCounter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/Timer|C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/Timer/TimerCounter.v|
+!s101 -O0
+!i113 1
+R10
+!s92 -vlog01compat -work work {+incdir+C:/Users/geoka/Google Drive/Liverpool/elec473/assign3/Timer} -O0
+n@timer@counter

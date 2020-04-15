@@ -1,0 +1,20 @@
+# Current time Tue Feb 11 12:12:38 2020
+# Program = vsim
+# Id = "10.4c"
+# Version = "2015.07"
+# Date = "Jul 20 2015"
+# Platform = win32
+# Signature = 46a83510700b1fc9d7ab05b7f8520021
+# 0    0x00853680: '<unknown (@0x853680)>'
+# 1    0x00854cdf: '<unknown (@0x854cdf)>'
+# 2    0x008559d3: '<unknown (@0x8559d3)>'
+# 3    0x00855cfc: '<unknown (@0x855cfc)>'
+# 4    0x1000cb1f: 'TclInvokeStringCommand + 0x8f' in 'c:\questasim_10.4c\win32\tcl85.dll'
+# 5    0x1000ecba: 'Tcl_EvalEx + 0x7da' in 'c:\questasim_10.4c\win32\tcl85.dll'
+# 6    0x1000e500: 'Tcl_EvalEx + 0x20' in 'c:\questasim_10.4c\win32\tcl85.dll'
+# 7    0x00fa9b24: '<unknown (@0xfa9b24)>'
+# 8    0x1005fb86: 'Tcl_NotifyChannel + 0x136' in 'c:\questasim_10.4c\win32\tcl85.dll'
+# 9    0x100aab09: 'TclpHasSockets + 0x379' in 'c:\questasim_10.4c\win32\tcl85.dll'
+# End of Stack Trace
+
+

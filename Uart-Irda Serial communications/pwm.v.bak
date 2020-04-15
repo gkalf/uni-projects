@@ -1,0 +1,70 @@
+module TimerCounter(
+  input clk,
+  input reset,
+  input CS_N,
+  input RD_N,
+  input WR_N,
+  input [11:0] Addr,
+  input [31:0] DataIn,
+  output reg [31:0] DataOut,
+  output [1:0]Intr);
+  
+
+  reg [31:0] CompareR;
+  reg [15:0] CounterR;
+  reg [31:0] StatusR; 
+  
+    
+//  ==============================
+//  Timer registers 
+//  ==============================
+//  FFFF_0200 Status register  (Read-Only)
+//  FFFF_0100 Counter register (Read-Only)
+//  ------------------------------
+//  FFFF_0000 Compare register (Read/Write)
+//  ==============================
+
+
+  // Compare Register Write
+  always @(posedge clk)
+  begin
+    if(reset)                                        
+          CompareR <=32'hFFFF_FFFF;
+          
+    else if(~CS_N && ~WR_N && (Addr[11:0]==12'h000))     
+          CompareR <= DataIn;
+          
+  end
+    
+
+  // Status Register
+  always @(posedge clk)
+  begin      
+    if (reset) 
+		begin 
+			StatusR <= 32'hFFFF_FFFF;
+		end
+    else if (CompareR[15:0] == CounterR)
+		begin
+         StatusR[1:0] <= 2'b10;
+		end
+	else if (CounterR == 0)
+			 StatusR[1:0] <= 2'b00;
+  end   
+
+  assign  Intr = ~StatusR[1:0];
+
+
+  // Increment Counter in the Counter Register 
+  // Reset conditions: 1. reset 2. when the counter value is equal to the compare register
+  always @(posedge clk)
+  begin      
+    if(reset )   CounterR <= 16'b0;
+	 else if(~CS_N && ~WR_N && (Addr[11:0]==12'h000))     
+          CounterR <= 0;
+    else                      CounterR <= CounterR + 16'b1; 
+  end
+
+
+ 
+endmodule
