@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed May 10 18:18:58 2017
+# Process ID: 22617
+# Current directory: /home/gkmikros/Dropbox/CE435/lab4/lab4_verilog/lab4_verilong/lab4_verilong.sim/sim_1/behav
+# Command line: wbtcv -mode batch -source /home/gkmikros/Dropbox/CE435/lab4/lab4_verilog/lab4_verilong/lab4_verilong.sim/sim_1/behav/xsim.dir/TB1_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/gkmikros/Dropbox/CE435/lab4/lab4_verilog/lab4_verilong/lab4_verilong.sim/sim_1/behav/webtalk.log
+# Journal file: /home/gkmikros/Dropbox/CE435/lab4/lab4_verilog/lab4_verilong/lab4_verilong.sim/sim_1/behav/webtalk.jou
+#-----------------------------------------------------------
+source /home/gkmikros/Dropbox/CE435/lab4/lab4_verilog/lab4_verilong/lab4_verilong.sim/sim_1/behav/xsim.dir/TB1_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00.12 ; elapsed = 00:00:05 . Memory (MB): peak = 224.848 ; gain = 0.000 ; free physical = 1974 ; free virtual = 6044
+INFO: [Common 17-206] Exiting Webtalk at Wed May 10 18:19:04 2017...

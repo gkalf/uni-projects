@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# 
+# Start of session at: Sun Apr 26 21:09:55 2020
+# Process ID: 14228
+# Current directory: C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.sdk/webtalk/webtalk.log
+# Journal file: C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

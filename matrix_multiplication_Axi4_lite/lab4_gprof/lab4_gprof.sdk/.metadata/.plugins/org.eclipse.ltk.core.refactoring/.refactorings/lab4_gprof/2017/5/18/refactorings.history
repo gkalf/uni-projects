@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;lab4_gprof/src/lab4_gproff&apos; to &apos;lab4_gproff.c&apos;" description="Rename resource &apos;lab4_gproff&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/lab4_gproff" name="lab4_gproff.c" stamp="1493851991082" updateReferences="true"/>
+</session>

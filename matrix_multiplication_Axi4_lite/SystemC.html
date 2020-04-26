@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://www.accellera.org/downloads/standards/systemc -->
+<html class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" data-useragent="Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SystemC</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  	<meta name="google-site-verification" content="fqk3YrR_TZnZIpdwTTuUXhNpU4428bIVov3Rx0BaPeA">
+	
+<!-- Google Tag Manager -->
+<script type="text/javascript" async="" src="./SystemC_files/analytics.js.download"></script><script async="" src="./SystemC_files/gtm.js.download"></script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MMDJHV');</script>
+<!-- End Google Tag Manager -->
+
+	
+<link rel="apple-touch-icon" sizes="57x57" href="http://www.accellera.org/templates/accellera_1.1/images/favicons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="http://www.accellera.org/templates/accellera_1.1/images/favicons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="http://www.accellera.org/templates/accellera_1.1/images/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="http://www.accellera.org/templates/accellera_1.1/images/favicons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="http://www.accellera.org/templates/accellera_1.1/images/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="http://www.accellera.org/templates/accellera_1.1/images/favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="http://www.accellera.org/templates/accellera_1.1/images/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="http://www.accellera.org/templates/accellera_1.1/images/favicons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="http://www.accellera.org/templates/accellera_1.1/images/favicons/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="http://www.accellera.org/templates/accellera_1.1/images/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="http://www.accellera.org/templates/accellera_1.1/images/favicons/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="http://www.accellera.org/templates/accellera_1.1/images/favicons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="http://www.accellera.org/templates/accellera_1.1/images/favicons/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="http://www.accellera.org/templates/accellera_1.1/images/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="http://www.accellera.org/templates/accellera_1.1/images/favicons/manifest.json">
+<meta name="msapplication-TileColor" content="#ffc40d">
+<meta name="msapplication-TileImage" content="http://www.accellera.org/templates/accellera_1.1/images/favicons/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+	<link rel="stylesheet" href="./SystemC_files/system.css">
+	<link rel="stylesheet" href="./SystemC_files/general.css">
+	
+	<link rel="stylesheet" href="./SystemC_files/bootstrap.min.css">
+	<link rel="stylesheet" href="./SystemC_files/bootstrap-theme.css">
+	<link rel="stylesheet" href="./SystemC_files/font-awesome.min.css">
+	<link rel="stylesheet" href="./SystemC_files/bootstrapValidator.min.css">
+	<link rel="stylesheet" href="./SystemC_files/jquery.dataTables.min.css">
+	
+	    <link rel="stylesheet" href="./SystemC_files/global.css" type="text/css">
+	<link rel="stylesheet" href="./SystemC_files/home.css" type="text/css">
+
+	
+	<link rel="stylesheet" href="./SystemC_files/styles.css">
+	<script src="./SystemC_files/modernizr.min.js.download"></script>
+	<script src="./SystemC_files/script.js.download"></script>
+
+	
+	
+    <!--[if IE 8]>
+        <link rel="stylesheet" type="text/css" media="screen,projection" href="http://www.accellera.org/templates/accellera_1.1/current/kstyles/ws-ie8.css" />
+    <![endif]-->
+    <!--[if IE 7]>
+        <link rel="stylesheet" type="text/css" media="screen,projection" href="http://www.accellera.org/templates/accellera_1.1/current/kstyles/ws-ie7.css" />
+    <![endif]-->
+    <!--[if IE 6]>
+        <link rel="stylesheet" type="text/css" media="screen,projection" href="http://www.accellera.org/templates/accellera_1.1/current/kstyles/ws-ie6.css" />
+    <![endif]-->
+    <!--[if lt IE 7]>
+		<script src="http://www.accellera.org/templates/accellera_1.1/current/javascript/ieHover.js" type="text/javascript"></script>
+	<![endif]-->
+	
+	<!--Urchin Script--><script src="./SystemC_files/utm.js.download" type="text/javascript"></script><script language="JavaScript1.5">_ujv='1.5';</script><!--/Urchin Script--> 
+	<script type="text/javascript" src="./SystemC_files/jquery.js.download"></script>
+	<script type="text/javascript" src="./SystemC_files/jquery.cookie.js.download"></script>
+	<script type="text/javascript" src="./SystemC_files/functions.js.download"></script>
+	<script type="text/javascript" src="./SystemC_files/kwsGlobal.js.download"></script>
+	<script type="text/javascript" src="./SystemC_files/has-ajax.js.download"></script>
+	<script type="text/javascript" src="./SystemC_files/action_menu.js.download"></script>
+	<script type="text/javascript" src="./SystemC_files/floatbox.js.download"></script>
+	<script type="text/javascript" src="./SystemC_files/jquery.form.js.download"></script>
+	<script type="text/javascript" src="./SystemC_files/add-doc-modal.js.download"></script>	
+	  
+</head> 
+	
+<body id="pg_systemc"><span class="viber-share-selection" id="viber2" style="position: absolute; top: 0px; left: 0px; width: 24px; height: 23px; background-size: 100%; display: none; z-index: 2147483647; background-image: url(&quot;chrome-extension://dafalpmmoljglecaoelijmbkhpdoobmm/images/text-button@2x.png&quot;); cursor: pointer; background-repeat: no-repeat;"></span>
+<!-- Google Tag Manager (noscript) -->
+<noscript>&lt;iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MMDJHV"
+height="0" width="0" style="display:none;visibility:hidden"&gt;&lt;/iframe&gt;</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+	<div class="container">
+		<header class="">
+			<div class="row hidden-xs">
+				<div class="col-sm-12">
+					<h1 id="logo"><a href="http://www.accellera.org/"><img src="./SystemC_files/logo_accellera.png" border="0" alt="Accellera Systems Initiative"></a></h1>
+					<a class="sr-only" title="Skip to Page Content" href="http://www.accellera.org/downloads/standards/systemc#main">Skip to Page Content</a>
+				</div>
+			</div>
+							<div id="tab-navbar">
+							<div class="moduletable">
+					<nav class="row navbar">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	<a class="visible-xs navbar-brand" href="http://www.accellera.org/"><img src="./SystemC_files/logo_accellera.png" border="0" alt="Accellera Systems Initiative" class="img-responsive"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+
+
+
+<ul class="nav navbar-nav  menu">
+<li class="item-101 active"><a class="hidden" href="http://www.accellera.org/">Home</a></li><li class="item-102 dropdown deeper parent"><a class=" dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" href="http://www.accellera.org/about">About Us <span class="caret"></span></a><ul class="dropdown-menu nav-child unstyled small" role="menu"><li class="item-103"><a class="" href="http://www.accellera.org/about">Overview</a></li><li class="item-104 parent"><a class="" href="http://www.accellera.org/about/policies-and-procedures">Policies and Procedures</a></li><li class="item-106"><a class="" href="http://www.accellera.org/about/board-of-directors">Board of Directors</a></li><li class="item-107"><a class="" href="http://www.accellera.org/about/members">Members</a></li><li class="item-108"><a class="" href="http://www.accellera.org/about/join">How to Join</a></li><li class="item-109"><a class="" href="http://www.accellera.org/about/mergerfaq">FAQ</a></li><li class="item-110 parent"><a class="" href="http://www.accellera.org/about/awards">Awards</a></li><li class="item-111"><a class="" href="http://www.accellera.org/about/dvcon">Design &amp; Verification Conference</a></li><li class="item-112"><a class="" href="http://www.accellera.org/about/contact-us">Contact Us</a></li><li class="item-204"><a class="hidden" href="http://www.accellera.org/about/site-help">Site Help</a></li><li class="item-289"><a class="hidden" href="http://www.accellera.org/about/email-confirm">Confirm your email address</a></li><li class="item-291"><a class="hidden" href="http://www.accellera.org/about/email-thank-you">Email Thank You</a></li><li class="item-322"><a class="hidden" href="http://www.accellera.org/about/the-early-history-of-accellera">The Early History of Accellera</a></li></ul></li><li class="item-113 dropdown deeper parent"><a class=" dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" href="http://www.accellera.org/activities">Technical Activities <span class="caret"></span></a><ul class="dropdown-menu nav-child unstyled small" role="menu"><li class="item-114"><a class="" href="http://www.accellera.org/activities">Overview</a></li><li class="item-115 parent"><a class="" href="http://www.accellera.org/activities/working-groups">Working Groups</a></li><li class="item-116"><a class="" href="http://www.accellera.org/activities/ieee">IEEE Activities</a></li><li class="item-117"><a class="" href="http://www.accellera.org/activities/acronyms">Acronyms and Definitions</a></li></ul></li><li class="item-118 dropdown deeper parent"><a class=" dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" href="http://www.accellera.org/downloads">Downloads <span class="caret"></span></a><ul class="dropdown-menu nav-child unstyled small" role="menu"><li class="item-119"><a class="" href="http://www.accellera.org/downloads">Overview</a></li><li class="item-120 parent"><a class="" href="http://www.accellera.org/downloads/standards">Accellera Standards</a></li><li class="item-182 parent"><a class="" href="http://www.accellera.org/downloads/drafts-review">Drafts Under Public Review</a></li><li class="item-121"><a class="" href="http://www.accellera.org/downloads/ieee">IEEE Standards</a></li></ul></li><li class="item-122 dropdown deeper parent"><a class=" dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" href="http://www.accellera.org/community">Community <span class="caret"></span></a><ul class="dropdown-menu nav-child unstyled small" role="menu"><li class="item-123"><a class="" href="http://www.accellera.org/community">Overview</a></li><li class="item-326 parent"><a class="" href="http://www.accellera.org/community/ip-xact">IP-XACT Community</a></li><li class="item-124 parent"><a class="" href="http://www.accellera.org/community/ocp">OCP Community</a></li><li class="item-125 parent"><a class="" href="http://www.accellera.org/community/systemc">SystemC Community</a></li><li class="item-126 parent"><a class="" href="http://www.accellera.org/community/uvm">UVM Community</a></li></ul></li><li class="item-127 dropdown deeper parent"><a class=" dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" href="http://www.accellera.org/resources">Resources <span class="caret"></span></a><ul class="dropdown-menu nav-child unstyled small" role="menu"><li class="item-128"><a class="" href="http://www.accellera.org/resources">Overview</a></li><li class="item-129"><a class="" href="http://www.accellera.org/resources/videos">Videos</a></li><li class="item-130 parent"><a class="" href="http://www.accellera.org/resources/articles">Articles and Insights</a></li><li class="item-131"><a class="" href="http://forums.accellera.org/">Forums</a></li><li class="item-132 parent"><a class="" href="http://www.accellera.org/resources/user-groups">Regional User Groups</a></li><li class="item-133"><a class="" href="http://www.accellera.org/resources/websites">Related Websites</a></li></ul></li><li class="item-134 dropdown deeper parent"><a class=" dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" href="http://www.accellera.org/news/press-releases">News &amp; Events <span class="caret"></span></a><ul class="dropdown-menu nav-child unstyled small" role="menu"><li class="item-268"><a class="" href="http://www.accellera.org/news/press-releases">Press Releases</a></li><li class="item-137 parent"><a class="" href="http://www.accellera.org/news/events">Events</a></li><li class="item-138"><a class="" href="http://www.accellera.org/news/media-coverage">Media Coverage</a></li><li class="item-139 parent"><a class="" href="http://www.accellera.org/news/newsletters">Newsletters</a></li></ul></li><li class="item-143"><a class="" href="http://workspace.accellera.org/kws/">Workspace</a></li><li class="item-229 dropdown deeper parent"><a class="hidden dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" href="http://www.accellera.org/xmlschema">XML Schema <span class="caret"></span></a><ul class="dropdown-menu nav-child unstyled small" role="menu"><li class="item-232 parent"><a class="" href="http://www.accellera.org/xmlschema/spirit">SPIRIT</a></li><li class="item-230 parent"><a class="" href="http://www.accellera.org/xmlschema/ipxact">IP-XACT</a></li></ul></li><li class="item-233 dropdown deeper parent"><a class="hidden dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" href="http://www.accellera.org/busdefs">BusDefs <span class="caret"></span></a><ul class="dropdown-menu nav-child unstyled small" role="menu"><li class="item-257"><a class="hidden" href="http://www.accellera.org/busdefs/busdefdoc">BusDef Documentation</a></li></ul></li></ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+		</div>
+	
+				</div>
+
+				
+								
+				<div id="bot-navbar" class="row">
+					<nav class="navbar navbar-default">
+						<div class="container-fluid">
+						    <div>
+									<div class="moduletable">
+					
+
+<div class="custom">
+	<form id="cse-search-box" class="navbar-form navbar-right" action="http://www.accellera.org/results">
+<div class="form-group input-group"><input class="form-control" name="q" size="32" type="text" placeholder="Custom Search" style="border: 1px solid rgb(126, 157, 185); padding: 2px; background: url(&quot;https://www.google.com/cse/static/images/1x/googlelogo_lightgrey_46x16dp.png&quot;) left center no-repeat rgb(255, 255, 255); text-indent: 48px;"> <span class="input-group-btn"><input class="btn btn-default button" name="submit" type="submit" value="Search"></span></div>
+<input name="siteurl" type="hidden" value="www.accellera.org/downloads/standards/systemc"><input name="ref" type="hidden" value="www.accellera.org/home/"><input name="ss" type="hidden" value=""><input name="siteurl" type="hidden" value="www.accellera.org/downloads/standards/systemc"><input name="ref" type="hidden" value="www.accellera.org/home/"><input name="ss" type="hidden" value=""></form>
+
+<script type="text/javascript" src="./SystemC_files/brand"></script>  </div>
+		</div>
+			<div class="moduletable">
+					
+
+<div class="custom">
+	<div class=""><a class="btn btn-default navbar-btn" href="http://workspace.accellera.org/kws/">Member Sign in</a></div></div>
+		</div>
+	
+						    </div>
+						</div>
+					</nav>
+				</div>
+					
+		</header>
+		<div role="main" id="main" class="">
+
+
+						<div class="row" id="intro">
+			<div class="row-same-height">
+							<div class="col-sm-3 col-sm-height hidden-xs">
+					<div>
+						<ul class="nav menu" id="sidenav">
+<li class="item-119 alias-parent-active"><a href="http://www.accellera.org/downloads">Overview</a></li><li class="item-120 active deeper parent current"><a href="http://www.accellera.org/downloads/standards">Accellera Standards</a><ul class="nav-child unstyled small"><li class="item-173"><a class="hide-inactive" href="http://www.accellera.org/downloads/standards/ip-xact">IP-XACT</a></li><li class="item-174 deeper parent"><a class="hide-inactive" href="http://www.accellera.org/downloads/standards/ocp">OCP (Open Core Protocol)</a><ul class="nav-child unstyled small"><li class="item-254"><a class="hidden" href="http://www.accellera.org/downloads/standards/ocp/ocp-license-agreement">Open Core Protocol (OCP) License Agreement</a></li><li class="item-255"><a class="hidden" href="http://www.accellera.org/downloads/standards/ocp/files">Open Core Protocol (OCP) Files</a></li></ul></li><li class="item-175 deeper parent"><a class="hide-inactive" href="http://www.accellera.org/downloads/standards/ovl">OVL (Open Verification Language)</a><ul class="nav-child unstyled small"><li class="item-256"><a class="hidden" href="http://www.accellera.org/downloads/standards/ovl/ovl-statement-of-use">OVL Statement of Use</a></li></ul></li><li class="item-176"><a class="hide-inactive" href="http://www.accellera.org/downloads/standards/sce-mi">SCE-MI (Standard Co-Emulation Modeling Interface) </a></li><li class="item-177"><a class="hide-inactive" href="http://www.accellera.org/downloads/standards/ip-tagging">Soft IP Tagging</a></li><li class="item-178 current active deeper parent"><a class="hide-inactive" href="http://www.accellera.org/downloads/standards/systemc">SystemC</a><ul class="nav-child unstyled small"><li class="item-243"><a class="hidden" href="http://www.accellera.org/downloads/standards/systemc/systemc-license-agreement">SystemC License Agreement</a></li><li class="item-253"><a class="hidden" href="http://www.accellera.org/downloads/standards/systemc/files">SystemC Files</a></li></ul></li><li class="item-288"><a class="hide-inactive" href="http://www.accellera.org/downloads/standards/systemrdl">SystemRDL</a></li><li class="item-179"><a class="hide-inactive" href="http://www.accellera.org/downloads/standards/ucis">UCIS (Unified Coverage Interoperability Standard)</a></li><li class="item-180"><a class="hide-inactive" href="http://www.accellera.org/downloads/standards/uvm">UVM (Universal Verification Methodology)</a></li><li class="item-181"><a class="hide-inactive" href="http://www.accellera.org/downloads/standards/v-ams">Verilog-AMS (Analog/Mixed-Signal)</a></li></ul></li><li class="item-182 deeper parent"><a href="http://www.accellera.org/downloads/drafts-review">Drafts Under Public Review</a><ul class="nav-child unstyled small"><li class="item-296"><a class="hidden" href="http://www.accellera.org/downloads/drafts-review/systemc-license-drafts">SystemC License Agreement</a></li><li class="item-297"><a class="hidden" href="http://www.accellera.org/downloads/drafts-review/files">Drafts Under Public Review Files</a></li></ul></li><li class="item-121"><a href="http://www.accellera.org/downloads/ieee">IEEE Standards</a></li></ul>
+		
+					</div>				
+				</div>
+				<div class="col-sm-9 col-sm-height">
+				
+								<div id="crumbtrail">		<div class="moduletable">
+					
+<ul class="breadcrumb">
+	<li class="active"><span class="divider icon-location"></span></li><li><a href="http://www.accellera.org/" class="pathway">Home</a><span class="divider"> </span></li><li><a href="http://www.accellera.org/downloads" class="pathway">Downloads</a><span class="divider"> </span></li><li><a href="http://www.accellera.org/downloads/standards" class="pathway">Accellera Standards</a><span class="divider"> </span></li><li class="active"><span>SystemC</span></li></ul>
+		</div>
+	</div>
+			
+								<div id="system-message-container">
+	</div>
+
+										<div class="item-page" itemscope="" itemtype="http://schema.org/Article">
+	<meta itemprop="inLanguage" content="en-GB">
+							
+	
+	
+		
+								<div itemprop="articleBody">
+		<h1>SystemC</h1>
+<p>Standards are developed in a collaborative and open environment by technical working groups. Working groups operate by building consensus regarding requirements, proposed new features, and implementation. Ultimately these may become part of a future standard. Participation in the technical working groups is the primary way that progress is made in improving the SystemC language, implementation, and associated libraries.</p>
+<p>All of our members and community are welcome to download the specifications and documents made publicly available by the working groups.</p>
+<p><strong>Note:</strong>&nbsp;In<span style="font-size: 12.16px;">&nbsp;2016 <a href="http://www.accellera.org/news/press-releases/227-accellera-announces-relicensing-of-systemc-reference-implementation-under-the-apache-2-0-license" target="_blank">Accellera re-licensed all SystemC supplemental material</a>&nbsp;under the&nbsp;</span><a style="font-size: 12.16px;" href="https://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache 2.0 License</a><span style="font-size: 12.16px;">.&nbsp;</span>Access to some previous releases of SystemC material&nbsp;<span style="font-size: 12.16px;">may still require&nbsp;acceptance of th</span>e terms of the <a href="http://www.accellera.org/images/about/policies/SystemC_Open_Source_License_v3.3.pdf" target="_blank">SystemC Open Source License</a>&nbsp;while the process of updating license statements&nbsp;is underway. Please <a href="http://www.accellera.org/about/contact-us">contact the Accellera office</a>&nbsp;if you have any questions.</p>
+<h4>Current Releases</h4>
+<table class="table table-striped table-bordered" summary="current releases">
+<thead>
+<tr><th>Item</th><th>Download</th><th>Date Modified</th></tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="2">SystemC 2.3.1 (Includes TLM)</td>
+<td><a href="http://www.accellera.org/images/downloads/standards/systemc/systemc-2.3.1a.tar.gz" target="_blank">Core SystemC Language and Examples </a></td>
+<td>2016-11-03</td>
+</tr>
+<tr>
+<td><a href="http://www.accellera.org/images/downloads/standards/systemc/systemc-regressions-2.3.1a.tar.gz" target="_blank">SystemC Regression Test Suite</a></td>
+<td>2016-11-03</td>
+</tr>
+<tr>
+<td>AMS 2.0</td>
+<td><a href="http://www.accellera.org/images/downloads/standards/systemc/SystemC_AMS_2_0_LRM-Apache.pdf" target="_blank">Analog/Mixed-signal (AMS) Language Reference Manual</a></td>
+<td>2016-08-12</td>
+</tr>
+<tr>
+<td>SystemC Verification 2.0</td>
+<td><a href="http://www.accellera.org/images/downloads/standards/systemc/scv-2.0.0a.zip">SystemC Verification Library (SCV)</a></td>
+<td>2016-10-19</td>
+</tr>
+<tr>
+<td>SystemC Synthesis 1.4.7</td>
+<td><a href="http://www.accellera.org/images/downloads/standards/systemc/SystemC_Synthesis_Subset_1_4_7-Apache.pdf" target="_blank">SystemC Synthesis Subset</a></td>
+<td>2016-03-11</td>
+</tr>
+</tbody>
+</table>
+<h4>Previous Releases<strong><br> </strong></h4>
+<table class="table table-striped table-bordered" summary="current releases">
+<thead>
+<tr><th>Item</th><th>Download</th><th>Date Modified</th></tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="2">SystemC 2.3 (Includes TLM)</td>
+<td><a href="http://www.accellera.org/images/downloads/standards/systemc/systemc-2.3.0a.tar.gz" target="_blank">Core SystemC Language and Examples</a></td>
+<td>2012-07-02</td>
+</tr>
+<tr>
+<td><a href="http://www.accellera.org/images/downloads/standards/systemc/systemc-regressions-2.3.0a.tar.gz" target="_blank">SystemC Regression Test Suite</a></td>
+<td>2012-07-02</td>
+</tr>
+<tr>
+<td>AMS 1.0</td>
+<td><a href="http://www.accellera.org/downloads/standards/systemc/systemc-license-agreement">Analog/Mixed-signal (AMS) Extensions</a></td>
+<td>2010-03-05</td>
+</tr>
+<tr>
+<td rowspan="2">TLM 2.0.1</td>
+<td><a href="http://www.accellera.org/downloads/standards/systemc/systemc-license-agreement">TLM Transaction-Level Modeling Library</a> <br> (includes Reference Manual)</td>
+<td>2009-07-23</td>
+</tr>
+<tr>
+<td><a href="http://www.accellera.org/downloads/standards/systemc/systemc-license-agreement">TLM-2.0 Reference Manual</a></td>
+<td>2009-07-23</td>
+</tr>
+<tr>
+<td rowspan="2">SystemC 2.2</td>
+<td><a href="http://www.accellera.org/downloads/standards/systemc/systemc-license-agreement">Core SystemC Language and Examples</a></td>
+<td>2007-03-14</td>
+</tr>
+<tr>
+<td><a href="http://www.accellera.org/downloads/standards/systemc/systemc-license-agreement">SystemC Regression Test Suite</a></td>
+<td>2007-03-14</td>
+</tr>
+<tr>
+<td>SystemC Verification Library 1.0p2</td>
+<td><a href="http://www.accellera.org/downloads/standards/systemc/systemc-license-agreement">SystemC Verification Library (SCV)</a></td>
+<td>2006-07-12</td>
+</tr>
+<tr>
+<td rowspan="2">TLM 2.0</td>
+<td><a href="http://www.accellera.org/downloads/standards/systemc/systemc-license-agreement">TLM Transaction Level Modeling Library</a></td>
+<td>2008-06-06</td>
+</tr>
+<tr>
+<td><a href="http://www.accellera.org/images/downloads/standards/systemc/TLM2_Whitepaper.pdf" target="_blank">TLM-2 Whitepaper</a></td>
+<td>2007-05-31</td>
+</tr>
+<tr>
+<td rowspan="2">SystemC 2.2</td>
+<td><a href="http://www.accellera.org/downloads/standards/systemc/systemc-license-agreement">Core SystemC Language and Examples</a></td>
+<td>2006-07-12</td>
+</tr>
+<tr>
+<td><a href="http://www.accellera.org/downloads/standards/systemc/systemc-license-agreement">SystemC Regression Test Suite</a></td>
+<td>2006-07-12</td>
+</tr>
+<tr>
+<td rowspan="2">SystemC 2.1</td>
+<td><a href="http://www.accellera.org/downloads/standards/systemc/systemc-license-agreement">Core SystemC Language and Examples</a></td>
+<td>2005-09-20</td>
+</tr>
+<tr>
+<td><a href="http://www.accellera.org/downloads/standards/systemc/systemc-license-agreement">SystemC Regression Test Suite</a></td>
+<td>2005-09-19</td>
+</tr>
+<tr>
+<td>TLM 1.0</td>
+<td><a href="http://www.accellera.org/downloads/standards/systemc/systemc-license-agreement">TLM Transaction Level Modeling Library</a></td>
+<td>2005-04-28</td>
+</tr>
+<tr>
+<td rowspan="2">SystemC 2.0.1</td>
+<td><a href="http://www.accellera.org/downloads/standards/systemc/systemc-license-agreement">Core SystemC Language and Examples</a></td>
+<td>2002-04-11</td>
+</tr>
+<tr>
+<td><a href="http://www.accellera.org/downloads/standards/systemc/systemc-license-agreement">SystemC Regression Test Suite</a></td>
+<td>2002-04-11</td>
+</tr>
+<tr>
+<td rowspan="2">SystemC 2.0</td>
+<td><a href="http://www.accellera.org/downloads/standards/systemc/systemc-license-agreement">Core SystemC Language and Examples</a></td>
+<td>2002-02-08</td>
+</tr>
+<tr>
+<td><a href="http://www.accellera.org/downloads/standards/systemc/systemc-license-agreement">SystemC Verification Library (SCV) Release 1.0p1</a></td>
+<td>2003-12-16</td>
+</tr>
+<tr>
+<td>SystemC 1.0.2</td>
+<td><a href="http://www.accellera.org/downloads/standards/systemc/systemc-license-agreement">Core SystemC Language and Examples</a></td>
+<td>2002-02-08</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h4>About IEEE Std. 1666™-2011</h4>
+<p>The IEEE Standards Association<a style="color: #333; text-decoration: none;" href="http://guaranteedloansnow.org/">&nbsp;approved</a> the updated standard for the SystemC language as IEEE Std. 1666™-2011. <a href="http://standards.ieee.org/getieee/1666/download/1666-2011.pdf" target="_blank">Find out more and how you can download it</a> at no cost on the IEEE website.</p>	</div>
+
+	
+						 </div>
+
+			
+				
+				</div>
+			</div>
+		</div>
+			
+		</div>	
+	</div>
+	<div class="container footer">
+		<footer id="footer">
+			<div class="row">
+								<ul class="nav menu col-md-2 col-sm-6  col-xs-12" id="nav-tertiary-1">
+<li class="item-292"><span class="nav-header">Help</span></li><li class="item-227"><a href="http://www.accellera.org/about/site-help">Site Help</a></li><li class="item-237"><a href="http://www.accellera.org/help/sitemap">Site Map</a></li><li class="item-228"><a href="http://www.accellera.org/about/contact-us">Contact Us</a></li></ul>
+<ul class="nav menu col-md-2 col-sm-6  col-xs-12" id="nav-tertiary-2">
+<li class="item-293"><span class="nav-header">Communities</span></li><li class="item-328"><a href="http://www.accellera.org/community/ip-xact">IP-XACT Community</a></li><li class="item-244"><a href="http://www.accellera.org/community/ocp">OCP Community</a></li><li class="item-245"><a href="http://www.accellera.org/community/systemc">SystemC Community</a></li><li class="item-246"><a href="http://www.accellera.org/community/uvm">UVM Community</a></li></ul>
+<ul class="nav menu col-md-2 col-sm-6  col-xs-12" id="nav-tertiary-3">
+<li class="item-294"><span class="nav-header">Related Sites</span></li><li class="item-247"><a href="http://forums.accellera.org/">Accellera Forums</a></li><li class="item-248"><a href="http://videos.accellera.org/">Accellera Videos</a></li><li class="item-249"><a href="http://workspace.accellera.org/kws/">Member Workspace</a></li><li class="item-260"><a href="http://www.accellera.org/resources/websites">More &gt;</a></li></ul>
+<ul class="nav menu col-md-2 col-sm-6  col-xs-12" id="nav-tertiary-4">
+<li class="item-295"><span class="nav-header">Social</span></li><li class="item-250"><a class="social linkedin" href="http://www.linkedin.com/groups/Accellera-Systems-Initiative-4211737" target="_blank">LinkedIn</a></li><li class="item-251"><a class="social twitter" href="https://twitter.com/accellera" target="_blank">Twitter</a></li><li class="item-252"><a class="social vimeo" href="https://vimeo.com/accellera" target="_blank">Vimeo</a></li></ul>
+
+				
+				<div class="col-md-4 col-sm-12 pull-right" id="copyright">
+							<div class="moduletable">
+					
+
+<div class="custom">
+	<p>Copyright © 2017 <a href="http://accellera.org/">Accellera Systems Initiative</a>.<br> All rights reserved.</p>
+<p><a href="http://www.accellera.org/privacy">Privacy</a> | <a href="http://www.accellera.org/trademarks">Trademarks</a></p></div>
+		</div>
+	
+				</div>
+			</div>
+		</footer>		
+	</div>
+				
+
+        <script src="./SystemC_files/jquery.min.js.download"></script>
+        <script src="./SystemC_files/jquery.dataTables.min.js.download"></script>
+        <script src="./SystemC_files/bootstrap.min.js.download"></script>
+        <script type="text/javascript" src="./SystemC_files/brand"></script>
+        <script src="./SystemC_files/script.js(1).download"></script>
+		
+	
+
+
+<span class="viber-share" id="viber1" style="position: absolute; top: 0px; left: 0px; width: 52px; height: 21px; background-size: 52px 21px; display: none; z-index: 2147483646; background-image: url(&quot;chrome-extension://dafalpmmoljglecaoelijmbkhpdoobmm/images/button@2x.png&quot;); cursor: pointer; background-repeat: no-repeat;"></span></body></html>

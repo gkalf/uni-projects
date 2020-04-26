@@ -1,0 +1,276 @@
+#! /usr/bin/vvp
+:ivl_version "0.9.7 " "(v0_9_7)";
+:vpi_time_precision + 0;
+:vpi_module "system";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_0x2002440 .scope module, "top_level" "top_level" 2 1;
+ .timescale 0 0;
+P_0x20021e8 .param/l "IDLE" 2 5, +C4<01>;
+P_0x2002210 .param/l "LOAD_RAM" 2 6, +C4<010>;
+P_0x2002238 .param/l "PROCESS" 2 7, +C4<011>;
+P_0x2002260 .param/l "RESULT" 2 8, +C4<0100>;
+P_0x2002288 .param/l "addr_width" 2 4, +C4<0100000>;
+P_0x20022b0 .param/l "data_width" 2 3, +C4<0100000>;
+L_0x2043e20 .functor BUFZ 64, v0x2042f90_0, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>, C4<0000000000000000000000000000000000000000000000000000000000000000>;
+L_0x2044ea0 .functor BUFZ 2, v0x2044d10_0, C4<00>, C4<00>, C4<00>;
+L_0x2045650 .functor AND 2, v0x2044d10_0, L_0x20454d0, C4<11>, C4<11>;
+v0x2043770_0 .var "MAC_en", 0 0;
+v0x2043830_0 .net *"_s11", 30 0, C4<0000000000000000000000000000000>; 1 drivers
+v0x20438d0_0 .net *"_s12", 4 0, L_0x2045190; 1 drivers
+v0x2043970_0 .net *"_s15", 0 0, C4<0>; 1 drivers
+v0x20439f0_0 .net *"_s16", 4 0, C4<00100>; 1 drivers
+v0x2043a90_0 .net *"_s18", 0 0, L_0x2045360; 1 drivers
+v0x2043b70_0 .net *"_s20", 1 0, L_0x20454d0; 1 drivers
+v0x2043c10_0 .net *"_s23", 0 0, C4<0>; 1 drivers
+v0x2043d00_0 .net *"_s24", 1 0, L_0x2045650; 1 drivers
+v0x2043da0_0 .net *"_s31", 30 0, C4<0000000000000000000000000000000>; 1 drivers
+v0x2043ea0_0 .net "addr_in", 31 0, C4<zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz>; 0 drivers
+RS_0x7f74e7e9b018 .resolv tri, L_0x2045010, L_0x2045870, C4<zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz>, C4<zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz>;
+v0x2043f40_0 .net8 "address", 31 0, RS_0x7f74e7e9b018; 2 drivers
+v0x2044030_0 .net "clk", 0 0, C4<z>; 0 drivers
+v0x2044100_0 .var "cnt", 0 0;
+v0x2044220_0 .net "data_in", 31 0, C4<zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz>; 0 drivers
+v0x20442a0_0 .net "data_out_unload", 63 0, v0x2042f90_0; 1 drivers
+v0x2044180_0 .net "datain_unload", 63 0, L_0x2045a70; 1 drivers
+v0x20443b0_0 .net "dataout", 63 0, L_0x2043e20; 1 drivers
+v0x2044320_0 .net "dataout_load", 31 0, v0x2043580_0; 1 drivers
+v0x2044500_0 .net "en", 0 0, v0x2043770_0; 1 drivers
+v0x2044430_0 .var "next_state", 3 0;
+v0x2044630_0 .net "rst", 0 0, C4<z>; 0 drivers
+v0x2044580_0 .net "size", 31 0, C4<zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz>; 0 drivers
+v0x2044770_0 .var "size_reg", 31 0;
+v0x20446b0_0 .var "state", 3 0;
+v0x20448c0_0 .net "valid_in", 31 0, C4<zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz>; 0 drivers
+v0x20447f0_0 .net "valid_out", 0 0, L_0x2045780; 1 drivers
+v0x2044a20_0 .var "valid_out_reg", 0 0;
+v0x2044940_0 .net "wre", 1 0, v0x2044aa0_0; 1 drivers
+v0x2044b90_0 .net "wre2", 1 0, L_0x2044ea0; 1 drivers
+v0x2044aa0_0 .var "wre_reg_load", 1 0;
+v0x2044d10_0 .var "wre_reg_unload", 1 0;
+E_0x2002410/0 .event edge, v0x20446b0_0, v0x20448c0_0, v0x2044580_0, v0x2043ea0_0;
+E_0x2002410/1 .event edge, v0x2044770_0, v0x2044500_0, v0x2044100_0;
+E_0x2002410 .event/or E_0x2002410/0, E_0x2002410/1;
+E_0x20020e0 .event posedge, v0x2044630_0, v0x2042e50_0;
+L_0x2045010 .concat [ 1 31 0 0], v0x2044100_0, C4<0000000000000000000000000000000>;
+L_0x2045190 .concat [ 4 1 0 0], v0x20446b0_0, C4<0>;
+L_0x2045360 .cmp/eq 5, L_0x2045190, C4<00100>;
+L_0x20454d0 .concat [ 1 1 0 0], L_0x2045360, C4<0>;
+L_0x2045780 .part L_0x2045650, 0, 1;
+L_0x2045870 .concat [ 1 31 0 0], v0x2044100_0, C4<0000000000000000000000000000000>;
+L_0x2045a70 .arith/mult 64, v0x2043580_0, v0x2043580_0;
+S_0x20431a0 .scope module, "LOAD_RAM_INST" "RAM" 2 123, 3 1, S_0x2002440;
+ .timescale 0 0;
+P_0x2043298 .param/l "addr_width" 3 4, +C4<0100000>;
+P_0x20432c0 .param/l "data_width" 3 3, +C4<0100000>;
+v0x20433b0_0 .alias "address", 31 0, v0x2043f40_0;
+v0x2043450_0 .alias "clk", 0 0, v0x2044030_0;
+v0x2043500_0 .alias "datain", 31 0, v0x2044220_0;
+v0x2043580_0 .var "dataout", 31 0;
+v0x2043630 .array "ram", 0 1023, 31 0;
+v0x20436b0_0 .alias "wre", 1 0, v0x2044940_0;
+S_0x2001eb0 .scope module, "UNLOCAD_RAM_INST" "RAM" 2 124, 3 1, S_0x2002440;
+ .timescale 0 0;
+P_0x2018988 .param/l "addr_width" 3 4, +C4<0100000>;
+P_0x20189b0 .param/l "data_width" 3 3, +C4<01000000>;
+v0x1fee290_0 .alias "address", 31 0, v0x2043f40_0;
+v0x2042e50_0 .alias "clk", 0 0, v0x2044030_0;
+v0x2042ef0_0 .alias "datain", 63 0, v0x2044180_0;
+v0x2042f90_0 .var "dataout", 63 0;
+v0x2043040 .array "ram", 0 1023, 63 0;
+v0x20430c0_0 .alias "wre", 1 0, v0x2044b90_0;
+E_0x2014a00 .event posedge, v0x2042e50_0;
+    .scope S_0x20431a0;
+T_0 ;
+    %wait E_0x2014a00;
+    %load/v 8, v0x20436b0_0, 2;
+    %cmpi/u 8, 2, 2;
+    %jmp/0xz  T_0.0, 4;
+    %load/v 8, v0x2043500_0, 32;
+    %ix/getv 3, v0x20433b0_0;
+    %jmp/1 t_0, 4;
+    %ix/load 0, 32, 0; word width
+    %ix/load 1, 0, 0; part off
+    %assign/av v0x2043630, 0, 8;
+t_0 ;
+    %jmp T_0.1;
+T_0.0 ;
+    %load/v 8, v0x20436b0_0, 2;
+    %cmpi/u 8, 1, 2;
+    %jmp/0xz  T_0.2, 4;
+    %ix/getv 3, v0x20433b0_0;
+    %load/av 8, v0x2043630, 32;
+    %ix/load 0, 32, 0;
+    %assign/v0 v0x2043580_0, 0, 8;
+T_0.2 ;
+T_0.1 ;
+    %jmp T_0;
+    .thread T_0;
+    .scope S_0x2001eb0;
+T_1 ;
+    %wait E_0x2014a00;
+    %load/v 8, v0x20430c0_0, 2;
+    %cmpi/u 8, 2, 2;
+    %jmp/0xz  T_1.0, 4;
+    %load/v 8, v0x2042ef0_0, 64;
+    %ix/getv 3, v0x1fee290_0;
+    %jmp/1 t_1, 4;
+    %ix/load 0, 64, 0; word width
+    %ix/load 1, 0, 0; part off
+    %assign/av v0x2043040, 0, 8;
+t_1 ;
+    %jmp T_1.1;
+T_1.0 ;
+    %load/v 8, v0x20430c0_0, 2;
+    %cmpi/u 8, 1, 2;
+    %jmp/0xz  T_1.2, 4;
+    %ix/getv 3, v0x1fee290_0;
+    %load/av 8, v0x2043040, 64;
+    %ix/load 0, 64, 0;
+    %assign/v0 v0x2042f90_0, 0, 8;
+T_1.2 ;
+T_1.1 ;
+    %jmp T_1;
+    .thread T_1;
+    .scope S_0x2002440;
+T_2 ;
+    %wait E_0x20020e0;
+    %load/v 8, v0x2044630_0, 1;
+    %jmp/0xz  T_2.0, 8;
+    %movi 8, 1, 4;
+    %ix/load 0, 4, 0;
+    %assign/v0 v0x20446b0_0, 0, 8;
+    %jmp T_2.1;
+T_2.0 ;
+    %load/v 8, v0x2044430_0, 4;
+    %ix/load 0, 4, 0;
+    %assign/v0 v0x20446b0_0, 0, 8;
+T_2.1 ;
+    %jmp T_2;
+    .thread T_2;
+    .scope S_0x2002440;
+T_3 ;
+    %wait E_0x2002410;
+    %load/v 8, v0x20446b0_0, 4;
+    %ix/load 0, 4, 0;
+    %assign/v0 v0x2044430_0, 0, 8;
+    %ix/load 0, 2, 0;
+    %assign/v0 v0x2044aa0_0, 0, 0;
+    %ix/load 0, 2, 0;
+    %assign/v0 v0x2044d10_0, 0, 0;
+    %ix/load 0, 1, 0;
+    %assign/v0 v0x2043770_0, 0, 0;
+    %load/v 8, v0x20446b0_0, 4;
+    %cmpi/u 8, 1, 4;
+    %jmp/1 T_3.0, 6;
+    %cmpi/u 8, 2, 4;
+    %jmp/1 T_3.1, 6;
+    %cmpi/u 8, 3, 4;
+    %jmp/1 T_3.2, 6;
+    %cmpi/u 8, 4, 4;
+    %jmp/1 T_3.3, 6;
+    %jmp T_3.4;
+T_3.0 ;
+    %ix/load 0, 32, 0;
+    %assign/v0 v0x2044770_0, 0, 0;
+    %load/v 8, v0x20448c0_0, 32;
+    %cmpi/u 8, 1, 32;
+    %jmp/0xz  T_3.5, 4;
+    %load/v 8, v0x2044580_0, 32;
+    %ix/load 0, 32, 0;
+    %assign/v0 v0x2044770_0, 0, 8;
+    %movi 8, 2, 4;
+    %ix/load 0, 4, 0;
+    %assign/v0 v0x2044430_0, 0, 8;
+T_3.5 ;
+    %jmp T_3.4;
+T_3.1 ;
+    %load/v 8, v0x20448c0_0, 32;
+    %cmpi/u 8, 2, 32;
+    %jmp/0xz  T_3.7, 4;
+    %load/v 8, v0x2043ea0_0, 32;
+    %load/v 40, v0x2044770_0, 32;
+    %cmp/u 8, 40, 32;
+    %jmp/0xz  T_3.9, 4;
+    %movi 8, 3, 4;
+    %ix/load 0, 4, 0;
+    %assign/v0 v0x2044430_0, 0, 8;
+    %ix/load 0, 1, 0;
+    %assign/v0 v0x2043770_0, 0, 1;
+    %movi 8, 1, 2;
+    %ix/load 0, 2, 0;
+    %assign/v0 v0x2044aa0_0, 0, 8;
+    %jmp T_3.10;
+T_3.9 ;
+    %movi 8, 2, 2;
+    %ix/load 0, 2, 0;
+    %assign/v0 v0x2044aa0_0, 0, 8;
+T_3.10 ;
+T_3.7 ;
+    %jmp T_3.4;
+T_3.2 ;
+    %load/v 8, v0x2044500_0, 1;
+    %jmp/0xz  T_3.11, 8;
+    %load/v 8, v0x2044100_0, 1;
+    %mov 9, 0, 31;
+    %load/v 40, v0x2044770_0, 32;
+    %cmp/u 8, 40, 32;
+    %jmp/0xz  T_3.13, 4;
+    %movi 8, 4, 4;
+    %ix/load 0, 4, 0;
+    %assign/v0 v0x2044430_0, 0, 8;
+    %movi 8, 1, 2;
+    %ix/load 0, 2, 0;
+    %assign/v0 v0x2044d10_0, 0, 8;
+    %jmp T_3.14;
+T_3.13 ;
+    %load/v 8, v0x2044100_0, 1;
+    %mov 9, 0, 31;
+    %addi 8, 1, 32;
+    %ix/load 0, 1, 0;
+    %assign/v0 v0x2044100_0, 0, 8;
+    %movi 8, 2, 2;
+    %ix/load 0, 2, 0;
+    %assign/v0 v0x2044d10_0, 0, 8;
+    %movi 10, 1, 2;
+    %ix/load 0, 2, 0;
+    %assign/v0 v0x2044aa0_0, 0, 10;
+T_3.14 ;
+T_3.11 ;
+    %jmp T_3.4;
+T_3.3 ;
+    %ix/load 0, 1, 0;
+    %assign/v0 v0x2044a20_0, 0, 1;
+    %movi 8, 1, 2;
+    %ix/load 0, 2, 0;
+    %assign/v0 v0x2044d10_0, 0, 8;
+    %load/v 8, v0x2044100_0, 1;
+    %mov 9, 0, 31;
+    %load/v 40, v0x2044770_0, 32;
+    %cmp/u 8, 40, 32;
+    %jmp/0xz  T_3.15, 4;
+    %movi 8, 1, 4;
+    %ix/load 0, 4, 0;
+    %assign/v0 v0x2044430_0, 0, 8;
+    %ix/load 0, 2, 0;
+    %assign/v0 v0x2044d10_0, 0, 0;
+    %ix/load 0, 2, 0;
+    %assign/v0 v0x2044d10_0, 0, 0;
+    %jmp T_3.16;
+T_3.15 ;
+    %load/v 8, v0x2044100_0, 1;
+    %mov 9, 0, 31;
+    %addi 8, 1, 32;
+    %ix/load 0, 1, 0;
+    %assign/v0 v0x2044100_0, 0, 8;
+T_3.16 ;
+    %jmp T_3.4;
+T_3.4 ;
+    %jmp T_3;
+    .thread T_3, $push;
+# The file index is used to find the file name in the following table.
+:file_names 4;
+    "N/A";
+    "<interactive>";
+    "top_level.v";
+    "RAM.v";

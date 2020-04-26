@@ -1,0 +1,41 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Apr 26 19:20:16 2020
+# Process ID: 8996
+# Current directory: C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7204 C:\Users\geoka\Documents\GitHub\uni-projects\lab4\lab4_matrix_multiplicatio\lab4_matrix_multiplicatio.xpr
+# Log file: C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/vivado.log
+# Journal file: C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.xpr
+report_ip_status -name ip_status 
+update_compile_order -fileset sources_1
+upgrade_ip [get_ips  {lab3_simple_ps7_0_axi_periph_1_0 lab3_simple_processing_system7_0_0 lab3_simple_rst_ps7_0_100M_0}] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips {lab3_simple_ps7_0_axi_periph_1_0 lab3_simple_processing_system7_0_0 lab3_simple_rst_ps7_0_100M_0}] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.srcs/sources_1/bd/lab3_simple/lab3_simple.bd]
+catch { config_ip_cache -export [get_ips -all lab3_simple_processing_system7_0_0] }
+catch { config_ip_cache -export [get_ips -all lab3_simple_rst_ps7_0_100M_0] }
+catch { config_ip_cache -export [get_ips -all lab3_simple_super_multiplication_0_0] }
+catch { config_ip_cache -export [get_ips -all lab3_simple_auto_pc_0] }
+export_ip_user_files -of_objects [get_files C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.srcs/sources_1/bd/lab3_simple/lab3_simple.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.srcs/sources_1/bd/lab3_simple/lab3_simple.bd]
+launch_runs -jobs 4 {lab3_simple_super_multiplication_0_0_synth_1 lab3_simple_processing_system7_0_0_synth_1 lab3_simple_rst_ps7_0_100M_0_synth_1 lab3_simple_auto_pc_0_synth_1}
+export_simulation -of_objects [get_files C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.srcs/sources_1/bd/lab3_simple/lab3_simple.bd] -directory C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.ip_user_files -ipstatic_source_dir C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.cache/compile_simlib/modelsim} {questa=C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.cache/compile_simlib/questa} {riviera=C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.cache/compile_simlib/riviera} {activehdl=C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run lab3_simple_rst_ps7_0_100M_0_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+open_run synth_1 -name synth_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+open_hw
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_run impl_1
+file copy -force C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.runs/impl_1/lab3_simple_wrapper.sysdef C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.sdk/lab3_simple_wrapper.hdf
+
+launch_sdk -workspace C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.sdk -hwspec C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.sdk/lab3_simple_wrapper.hdf

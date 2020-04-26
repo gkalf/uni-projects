@@ -1,0 +1,167 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Apr 26 19:20:16 2020
+# Process ID: 8996
+# Current directory: C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7204 C:\Users\geoka\Documents\GitHub\uni-projects\lab4\lab4_matrix_multiplicatio\lab4_matrix_multiplicatio.xpr
+# Log file: C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/vivado.log
+# Journal file: C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.xpr
+INFO: [Project 1-313] Project file moved from '/home/gkmikros/Dropbox/CE435/lab4/lab4_matrix_multiplicatio' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'C:/Users/geoka/Documents/GitHub/uni-projects/Lab3/ip_repo_gray/Gray_counter_ip_1.0', nor could it be found using path 'C:/home/gkmikros/Dropbox/CE435/Lab3/ip_repo_gray/Gray_counter_ip_1.0'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'C:/Users/geoka/Documents/ip_repo/led_ip_1.0', nor could it be found using path 'C:/home/gkmikros/ip_repo/led_ip_1.0'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/geoka/Documents/GitHub/uni-projects/lab4/ip_repo/super_multiplication_1.0'.
+WARNING: [IP_Flow 19-2207] Repository 'c:/Users/geoka/Documents/GitHub/uni-projects/lab4/ip_repo/super_multiplication_1.0' already exists; ignoring attempt to add it again.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/geoka/Documents/GitHub/uni-projects/lab4/ip_repo/super_multiplication_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/geoka/Documents/GitHub/uni-projects/lab4/ip_repo/multi_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/geoka/Documents/GitHub/uni-projects/lab4/ip_repo/multiplication_2.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/geoka/Documents/GitHub/uni-projects/lab4/ip_repo/testaxiinter_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/geoka/Documents/GitHub/uni-projects/lab4/ip_repo/multiplication_1.0'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/geoka/Documents/GitHub/uni-projects/Lab3/ip_repo_gray/Gray_counter_ip_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/geoka/Documents/ip_repo/led_ip_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'lab3_simple.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+lab3_simple_ps7_0_axi_periph_1_0
+lab3_simple_processing_system7_0_0
+lab3_simple_rst_ps7_0_100M_0
+lab3_simple_auto_pc_0
+
+INFO: [Project 1-230] Project 'lab4_matrix_multiplicatio.xpr' upgraded for this version of Vivado.
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:18 . Memory (MB): peak = 664.590 ; gain = 81.383
+report_ip_status -name ip_status 
+update_compile_order -fileset sources_1
+upgrade_ip [get_ips  {lab3_simple_ps7_0_axi_periph_1_0 lab3_simple_processing_system7_0_0 lab3_simple_rst_ps7_0_100M_0}] -log ip_upgrade.log
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps7_0_100M
+Adding component instance block -- user.org:user:super_multiplication:1.0 - super_multiplication_0
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Successfully read diagram <lab3_simple> from BD file <C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.srcs/sources_1/bd/lab3_simple/lab3_simple.bd>
+Upgrading 'C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.srcs/sources_1/bd/lab3_simple/lab3_simple.bd'
+INFO: [PS7-6] Configuring Board Preset part0. Please wait ......
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.061 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.061 . PS DDR interfaces might fail when entering negative DQS skew values. 
+INFO: [IP_Flow 19-3422] Upgraded lab3_simple_processing_system7_0_0 (ZYNQ7 Processing System 5.5) from revision 3 to revision 6
+INFO: [IP_Flow 19-3422] Upgraded lab3_simple_ps7_0_axi_periph_1_0 (AXI Interconnect 2.1) from revision 12 to revision 20
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+INFO: [IP_Flow 19-3422] Upgraded lab3_simple_rst_ps7_0_100M_0 (Processor System Reset 5.0) from revision 10 to revision 13
+Wrote  : <C:\Users\geoka\Documents\GitHub\uni-projects\lab4\lab4_matrix_multiplicatio\lab4_matrix_multiplicatio.srcs\sources_1\bd\lab3_simple\lab3_simple.bd> 
+INFO: [BD 41-2124] The block design file <C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.srcs/sources_1/bd/lab3_simple/lab3_simple.bd> has changed from an XML format to a JSON format. All flows are expected to work as in prior versions of Vivado. Please contact your Xilinx Support representative, in case of any issues.
+Wrote  : <C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.srcs/sources_1/bd/lab3_simple/ui/bd_45dc954b.ui> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/ip_upgrade.log'.
+upgrade_ip: Time (s): cpu = 00:00:41 ; elapsed = 00:00:40 . Memory (MB): peak = 815.508 ; gain = 139.203
+export_ip_user_files -of_objects [get_ips {lab3_simple_ps7_0_axi_periph_1_0 lab3_simple_processing_system7_0_0 lab3_simple_rst_ps7_0_100M_0}] -no_script -sync -force -quiet
+generate_target all [get_files  C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.srcs/sources_1/bd/lab3_simple/lab3_simple.bd]
+Wrote  : <C:\Users\geoka\Documents\GitHub\uni-projects\lab4\lab4_matrix_multiplicatio\lab4_matrix_multiplicatio.srcs\sources_1\bd\lab3_simple\lab3_simple.bd> 
+VHDL Output written to : C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.srcs/sources_1/bd/lab3_simple/synth/lab3_simple.v
+VHDL Output written to : C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.srcs/sources_1/bd/lab3_simple/sim/lab3_simple.v
+VHDL Output written to : C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.srcs/sources_1/bd/lab3_simple/hdl/lab3_simple_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block super_multiplication_0 .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.srcs/sources_1/bd/lab3_simple/ip/lab3_simple_auto_pc_0/lab3_simple_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc .
+Exporting to file C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.srcs/sources_1/bd/lab3_simple/hw_handoff/lab3_simple.hwh
+Generated Block Design Tcl file C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.srcs/sources_1/bd/lab3_simple/hw_handoff/lab3_simple_bd.tcl
+Generated Hardware Definition File C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.srcs/sources_1/bd/lab3_simple/synth/lab3_simple.hwdef
+generate_target: Time (s): cpu = 00:00:44 ; elapsed = 00:00:38 . Memory (MB): peak = 1015.750 ; gain = 158.418
+catch { config_ip_cache -export [get_ips -all lab3_simple_processing_system7_0_0] }
+catch { config_ip_cache -export [get_ips -all lab3_simple_rst_ps7_0_100M_0] }
+catch { config_ip_cache -export [get_ips -all lab3_simple_super_multiplication_0_0] }
+catch { config_ip_cache -export [get_ips -all lab3_simple_auto_pc_0] }
+export_ip_user_files -of_objects [get_files C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.srcs/sources_1/bd/lab3_simple/lab3_simple.bd] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.srcs/sources_1/bd/lab3_simple/lab3_simple.bd]
+launch_runs -jobs 4 {lab3_simple_super_multiplication_0_0_synth_1 lab3_simple_processing_system7_0_0_synth_1 lab3_simple_rst_ps7_0_100M_0_synth_1 lab3_simple_auto_pc_0_synth_1}
+[Sun Apr 26 19:23:47 2020] Launched lab3_simple_super_multiplication_0_0_synth_1, lab3_simple_processing_system7_0_0_synth_1, lab3_simple_rst_ps7_0_100M_0_synth_1, lab3_simple_auto_pc_0_synth_1...
+Run output will be captured here:
+lab3_simple_super_multiplication_0_0_synth_1: C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.runs/lab3_simple_super_multiplication_0_0_synth_1/runme.log
+lab3_simple_processing_system7_0_0_synth_1: C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.runs/lab3_simple_processing_system7_0_0_synth_1/runme.log
+lab3_simple_rst_ps7_0_100M_0_synth_1: C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.runs/lab3_simple_rst_ps7_0_100M_0_synth_1/runme.log
+lab3_simple_auto_pc_0_synth_1: C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.runs/lab3_simple_auto_pc_0_synth_1/runme.log
+export_simulation -of_objects [get_files C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.srcs/sources_1/bd/lab3_simple/lab3_simple.bd] -directory C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.ip_user_files -ipstatic_source_dir C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.cache/compile_simlib/modelsim} {questa=C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.cache/compile_simlib/questa} {riviera=C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.cache/compile_simlib/riviera} {activehdl=C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run lab3_simple_rst_ps7_0_100M_0_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Sun Apr 26 19:53:24 2020] Launched lab3_simple_rst_ps7_0_100M_0_synth_1...
+Run output will be captured here: C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.runs/lab3_simple_rst_ps7_0_100M_0_synth_1/runme.log
+[Sun Apr 26 19:53:25 2020] Launched synth_1...
+Run output will be captured here: C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Sun Apr 26 20:02:13 2020] Launched impl_1...
+Run output will be captured here: C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.runs/impl_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z020clg484-1
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.srcs/sources_1/bd/lab3_simple/ip/lab3_simple_processing_system7_0_0/lab3_simple_processing_system7_0_0.dcp' for cell 'lab3_simple_i/processing_system7_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.srcs/sources_1/bd/lab3_simple/ip/lab3_simple_rst_ps7_0_100M_0/lab3_simple_rst_ps7_0_100M_0.dcp' for cell 'lab3_simple_i/rst_ps7_0_100M'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.srcs/sources_1/bd/lab3_simple/ip/lab3_simple_super_multiplication_0_0_1/lab3_simple_super_multiplication_0_0.dcp' for cell 'lab3_simple_i/super_multiplication_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.srcs/sources_1/bd/lab3_simple/ip/lab3_simple_auto_pc_0/lab3_simple_auto_pc_0.dcp' for cell 'lab3_simple_i/ps7_0_axi_periph/s00_couplers/auto_pc'
+INFO: [Netlist 29-17] Analyzing 95 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.srcs/sources_1/bd/lab3_simple/ip/lab3_simple_processing_system7_0_0/lab3_simple_processing_system7_0_0.xdc] for cell 'lab3_simple_i/processing_system7_0/inst'
+Finished Parsing XDC File [c:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.srcs/sources_1/bd/lab3_simple/ip/lab3_simple_processing_system7_0_0/lab3_simple_processing_system7_0_0.xdc] for cell 'lab3_simple_i/processing_system7_0/inst'
+Parsing XDC File [c:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.srcs/sources_1/bd/lab3_simple/ip/lab3_simple_rst_ps7_0_100M_0/lab3_simple_rst_ps7_0_100M_0_board.xdc] for cell 'lab3_simple_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [c:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.srcs/sources_1/bd/lab3_simple/ip/lab3_simple_rst_ps7_0_100M_0/lab3_simple_rst_ps7_0_100M_0_board.xdc] for cell 'lab3_simple_i/rst_ps7_0_100M/U0'
+Parsing XDC File [c:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.srcs/sources_1/bd/lab3_simple/ip/lab3_simple_rst_ps7_0_100M_0/lab3_simple_rst_ps7_0_100M_0.xdc] for cell 'lab3_simple_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [c:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.srcs/sources_1/bd/lab3_simple/ip/lab3_simple_rst_ps7_0_100M_0/lab3_simple_rst_ps7_0_100M_0.xdc] for cell 'lab3_simple_i/rst_ps7_0_100M/U0'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1316.445 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:47 ; elapsed = 00:01:26 . Memory (MB): peak = 1411.855 ; gain = 371.605
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -routable_nets -name timing_1
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+report_timing_summary: Time (s): cpu = 00:00:07 ; elapsed = 00:00:15 . Memory (MB): peak = 1935.520 ; gain = 60.203
+open_hw
+INFO: [Vivado 12-4158] Exported Hardware file is out of date. Exported hardware information may be inconsistent with respect to the current state of the design. It is recommended that you re-export the design and launch SDK otherwise SDK is launched with out of date hardware system file.
+ERROR: [Vivado 12-4452] The hardware handoff file (.sysdef) does not exist. It may not have been generated due to: 
+ 1. A bitstream might not have been generated. Generate Bitstream and export again, or do not request a bitstream to be included in export.
+ 2. There are no block design hardware handoff files. Check the vivado log messages for more details. 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Apr 26 20:13:01 2020] Launched impl_1...
+Run output will be captured here: C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 89 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 2103.047 ; gain = 0.000
+Restored from archive | CPU: 1.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 2103.047 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2103.047 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 2208.645 ; gain = 244.047
+file copy -force C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.runs/impl_1/lab3_simple_wrapper.sysdef C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.sdk/lab3_simple_wrapper.hdf
+
+launch_sdk -workspace C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.sdk -hwspec C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.sdk/lab3_simple_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.sdk -hwspec C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.sdk/lab3_simple_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 26 21:10:14 2020...

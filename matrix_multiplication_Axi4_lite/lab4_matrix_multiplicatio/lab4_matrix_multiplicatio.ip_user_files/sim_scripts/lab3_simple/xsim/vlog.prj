@@ -1,0 +1,11 @@
+verilog xil_defaultlib --include "../../../../lab4_matrix_multiplicatio.srcs/sources_1/bd/lab3_simple/ipshared/ec67/hdl" --include "../../../../lab4_matrix_multiplicatio.srcs/sources_1/bd/lab3_simple/ipshared/8c62/hdl" --include "../../../../lab4_matrix_multiplicatio.srcs/sources_1/bd/lab3_simple/ip/lab3_simple_processing_system7_0_0" \
+"../../../bd/lab3_simple/ip/lab3_simple_processing_system7_0_0/sim/lab3_simple_processing_system7_0_0.v" \
+"../../../bd/lab3_simple/ipshared/6977/hdl/super_multiplication_v1_0_S00_AXI.v" \
+"../../../bd/lab3_simple/ipshared/6977/hdl/super_multiplication_v1_0.v" \
+"../../../bd/lab3_simple/ip/lab3_simple_super_multiplication_0_0_1/sim/lab3_simple_super_multiplication_0_0.v" \
+"../../../bd/lab3_simple/ip/lab3_simple_auto_pc_0/sim/lab3_simple_auto_pc_0.v" \
+"../../../bd/lab3_simple/sim/lab3_simple.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

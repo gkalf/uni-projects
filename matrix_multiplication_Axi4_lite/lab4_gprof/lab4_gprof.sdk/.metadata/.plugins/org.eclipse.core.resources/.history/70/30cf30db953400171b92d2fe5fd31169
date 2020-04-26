@@ -1,0 +1,66 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "coremark.h"
+
+#define	MAX_SIZE 10
+#define ITERATIONS 1
+
+int main(void) {
+
+	int i, j, k;
+	int cycles, sum;
+	int *a[MAX_SIZE], *b[MAX_SIZE], *c[MAX_SIZE];
+	unsigned int total_time;
+
+	printf("Initialize tables..\r\n");
+	fflush(0);
+	for(i=0; i<MAX_SIZE; i++) {
+		for(j=0; j<MAX_SIZE; j++) {
+			a[i] = (int *)malloc(MAX_SIZE*sizeof(int));
+			b[i] = (int *)malloc(MAX_SIZE*sizeof(int));
+			c[i] = (int *)malloc(MAX_SIZE*sizeof(int));
+			a[i][j] = j;
+			b[i][j] = j;
+		}
+	}
+
+	printf("Mult starting for Rows-Columns\r\n");
+	fflush(0);
+	start_time();
+	for(cycles=0; cycles<ITERATIONS; cycles++){
+		for(i=0; i<MAX_SIZE; i++) {
+			for(j=0; j<MAX_SIZE; j++) {
+				sum = 0;
+				for(k=0; k<MAX_SIZE; k++) {
+					sum += a[i][k]*b[k][j];
+				}
+				c[i][j] = sum;
+			}
+		}
+	}
+	printf("Rows-Columns mult has ended\r\n");
+	stop_time();
+	total_time = get_time();
+	printf("Total time is %u\r\n", total_time);
+
+	printf("Mult starting for Columns-Rows\r\n");
+	fflush(0);
+	start_time();
+	for(cycles=0; cycles<ITERATIONS; cycles++){
+		for(j=0; j<MAX_SIZE; j++) {
+			for(i=0; i<MAX_SIZE; i++) {
+				sum = 0;
+				for(k=0; k<MAX_SIZE; k++) {
+					sum += a[i][k]*b[k][j];
+				}
+				c[i][j] = sum;
+			}
+		}
+	}
+	printf("Columns-Rows mult has ended\r\n");
+	stop_time();
+	total_time = get_time();
+	printf("Total time is %u\r\n", total_time);
+
+	return(0);
+}

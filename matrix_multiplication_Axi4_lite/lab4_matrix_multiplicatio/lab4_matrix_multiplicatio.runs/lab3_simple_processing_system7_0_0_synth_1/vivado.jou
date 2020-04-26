@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Apr 26 19:23:53 2020
+# Process ID: 1128
+# Current directory: C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.runs/lab3_simple_processing_system7_0_0_synth_1
+# Command line: vivado.exe -log lab3_simple_processing_system7_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source lab3_simple_processing_system7_0_0.tcl
+# Log file: C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.runs/lab3_simple_processing_system7_0_0_synth_1/lab3_simple_processing_system7_0_0.vds
+# Journal file: C:/Users/geoka/Documents/GitHub/uni-projects/lab4/lab4_matrix_multiplicatio/lab4_matrix_multiplicatio.runs/lab3_simple_processing_system7_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source lab3_simple_processing_system7_0_0.tcl -notrace

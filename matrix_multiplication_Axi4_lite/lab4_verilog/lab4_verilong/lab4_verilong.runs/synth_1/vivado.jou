@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Apr 28 18:48:30 2017
+# Process ID: 8316
+# Current directory: /home/gkmikros/Dropbox/CE435/lab4/lab4_verilog/lab4_verilong/lab4_verilong.runs/synth_1
+# Command line: vivado -log top_level.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_level.tcl
+# Log file: /home/gkmikros/Dropbox/CE435/lab4/lab4_verilog/lab4_verilong/lab4_verilong.runs/synth_1/top_level.vds
+# Journal file: /home/gkmikros/Dropbox/CE435/lab4/lab4_verilog/lab4_verilong/lab4_verilong.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source top_level.tcl -notrace
