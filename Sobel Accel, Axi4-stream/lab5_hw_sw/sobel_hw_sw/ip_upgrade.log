@@ -1,0 +1,506 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Sun Apr 26 18:43:09 2020
+| Host         : DESKTOP-KE3UBO5 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'lab3_simple_sobel_filter_1_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of lab3_simple_sobel_filter_1_1 (xilinx.com:hls:sobel_filter:1.0) from (Rev. 2004261746) to (Rev. 2004261841)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Thu Apr 16 21:19:28 2020
+| Host         : DESKTOP-KE3UBO5 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'lab3_simple_xlconcat_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of lab3_simple_xlconcat_0_0 (xilinx.com:ip:xlconcat:2.1) from (Rev. 2) to (Rev. 3)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Thu Apr 16 21:19:28 2020
+| Host         : DESKTOP-KE3UBO5 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'lab3_simple_rst_ps7_0_100M_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of lab3_simple_rst_ps7_0_100M_1 (xilinx.com:ip:proc_sys_reset:5.0) from (Rev. 10) to (Rev. 13)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Thu Apr 16 21:19:28 2020
+| Host         : DESKTOP-KE3UBO5 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'lab3_simple_ps7_0_axi_periph_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of lab3_simple_ps7_0_axi_periph_0 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 12) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Thu Apr 16 21:19:28 2020
+| Host         : DESKTOP-KE3UBO5 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'lab3_simple_processing_system7_0_1'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of lab3_simple_processing_system7_0_1 (xilinx.com:ip:processing_system7:5.5) from (Rev. 3) to (Rev. 6)
+
+2. Upgrade messages
+-------------------
+
+WARNING: upgrade cannot add parameter PCW_TRACE_INTERNAL_WIDTH with default value 32 : a parameter called PCW_TRACE_INTERNAL_WIDTH already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_USE_AXI_NONSECURE with default value 0 : a parameter called PCW_USE_AXI_NONSECURE already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_EN_PTP_ENET0 with default value 1 : a parameter called PCW_EN_PTP_ENET0 already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_EN_PTP_ENET0 with default value 1 : a parameter called PCW_EN_PTP_ENET0 already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP0_NUM_WRITE_THREADS with default value 4 : a parameter called PCW_GP0_NUM_WRITE_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP0_NUM_READ_THREADS with default value 4 : a parameter called PCW_GP0_NUM_READ_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP1_NUM_WRITE_THREADS with default value 4 : a parameter called PCW_GP1_NUM_WRITE_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP1_NUM_READ_THREADS with default value 4 : a parameter called PCW_GP1_NUM_READ_THREADS already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP0_EN_MODIFIABLE_TXN with default value 0 : a parameter called PCW_GP0_EN_MODIFIABLE_TXN already exists in processing_system7_v5_5
+WARNING: upgrade cannot add parameter PCW_GP1_EN_MODIFIABLE_TXN with default value 0 : a parameter called PCW_GP1_EN_MODIFIABLE_TXN already exists in processing_system7_v5_5
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Thu Apr 16 21:19:28 2020
+| Host         : DESKTOP-KE3UBO5 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'lab3_simple_axi_mem_intercon_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of lab3_simple_axi_mem_intercon_0 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 12) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Thu Apr 16 21:19:28 2020
+| Host         : DESKTOP-KE3UBO5 running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'lab3_simple_axi_dma_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of lab3_simple_axi_dma_0 (xilinx.com:ip:axi_dma:7.1) from (Rev. 12) to (Rev. 20)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (lin64) Build 1756540 Mon Jan 23 19:11:19 MST 2017
+| Date         : Wed Jun 21 12:48:43 2017
+| Host         : gkmikros-K56CB running 64-bit Ubuntu 16.04.2 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'lab3_simple_sobel_filter_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of lab3_simple_sobel_filter_0_0 (xilinx.com:hls:sobel_filter:1.0) from (Rev. 1706211225) to (Rev. 1706211245)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (lin64) Build 1756540 Mon Jan 23 19:11:19 MST 2017
+| Date         : Wed Jun 21 12:30:11 2017
+| Host         : gkmikros-K56CB running 64-bit Ubuntu 16.04.2 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'lab3_simple_sobel_filter_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of lab3_simple_sobel_filter_0_0 (xilinx.com:hls:sobel_filter:1.0) from (Rev. 1706201649) to (Rev. 1706211225)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (lin64) Build 1756540 Mon Jan 23 19:11:19 MST 2017
+| Date         : Tue Jun 20 16:52:39 2017
+| Host         : gkmikros-K56CB running 64-bit Ubuntu 16.04.2 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'lab3_simple_sobel_filter_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of lab3_simple_sobel_filter_0_0 (xilinx.com:hls:sobel_filter:1.0) from (Rev. 1706201630) to (Rev. 1706201649)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (lin64) Build 1756540 Mon Jan 23 19:11:19 MST 2017
+| Date         : Tue Jun 20 16:35:04 2017
+| Host         : gkmikros-K56CB running 64-bit Ubuntu 16.04.2 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'lab3_simple_sobel_filter_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of lab3_simple_sobel_filter_0_0 (xilinx.com:hls:sobel_filter:1.0) from (Rev. 1705301429) to (Rev. 1706201630)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'lab3_simple_sobel_filter_0_0'.
+
+
+-Upgrade has renamed interface 'input_image' as 'INPUT_IMAGE' (xilinx.com:interface:axis:1.0)
+
+-Upgrade has renamed interface 'output_image' as 'OUTPUT_IMAGE' (xilinx.com:interface:axis:1.0)
+
+-Upgrade has added interface 'INPUT_IMAGE' (xilinx.com:interface:axis:1.0)
+
+-Upgrade has added interface 'OUTPUT_IMAGE' (xilinx.com:interface:axis:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'lab3_simple_sobel_filter_0_0'. These changes may impact your design.
+
+
+-Upgrade has renamed port 'input_image_TDATA' as 'INPUT_IMAGE_TDATA'
+
+-Upgrade has renamed port 'input_image_TDEST' as 'INPUT_IMAGE_TDEST'
+
+-Upgrade has renamed port 'input_image_TID' as 'INPUT_IMAGE_TID'
+
+-Upgrade has renamed port 'input_image_TKEEP' as 'INPUT_IMAGE_TKEEP'
+
+-Upgrade has renamed port 'input_image_TLAST' as 'INPUT_IMAGE_TLAST'
+
+-Upgrade has renamed port 'input_image_TREADY' as 'INPUT_IMAGE_TREADY'
+
+-Upgrade has renamed port 'input_image_TSTRB' as 'INPUT_IMAGE_TSTRB'
+
+-Upgrade has renamed port 'input_image_TUSER' as 'INPUT_IMAGE_TUSER'
+
+-Upgrade has renamed port 'input_image_TVALID' as 'INPUT_IMAGE_TVALID'
+
+-Upgrade has renamed port 'output_image_TDATA' as 'OUTPUT_IMAGE_TDATA'
+
+-Upgrade has renamed port 'output_image_TDEST' as 'OUTPUT_IMAGE_TDEST'
+
+-Upgrade has renamed port 'output_image_TID' as 'OUTPUT_IMAGE_TID'
+
+-Upgrade has renamed port 'output_image_TKEEP' as 'OUTPUT_IMAGE_TKEEP'
+
+-Upgrade has renamed port 'output_image_TLAST' as 'OUTPUT_IMAGE_TLAST'
+
+-Upgrade has renamed port 'output_image_TREADY' as 'OUTPUT_IMAGE_TREADY'
+
+-Upgrade has renamed port 'output_image_TSTRB' as 'OUTPUT_IMAGE_TSTRB'
+
+-Upgrade has renamed port 'output_image_TUSER' as 'OUTPUT_IMAGE_TUSER'
+
+-Upgrade has renamed port 'output_image_TVALID' as 'OUTPUT_IMAGE_TVALID'
+
+-Upgraded port order differs after port 'INPUT_IMAGE_TVALID'
+
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (lin64) Build 1756540 Mon Jan 23 19:11:19 MST 2017
+| Date         : Tue May 30 14:34:24 2017
+| Host         : gkmikros-K56CB running 64-bit Ubuntu 16.04.2 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'lab3_simple_sobel_filter_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of lab3_simple_sobel_filter_0_0 (xilinx.com:hls:sobel_filter:1.0) from (Rev. 1705291817) to (Rev. 1705301429)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (lin64) Build 1756540 Mon Jan 23 19:11:19 MST 2017
+| Date         : Mon May 29 18:20:22 2017
+| Host         : gkmikros-K56CB running 64-bit Ubuntu 16.04.2 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'lab3_simple_sobel_filter_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of lab3_simple_sobel_filter_0_0 (xilinx.com:hls:sobel_filter:1.0) from (Rev. 1705291715) to (Rev. 1705291817)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'lab3_simple_sobel_filter_0_0'.
+
+
+-Upgrade has removed interface 'ap_ctrl'
+
+-Upgrade has added interface 'interrupt' (xilinx.com:signal:interrupt:1.0)
+
+-Upgrade has added interface 's_axi_ctrl_bus' (xilinx.com:interface:aximm:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'lab3_simple_sobel_filter_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'ap_done'
+
+-Upgrade has removed port 'ap_idle'
+
+-Upgrade has removed port 'ap_ready'
+
+-Upgrade has removed port 'ap_start'
+
+-Upgrade has added port 'interrupt'
+
+-Upgrade has added port 's_axi_ctrl_bus_ARADDR'
+
+-Upgrade has added port 's_axi_ctrl_bus_ARREADY'
+
+-Upgrade has added port 's_axi_ctrl_bus_ARVALID'
+
+-Upgrade has added port 's_axi_ctrl_bus_AWADDR'
+
+-Upgrade has added port 's_axi_ctrl_bus_AWREADY'
+
+-Upgrade has added port 's_axi_ctrl_bus_AWVALID'
+
+-Upgrade has added port 's_axi_ctrl_bus_BREADY'
+
+-Upgrade has added port 's_axi_ctrl_bus_BRESP'
+
+-Upgrade has added port 's_axi_ctrl_bus_BVALID'
+
+-Upgrade has added port 's_axi_ctrl_bus_RDATA'
+
+-Upgrade has added port 's_axi_ctrl_bus_RREADY'
+
+-Upgrade has added port 's_axi_ctrl_bus_RRESP'
+
+-Upgrade has added port 's_axi_ctrl_bus_RVALID'
+
+-Upgrade has added port 's_axi_ctrl_bus_WDATA'
+
+-Upgrade has added port 's_axi_ctrl_bus_WREADY'
+
+-Upgrade has added port 's_axi_ctrl_bus_WSTRB'
+
+-Upgrade has added port 's_axi_ctrl_bus_WVALID'
+
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (lin64) Build 1756540 Mon Jan 23 19:11:19 MST 2017
+| Date         : Mon May 29 17:29:33 2017
+| Host         : gkmikros-K56CB running 64-bit Ubuntu 16.04.2 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'lab3_simple_sobel_filter_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of lab3_simple_sobel_filter_0_0 (xilinx.com:hls:sobel_filter:1.0) from (Rev. 1705281645) to (Rev. 1705291715)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'lab3_simple_sobel_filter_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'input_image_TDEST'
+
+-Upgrade has added port 'input_image_TID'
+
+-Upgrade has added port 'input_image_TKEEP'
+
+-Upgrade has added port 'input_image_TLAST'
+
+-Upgrade has added port 'input_image_TSTRB'
+
+-Upgrade has added port 'input_image_TUSER'
+
+-Upgrade has added port 'output_image_TDEST'
+
+-Upgrade has added port 'output_image_TID'
+
+-Upgrade has added port 'output_image_TKEEP'
+
+-Upgrade has added port 'output_image_TLAST'
+
+-Upgrade has added port 'output_image_TSTRB'
+
+-Upgrade has added port 'output_image_TUSER'
+
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (lin64) Build 1756540 Mon Jan 23 19:11:19 MST 2017
+| Date         : Sun May 28 16:47:00 2017
+| Host         : gkmikros-K56CB running 64-bit Ubuntu 16.04.2 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'lab3_simple_sobel_filter_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of lab3_simple_sobel_filter_0_0 (xilinx.com:hls:sobel_filter:1.0) from (Rev. 1705271725) to (Rev. 1705281645)
+
+
+
+
+
+
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.4 (lin64) Build 1756540 Mon Jan 23 19:11:19 MST 2017
+| Date         : Sun May 28 16:41:21 2017
+| Host         : gkmikros-K56CB running 64-bit Ubuntu 16.04.2 LTS
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'lab3_simple_sobel_filter_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of lab3_simple_sobel_filter_0_0 (xilinx.com:hls:sobel_filter:1.0) from (Rev. 1705261641) to (Rev. 1705271725)
+

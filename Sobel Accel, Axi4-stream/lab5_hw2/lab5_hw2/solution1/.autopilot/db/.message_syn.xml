@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Messages>
+	<Message severity="INFO" prefix="[SCHED 204-61]" key="SCHED_PIPELINING_STATUS_631" tag="SCHEDULE" content="Option &apos;relax_ii_for_timing&apos; is enabled, will increase II to preserve clock frequency constraints."/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1312" tag="" content="Analyzing design file &apos;../lab5_hw/sobel.cpp&apos; ..."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_965" tag="" content="Finished Linking Time (s): cpu = 00:00:02 ; elapsed = 00:01:03 . Memory (MB): peak = 168.191 ; gain = 82.992"/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_965" tag="" content="Finished Checking Pragmas Time (s): cpu = 00:00:02 ; elapsed = 00:01:04 . Memory (MB): peak = 168.191 ; gain = 82.992"/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1467" tag="" content="Starting code transformations ..."/>
+	<Message severity="INFO" prefix="[XFORM 203-603]" key="XFORM_INLINE_STATUS_221" tag="" content="Inlining function &apos;hls::LineBuffer&lt;3, 1024, unsigned char, 0&gt;::shift_pixels_up&apos; into &apos;hls::LineBuffer&lt;3, 1024, unsigned char, 0&gt;::shift_up&apos; (C:/Xilinx/Vivado/2019.1/common/technology/autopilot/hls/hls_video_mem.h:863)."/>
+	<Message severity="INFO" prefix="[XFORM 203-603]" key="XFORM_INLINE_STATUS_221" tag="" content="Inlining function &apos;hls::LineBuffer&lt;3, 1024, unsigned char, 0&gt;::shift_up&apos; into &apos;sobel_filter&apos; (../lab5_hw/sobel.cpp:38)."/>
+	<Message severity="INFO" prefix="[XFORM 203-603]" key="XFORM_INLINE_STATUS_221" tag="" content="Inlining function &apos;hls::LineBuffer&lt;3, 1024, unsigned char, 0&gt;::insert_bottom_row&apos; into &apos;hls::LineBuffer&lt;3, 1024, unsigned char, 0&gt;::insert_top&apos; (C:/Xilinx/Vivado/2019.1/common/technology/autopilot/hls/hls_video_mem.h:883)."/>
+	<Message severity="INFO" prefix="[XFORM 203-603]" key="XFORM_INLINE_STATUS_221" tag="" content="Inlining function &apos;hls::LineBuffer&lt;3, 1024, unsigned char, 0&gt;::insert_top&apos; into &apos;sobel_filter&apos; (../lab5_hw/sobel.cpp:39)."/>
+	<Message severity="INFO" prefix="[XFORM 203-603]" key="XFORM_INLINE_STATUS_221" tag="" content="Inlining function &apos;hls::Window&lt;3, 3, unsigned char&gt;::insert_pixel&apos; into &apos;hls::Window&lt;3, 3, unsigned char&gt;::insert&apos; (C:/Xilinx/Vivado/2019.1/common/technology/autopilot/hls/hls_video_mem.h:573)."/>
+	<Message severity="INFO" prefix="[XFORM 203-603]" key="XFORM_INLINE_STATUS_221" tag="" content="Inlining function &apos;hls::Window&lt;3, 3, unsigned char&gt;::insert_pixel&apos; into &apos;sobel_filter&apos; (../lab5_hw/sobel.cpp:42)."/>
+	<Message severity="INFO" prefix="[XFORM 203-603]" key="XFORM_INLINE_STATUS_221" tag="" content="Inlining function &apos;hls::Window&lt;3, 3, unsigned char&gt;::shift_pixels_left&apos; into &apos;hls::Window&lt;3, 3, unsigned char&gt;::shift_left&apos; (C:/Xilinx/Vivado/2019.1/common/technology/autopilot/hls/hls_video_mem.h:533)."/>
+	<Message severity="INFO" prefix="[XFORM 203-603]" key="XFORM_INLINE_STATUS_221" tag="" content="Inlining function &apos;hls::Window&lt;3, 3, unsigned char&gt;::shift_left&apos; into &apos;sobel_filter&apos; (../lab5_hw/sobel.cpp:44)."/>
+	<Message severity="INFO" prefix="[XFORM 203-603]" key="XFORM_INLINE_STATUS_221" tag="" content="Inlining function &apos;hls::LineBuffer&lt;3, 1024, unsigned char, 0&gt;::getval&apos; into &apos;sobel_filter&apos; (../lab5_hw/sobel.cpp:47)."/>
+	<Message severity="INFO" prefix="[XFORM 203-603]" key="XFORM_INLINE_STATUS_221" tag="" content="Inlining function &apos;hls::LineBuffer&lt;3, 1024, unsigned char, 0&gt;::getval&apos; into &apos;sobel_filter&apos; (../lab5_hw/sobel.cpp:46)."/>
+	<Message severity="INFO" prefix="[XFORM 203-603]" key="XFORM_INLINE_STATUS_221" tag="" content="Inlining function &apos;hls::LineBuffer&lt;3, 1024, unsigned char, 0&gt;::getval&apos; into &apos;sobel_filter&apos; (../lab5_hw/sobel.cpp:45)."/>
+	<Message severity="INFO" prefix="[XFORM 203-603]" key="XFORM_INLINE_STATUS_221" tag="" content="Inlining function &apos;hls::Window&lt;3, 3, unsigned char&gt;::insert&apos; into &apos;sobel_filter&apos; (../lab5_hw/sobel.cpp:45)."/>
+	<Message severity="INFO" prefix="[XFORM 203-603]" key="XFORM_INLINE_STATUS_221" tag="" content="Inlining function &apos;hls::Window&lt;3, 3, unsigned char&gt;::insert&apos; into &apos;sobel_filter&apos; (../lab5_hw/sobel.cpp:46)."/>
+	<Message severity="INFO" prefix="[XFORM 203-603]" key="XFORM_INLINE_STATUS_221" tag="" content="Inlining function &apos;hls::Window&lt;3, 3, unsigned char&gt;::insert&apos; into &apos;sobel_filter&apos; (../lab5_hw/sobel.cpp:47)."/>
+	<Message severity="INFO" prefix="[XFORM 203-603]" key="XFORM_INLINE_STATUS_221" tag="" content="Inlining function &apos;hls::Window&lt;3, 3, unsigned char&gt;::getval&apos; into &apos;sobel_filter&apos; (../lab5_hw/sobel.cpp:68)."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_965" tag="" content="Finished Standard Transforms Time (s): cpu = 00:01:34 ; elapsed = 00:02:47 . Memory (MB): peak = 189.641 ; gain = 104.441"/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1472" tag="" content="Checking synthesizability ..."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_965" tag="" content="Finished Checking Synthesizability Time (s): cpu = 00:01:35 ; elapsed = 00:02:48 . Memory (MB): peak = 225.582 ; gain = 140.383"/>
+	<Message severity="INFO" prefix="[HLS 200-489]" key="HLS 200-489" tag="" content="Unrolling loop &apos;Loop-1.1.1.1&apos; (C:/Xilinx/Vivado/2019.1/common/technology/autopilot/hls/hls_video_mem.h:727) in function &apos;sobel_filter&apos; completely with a factor of 2."/>
+	<Message severity="INFO" prefix="[HLS 200-489]" key="HLS 200-489" tag="" content="Unrolling loop &apos;Loop-1.1.1.2&apos; (C:/Xilinx/Vivado/2019.1/common/technology/autopilot/hls/hls_video_mem.h:123) in function &apos;sobel_filter&apos; completely with a factor of 3."/>
+	<Message severity="INFO" prefix="[HLS 200-489]" key="HLS 200-489" tag="" content="Unrolling loop &apos;Loop-1.1.1.2.1&apos; (C:/Xilinx/Vivado/2019.1/common/technology/autopilot/hls/hls_video_mem.h:125) in function &apos;sobel_filter&apos; completely with a factor of 2."/>
+	<Message severity="INFO" prefix="[XFORM 203-101]" key="XFORM_PARTITION_STATUS_116" tag="" content="Partitioning array &apos;pixelbuffer.val&apos; (../lab5_hw/sobel.cpp:26) in dimension 1 completely."/>
+	<Message severity="INFO" prefix="[XFORM 203-101]" key="XFORM_PARTITION_STATUS_116" tag="" content="Partitioning array &apos;window.val&apos; (../lab5_hw/sobel.cpp:27) in dimension 1 completely."/>
+	<Message severity="INFO" prefix="[XFORM 203-101]" key="XFORM_PARTITION_STATUS_116" tag="" content="Partitioning array &apos;window.val&apos; (../lab5_hw/sobel.cpp:27) in dimension 2 completely."/>
+	<Message severity="INFO" prefix="[XFORM 203-401]" key="XFORM_IFCONV_STATUS_239" tag="" content="Performing if-conversion on hyperblock from (../lab5_hw/sobel.cpp:31:45) to (../lab5_hw/sobel.cpp:52:4) in function &apos;sobel_filter&apos;... converting 22 basic blocks."/>
+	<Message severity="INFO" prefix="[XFORM 203-401]" key="XFORM_IFCONV_STATUS_239" tag="" content="Performing if-conversion on hyperblock to (../lab5_hw/sobel.cpp:94:4) in function &apos;sobel_filter&apos;... converting 3 basic blocks."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_965" tag="" content="Finished Pre-synthesis Time (s): cpu = 00:01:36 ; elapsed = 00:02:50 . Memory (MB): peak = 282.480 ; gain = 197.281"/>
+	<Message severity="WARNING" prefix="[ANALYSIS 214-52]" key="ANALYSIS_USER_SET_DEP_242" tag="" content="Found false inter dependency for variable &apos;pixelbuffer.val[2]&apos; (../lab5_hw/sobel.cpp:26)."/>
+	<Message severity="WARNING" prefix="[ANALYSIS 214-52]" key="ANALYSIS_USER_SET_DEP_242" tag="" content="Found false inter dependency for variable &apos;pixelbuffer.val[1]&apos; (../lab5_hw/sobel.cpp:26)."/>
+	<Message severity="WARNING" prefix="[ANALYSIS 214-52]" key="ANALYSIS_USER_SET_DEP_242" tag="" content="Found false intra dependency for variable &apos;pixelbuffer.val[2]&apos; (../lab5_hw/sobel.cpp:26)."/>
+	<Message severity="WARNING" prefix="[ANALYSIS 214-52]" key="ANALYSIS_USER_SET_DEP_242" tag="" content="Found false intra dependency for variable &apos;pixelbuffer.val[1]&apos; (../lab5_hw/sobel.cpp:26)."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_965" tag="" content="Finished Architecture Synthesis Time (s): cpu = 00:01:36 ; elapsed = 00:02:52 . Memory (MB): peak = 296.652 ; gain = 211.453"/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1317" tag="" content="Starting hardware synthesis ..."/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1385" tag="" content="Synthesizing &apos;sobel_filter&apos; ..."/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1477" tag="" content="----------------------------------------------------------------"/>
+	<Message severity="INFO" prefix="[HLS 200-42]" key="HLS_42_1438" tag="" content="-- Implementing module &apos;sobel_filter&apos;"/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1478" tag="" content="----------------------------------------------------------------"/>
+	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_597" tag="" content="Starting scheduling ..."/>
+	<Message severity="INFO" prefix="[SCHED 204-11]" key="SCHED_SCHED_STATUS_596" tag="" content="Finished scheduling."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 174.588 seconds; current allocated memory: 229.531 MB."/>
+	<Message severity="INFO" prefix="[HLS 200-434]" key="HLS 200-434" tag="SDX" content="Only 0 loops out of a total 6 loops have been pipelined in this design."/>
+	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_926" tag="" content="Starting micro-architecture generation ..."/>
+	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_698" tag="" content="Performing variable lifetime analysis."/>
+	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_697" tag="" content="Exploring resource sharing."/>
+	<Message severity="INFO" prefix="[BIND 205-101]" key="BIND_101_693" tag="" content="Binding ..."/>
+	<Message severity="INFO" prefix="[BIND 205-100]" key="BIND_100_925" tag="" content="Finished micro-architecture generation."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 1.592 seconds; current allocated memory: 230.421 MB."/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1483" tag="" content="----------------------------------------------------------------"/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1484" tag="" content="-- Generating RTL for module &apos;sobel_filter&apos;"/>
+	<Message severity="INFO" prefix="[HLS 200-10]" key="HLS_10_1485" tag="" content="----------------------------------------------------------------"/>
+	<Message severity="INFO" prefix="[RTGEN 206-500]" key="PREPROC_IO_COMP_CONFLICT_1950" tag="" content="Setting interface mode on port &apos;sobel_filter/INPUT_IMAGE_V_data_V&apos; to &apos;axis&apos; (register, both mode)."/>
+	<Message severity="INFO" prefix="[RTGEN 206-500]" key="PREPROC_IO_COMP_CONFLICT_1950" tag="" content="Setting interface mode on port &apos;sobel_filter/INPUT_IMAGE_V_keep_V&apos; to &apos;axis&apos; (register, both mode)."/>
+	<Message severity="INFO" prefix="[RTGEN 206-500]" key="PREPROC_IO_COMP_CONFLICT_1950" tag="" content="Setting interface mode on port &apos;sobel_filter/INPUT_IMAGE_V_strb_V&apos; to &apos;axis&apos; (register, both mode)."/>
+	<Message severity="INFO" prefix="[RTGEN 206-500]" key="PREPROC_IO_COMP_CONFLICT_1950" tag="" content="Setting interface mode on port &apos;sobel_filter/INPUT_IMAGE_V_user_V&apos; to &apos;axis&apos; (register, both mode)."/>
+	<Message severity="INFO" prefix="[RTGEN 206-500]" key="PREPROC_IO_COMP_CONFLICT_1950" tag="" content="Setting interface mode on port &apos;sobel_filter/INPUT_IMAGE_V_last_V&apos; to &apos;axis&apos; (register, both mode)."/>
+	<Message severity="INFO" prefix="[RTGEN 206-500]" key="PREPROC_IO_COMP_CONFLICT_1950" tag="" content="Setting interface mode on port &apos;sobel_filter/INPUT_IMAGE_V_id_V&apos; to &apos;axis&apos; (register, both mode)."/>
+	<Message severity="INFO" prefix="[RTGEN 206-500]" key="PREPROC_IO_COMP_CONFLICT_1950" tag="" content="Setting interface mode on port &apos;sobel_filter/INPUT_IMAGE_V_dest_V&apos; to &apos;axis&apos; (register, both mode)."/>
+	<Message severity="INFO" prefix="[RTGEN 206-500]" key="PREPROC_IO_COMP_CONFLICT_1950" tag="" content="Setting interface mode on port &apos;sobel_filter/OUTPUT_IMAGE_V_data_V&apos; to &apos;axis&apos; (register, both mode)."/>
+	<Message severity="INFO" prefix="[RTGEN 206-500]" key="PREPROC_IO_COMP_CONFLICT_1950" tag="" content="Setting interface mode on port &apos;sobel_filter/OUTPUT_IMAGE_V_keep_V&apos; to &apos;axis&apos; (register, both mode)."/>
+	<Message severity="INFO" prefix="[RTGEN 206-500]" key="PREPROC_IO_COMP_CONFLICT_1950" tag="" content="Setting interface mode on port &apos;sobel_filter/OUTPUT_IMAGE_V_strb_V&apos; to &apos;axis&apos; (register, both mode)."/>
+	<Message severity="INFO" prefix="[RTGEN 206-500]" key="PREPROC_IO_COMP_CONFLICT_1950" tag="" content="Setting interface mode on port &apos;sobel_filter/OUTPUT_IMAGE_V_user_V&apos; to &apos;axis&apos; (register, both mode)."/>
+	<Message severity="INFO" prefix="[RTGEN 206-500]" key="PREPROC_IO_COMP_CONFLICT_1950" tag="" content="Setting interface mode on port &apos;sobel_filter/OUTPUT_IMAGE_V_last_V&apos; to &apos;axis&apos; (register, both mode)."/>
+	<Message severity="INFO" prefix="[RTGEN 206-500]" key="PREPROC_IO_COMP_CONFLICT_1950" tag="" content="Setting interface mode on port &apos;sobel_filter/OUTPUT_IMAGE_V_id_V&apos; to &apos;axis&apos; (register, both mode)."/>
+	<Message severity="INFO" prefix="[RTGEN 206-500]" key="PREPROC_IO_COMP_CONFLICT_1950" tag="" content="Setting interface mode on port &apos;sobel_filter/OUTPUT_IMAGE_V_dest_V&apos; to &apos;axis&apos; (register, both mode)."/>
+	<Message severity="INFO" prefix="[RTGEN 206-500]" key="PREPROC_IO_COMP_CONFLICT_1950" tag="" content="Setting interface mode on function &apos;sobel_filter&apos; to &apos;s_axilite &amp; ap_ctrl_hs&apos;."/>
+	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_851" tag="" content="Bundling port &apos;return&apos; to AXI-Lite port ctrl_bus."/>
+	<Message severity="INFO" prefix="[SYN 201-210]" key="SYN_210_889" tag="" content="Renamed object name &apos;sobel_filter_pixelbuffer_val_1&apos; to &apos;sobel_filter_pixebkb&apos; due to the length limit 20"/>
+	<Message severity="INFO" prefix="[SYN 201-210]" key="SYN_210_889" tag="" content="Renamed object name &apos;sobel_filter_pixelbuffer_val_2&apos; to &apos;sobel_filter_pixecud&apos; due to the length limit 20"/>
+	<Message severity="INFO" prefix="[SYN 201-210]" key="SYN_210_889" tag="" content="Renamed object name &apos;sobel_filter_mux_94_8_1_1&apos; to &apos;sobel_filter_mux_dEe&apos; due to the length limit 20"/>
+	<Message severity="INFO" prefix="[SYN 201-210]" key="SYN_210_889" tag="" content="Renamed object name &apos;sobel_filter_mac_muladd_3s_8ns_32ns_32_1_1&apos; to &apos;sobel_filter_mac_eOg&apos; due to the length limit 20"/>
+	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_855" tag="" content="Generating core module &apos;sobel_filter_mac_eOg&apos;: 2 instance(s)."/>
+	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_855" tag="" content="Generating core module &apos;sobel_filter_mux_dEe&apos;: 1 instance(s)."/>
+	<Message severity="INFO" prefix="[RTGEN 206-100]" key="RTGEN_100_856" tag="" content="Finished creating RTL model for &apos;sobel_filter&apos;."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_966" tag="" content=" Elapsed time: 1.544 seconds; current allocated memory: 232.949 MB."/>
+	<Message severity="INFO" prefix="[RTMG 210-279]" key="RTMG_279_1793" tag="" content="Implementing memory &apos;sobel_filter_Gx_rom&apos; using distributed ROMs."/>
+	<Message severity="INFO" prefix="[RTMG 210-279]" key="RTMG_279_1793" tag="" content="Implementing memory &apos;sobel_filter_Gy_rom&apos; using distributed ROMs."/>
+	<Message severity="INFO" prefix="[RTMG 210-278]" key="RTMG_278_1790" tag="" content="Implementing memory &apos;sobel_filter_pixebkb_ram (RAM)&apos; using block RAMs."/>
+	<Message severity="INFO" prefix="[HLS 200-111]" key="HLS_111_965" tag="" content="Finished generating all RTL models Time (s): cpu = 00:01:40 ; elapsed = 00:03:07 . Memory (MB): peak = 302.824 ; gain = 217.625"/>
+	<Message severity="INFO" prefix="[VHDL 208-304]" key="VHDL_304_1066" tag="" content="Generating VHDL RTL for sobel_filter."/>
+	<Message severity="INFO" prefix="[VLOG 209-307]" key="VLOG_307_1067" tag="" content="Generating Verilog RTL for sobel_filter."/>
+</Messages>

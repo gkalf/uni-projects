@@ -1,0 +1,69 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Apr 26 21:11:53 2020
+# Process ID: 14196
+# Current directory: C:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw_sw/sobel_hw_sw
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10456 C:\Users\geoka\Documents\GitHub\uni-projects\lab5\lab5_hw_sw\sobel_hw_sw\sobel_hw_sw.xpr
+# Log file: C:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw_sw/sobel_hw_sw/vivado.log
+# Journal file: C:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw_sw/sobel_hw_sw\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw2'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 666.395 ; gain = 72.547
+update_compile_order -fileset sources_1
+launch_runs impl_2 -jobs 4
+[Sun Apr 26 21:32:59 2020] Launched impl_2...
+Run output will be captured here: C:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.runs/impl_2/runme.log
+open_run impl_2
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Netlist 29-17] Analyzing 186 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1622.879 ; gain = 0.000
+Restored from archive | CPU: 2.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1622.879 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1622.879 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 8 instances were transformed.
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 5 instances
+  RAM32X1D => RAM32X1D (RAMD32, RAMD32): 1 instances
+  SRLC32E => SRL16E: 2 instances
+
+open_run: Time (s): cpu = 00:01:15 ; elapsed = 00:01:15 . Memory (MB): peak = 1778.750 ; gain = 1076.621
+open_report: Time (s): cpu = 00:00:16 ; elapsed = 00:00:14 . Memory (MB): peak = 1794.762 ; gain = 16.012
+launch_runs impl_2 -to_step write_bitstream -jobs 4
+[Sun Apr 26 21:44:42 2020] Launched impl_2...
+Run output will be captured here: C:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.runs/impl_2/runme.log
+INFO: [Vivado 12-4158] Exported Hardware file is out of date. Exported hardware information may be inconsistent with respect to the current state of the design. It is recommended that you re-export the design and launch SDK otherwise SDK is launched with out of date hardware system file.
+launch_sdk -workspace C:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.sdk -hwspec C:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.sdk/lab3_simple_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.sdk -hwspec C:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.sdk/lab3_simple_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+INFO: [Vivado 12-4158] Exported Hardware file is out of date. Exported hardware information may be inconsistent with respect to the current state of the design. It is recommended that you re-export the design and launch SDK otherwise SDK is launched with out of date hardware system file.
+launch_sdk -workspace C:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.sdk -hwspec C:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.sdk/lab3_simple_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.sdk -hwspec C:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.sdk/lab3_simple_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+file copy -force C:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.runs/impl_2/lab3_simple_wrapper.sysdef C:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.sdk/lab3_simple_wrapper.hdf
+
+launch_sdk -workspace C:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.sdk -hwspec C:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.sdk/lab3_simple_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.sdk -hwspec C:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.sdk/lab3_simple_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 26 23:43:12 2020...

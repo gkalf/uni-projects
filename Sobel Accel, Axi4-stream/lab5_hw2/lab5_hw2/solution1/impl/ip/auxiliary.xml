@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="sobel_filter" xd:componentRef="sobel_filter" xd:initiationInterval="29364245" xd:clockPeriod="20.000" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:controlReg xd:name="control" xd:interfaceRef="s_axi_ctrl_bus" xd:busTypeRef="axilite" xd:type="generic_axi_lite" xd:offset="0x0"/>
+  <xd:arg xd:name="INPUT_IMAGE.data" xd:originalName="INPUT_IMAGE" xd:direction="in" xd:interfaceRef="INPUT_IMAGE" xd:busTypeRef="axis" xd:dataWidth="8"/>
+  <xd:arg xd:name="INPUT_IMAGE.keep" xd:originalName="INPUT_IMAGE" xd:direction="in" xd:interfaceRef="INPUT_IMAGE" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="INPUT_IMAGE.strb" xd:originalName="INPUT_IMAGE" xd:direction="in" xd:interfaceRef="INPUT_IMAGE" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="INPUT_IMAGE.user" xd:originalName="INPUT_IMAGE" xd:direction="in" xd:interfaceRef="INPUT_IMAGE" xd:busTypeRef="axis" xd:dataWidth="2"/>
+  <xd:arg xd:name="INPUT_IMAGE.last" xd:originalName="INPUT_IMAGE" xd:direction="in" xd:interfaceRef="INPUT_IMAGE" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="INPUT_IMAGE.id" xd:originalName="INPUT_IMAGE" xd:direction="in" xd:interfaceRef="INPUT_IMAGE" xd:busTypeRef="axis" xd:dataWidth="5"/>
+  <xd:arg xd:name="INPUT_IMAGE.dest" xd:originalName="INPUT_IMAGE" xd:direction="in" xd:interfaceRef="INPUT_IMAGE" xd:busTypeRef="axis" xd:dataWidth="6"/>
+  <xd:arg xd:name="OUTPUT_IMAGE.data" xd:originalName="OUTPUT_IMAGE" xd:direction="out" xd:interfaceRef="OUTPUT_IMAGE" xd:busTypeRef="axis" xd:dataWidth="8"/>
+  <xd:arg xd:name="OUTPUT_IMAGE.keep" xd:originalName="OUTPUT_IMAGE" xd:direction="out" xd:interfaceRef="OUTPUT_IMAGE" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="OUTPUT_IMAGE.strb" xd:originalName="OUTPUT_IMAGE" xd:direction="out" xd:interfaceRef="OUTPUT_IMAGE" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="OUTPUT_IMAGE.user" xd:originalName="OUTPUT_IMAGE" xd:direction="out" xd:interfaceRef="OUTPUT_IMAGE" xd:busTypeRef="axis" xd:dataWidth="2"/>
+  <xd:arg xd:name="OUTPUT_IMAGE.last" xd:originalName="OUTPUT_IMAGE" xd:direction="out" xd:interfaceRef="OUTPUT_IMAGE" xd:busTypeRef="axis" xd:dataWidth="1"/>
+  <xd:arg xd:name="OUTPUT_IMAGE.id" xd:originalName="OUTPUT_IMAGE" xd:direction="out" xd:interfaceRef="OUTPUT_IMAGE" xd:busTypeRef="axis" xd:dataWidth="5"/>
+  <xd:arg xd:name="OUTPUT_IMAGE.dest" xd:originalName="OUTPUT_IMAGE" xd:direction="out" xd:interfaceRef="OUTPUT_IMAGE" xd:busTypeRef="axis" xd:dataWidth="6"/>
+  <xd:latencyEstimates xd:best-case="3149844" xd:worst-case="29364244" xd:average-case="12587028"/>
+  <xd:resourceEstimates xd:LUT="2008" xd:FF="748" xd:BRAM="2" xd:DSP="2"/>
+</xd:acceleratorMap>

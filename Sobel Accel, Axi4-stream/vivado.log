@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed Jun 21 14:30:08 2017
+# Process ID: 15082
+# Current directory: /home/gkmikros/Dropbox/CE435/lab5
+# Command line: vivado
+# Log file: /home/gkmikros/Dropbox/CE435/lab5/vivado.log
+# Journal file: /home/gkmikros/Dropbox/CE435/lab5/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/gkmikros/Dropbox/CE435/lab5/lab5_sw/lab5_sw.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory '/home/gkmikros/Dropbox/CE435/Lab3/ip_repo_gray/Gray_counter_ip_1.0'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository '/home/gkmikros/Dropbox/CE435/Lab3/ip_repo_gray/Gray_counter_ip_1.0'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/gkmikros/ip_repo/led_ip_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2016.4/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'lab3_simple.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+lab3_simple_Gray_counter_ip_0_1
+
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 5928.949 ; gain = 152.645 ; free physical = 929 ; free virtual = 5540
+launch_sdk -workspace /home/gkmikros/Dropbox/CE435/lab5/lab5_sw/lab5_sw.sdk -hwspec /home/gkmikros/Dropbox/CE435/lab5/lab5_sw/lab5_sw.sdk/lab3_simple_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace /home/gkmikros/Dropbox/CE435/lab5/lab5_sw/lab5_sw.sdk -hwspec /home/gkmikros/Dropbox/CE435/lab5/lab5_sw/lab5_sw.sdk/lab3_simple_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.

@@ -1,0 +1,706 @@
+/*
+
+Vivado v2016.4 (64-bit)
+SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+Process ID: 4980
+
+Current time: 	6/20/17 4:51:47 PM EEST
+Time zone: 	Eastern European Time (Europe/Athens)
+
+OS: DISTRIB_ID=Ubuntu
+Version: 4.8.0-54-generic
+Architecture: amd64
+Available processors (cores): 4
+
+DISPLAY: :0
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	/opt/Xilinx/Vivado/2016.4/tps/lnx64/jre
+
+User name: 	gkmikros
+User home directory: /home/gkmikros
+User working directory: /home/gkmikros/Dropbox/CE435/lab5
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI base root directory: /opt/Xilinx/Vivado
+RDI data directory: /opt/Xilinx/Vivado/2016.4/data
+RDI bin directory: /opt/Xilinx/Vivado/2016.4/bin
+
+Vivado preferences path: /home/gkmikros/.Xilinx/Vivado/2016.4/vivado.ini
+Vivado layouts directory: /home/gkmikros/.Xilinx/Vivado/2016.4/layouts
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 704 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 30 MB (+28855kb) [00:00:11]
+// [Engine Memory]: 704 MB (+586951kb) [00:00:11]
+// HMemoryUtils.trashcanNow. Engine heap size: 716 MB. GUI used memory: 22 MB. Current time: 6/20/17 4:51:50 PM EEST
+selectList(PAResourceEtoH.GettingStartedView_RECENT_PROJECTS, "/home/gkmikros/Dropbox/CE435/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.xpr", 0); // q:k (JViewport:JComponent, cd:JFrame)
+// bt:g (cd:JFrame):  Open Project : addNotify
+// Opening Vivado Project: /home/gkmikros/Dropbox/CE435/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.xpr. Version: Vivado v2016.4 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project /home/gkmikros/Dropbox/CE435/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// [GUI Memory]: 32 MB (+317kb) [00:00:18]
+// [Engine Memory]: 784 MB (+46352kb) [00:00:18]
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 50 MB (+17965kb) [00:00:27]
+// [Engine Memory]: 858 MB (+36707kb) [00:00:27]
+// [GUI Memory]: 53 MB (+235kb) [00:00:28]
+// [GUI Memory]: 62 MB (+6381kb) [00:00:30]
+// Tcl Message: open_project /home/gkmikros/Dropbox/CE435/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/gkmikros/Dropbox/CE435/Lab3/ip_repo_gray/Gray_counter_ip_1.0'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/gkmikros/Dropbox/CE435/lab5/lab5_hw/solution2/impl/ip'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/gkmikros/ip_repo/led_ip_1.0'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2016.4/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 892 MB. GUI used memory: 33 MB. Current time: 6/20/17 4:52:05 PM EEST
+// Tcl Message: open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:14 . Memory (MB): peak = 5906.453 ; gain = 132.848 ; free physical = 108 ; free virtual = 5179 
+// Project name: sobel_hw_sw; location: /home/gkmikros/Dropbox/CE435/lab5/lab5_hw_sw/sobel_hw_sw; part: xc7z020clg484-1
+// Elapsed time: 15 seconds
+dismissDialog("Open Project"); // bt:g (cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [Engine Memory]: 903 MB (+2763kb) [00:00:34]
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+selectMenuItem((HResource) null, "lab3_simple.bd"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// bt:g (cd:JFrame):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: open_bd_design {/home/gkmikros/Dropbox/CE435/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.srcs/sources_1/bd/lab3_simple/lab3_simple.bd} 
+// Tcl Message: Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0 
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// [Engine Memory]: 1,002 MB (+55458kb) [00:00:55]
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: Adding cell -- xilinx.com:ip:axi_dma:7.1 - axi_dma 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,004 MB. GUI used memory: 35 MB. Current time: 6/20/17 4:52:32 PM EEST
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 6033.453 ; gain = 99.105 ; free physical = 111 ; free virtual = 5049 
+dismissDialog("Open Block Design"); // bt:g (cd:JFrame)
+selectButton(PAResourceQtoS.SystemTab_REPORT_IP_STATUS, "Report IP Status"); // h:k (JPanel:JComponent, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_REPORT_IP_STATUS
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  
+// bt:g (cd:JFrame):  Report IP Status : addNotify
+dismissDialog("Report IP Status"); // bt:g (cd:JFrame)
+// [GUI Memory]: 67 MB (+2284kb) [00:01:03]
+selectButton(PAResourceItoN.IPStatusSectionPanel_UPGRADE_SELECTED, "Upgrade Selected"); // a:JButton (JPanel:JComponent, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_UPGRADE_IP
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// bt:g (cd:JFrame):  Upgrade IP : addNotify
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: upgrade_ip -vlnv xilinx.com:hls:sobel_filter:1.0 [get_ips  lab3_simple_sobel_filter_0_0] -log ip_upgrade.log 
+// Tcl Message: Upgrading '/home/gkmikros/Dropbox/CE435/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.srcs/sources_1/bd/lab3_simple/lab3_simple.bd' 
+// Tcl Message: INFO: [IP_Flow 19-3422] Upgraded lab3_simple_sobel_filter_0_0 (Sobel_filter 1.0) from revision 1706201630 to revision 1706201649 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// TclEventType: FILESET_UPDATE_IP
+// TclEventType: IP_UPGRADE_COMPLETE
+// Tcl Message: Wrote  : </home/gkmikros/Dropbox/CE435/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.srcs/sources_1/bd/lab3_simple/lab3_simple.bd>  
+// Tcl Message: INFO: [Coretcl 2-1525] Wrote upgrade log to '/home/gkmikros/Dropbox/CE435/lab5/lab5_hw_sw/sobel_hw_sw/ip_upgrade.log'. 
+// Tcl Message: export_ip_user_files -of_objects [get_ips lab3_simple_sobel_filter_0_0] -no_script -sync -force -quiet 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// at:q (cd:JFrame): Generate Output Products: addNotify
+selectButton("PAResourceTtoZ.UpgradeIP_IP_UPGRADE_COMPLETED_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, F:JDialog)
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_CLOSE_DIALOG_UNSAVED_CHANGES_WILL, "Skip"); // a:JButton (JPanel:JComponent, at:q)
+dismissDialog("Generate Output Products"); // at:q (cd:JFrame)
+selectButton(RDIResource.BaseReportTab_RERUN, "Rerun"); // h:k (JPanel:JComponent, cd:JFrame)
+// Tcl Command: 'report_ip_status -name ip_status '
+// TclEventType: IP_SUMMARY_RESULTS
+// Tcl Message: report_ip_status -name ip_status  
+// [GUI Memory]: 72 MB (+1128kb) [00:01:16]
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,025 MB. GUI used memory: 36 MB. Current time: 6/20/17 4:52:55 PM EEST
+// PAPropertyPanels.initPanels (design_1.bd) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1 (design_1.bd)]", 2, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1 (design_1.bd)]", 2, false, false, false, false, true, false); // y:i (D:JPanel, cd:JFrame) - Popup Trigger
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, lab3_simple_wrapper (lab3_simple_wrapper.v)]", 1); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, lab3_simple_wrapper (lab3_simple_wrapper.v), lab3_simple_i - lab3_simple (lab3_simple.bd)]", 2, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, design_1 (design_1.bd)]", 4, false); // y:i (D:JPanel, cd:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// ar:g (cd:JFrame): Remove Sources: addNotify
+selectCheckBox(PAResourceQtoS.RemoveSourcesDialog_ALSO_DELETE, "Also delete the project local file/directory from disk", false); // g:JCheckBox (JPanel:JComponent, ar:g): FALSE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ar:g)
+dismissDialog("Remove Sources"); // ar:g (cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  /home/gkmikros/Dropbox/CE435/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.srcs/sources_1/bd/design_1/design_1.bd 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, lab3_simple_wrapper (lab3_simple_wrapper.v), lab3_simple_i - lab3_simple (lab3_simple.bd)]", 2, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, lab3_simple_wrapper (lab3_simple_wrapper.v), lab3_simple_i - lab3_simple (lab3_simple.bd)]", 2, true, false, false, false, true, false); // y:i (D:JPanel, cd:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_GENERATE_COMPOSITE_FILE, "Generate Output Products..."); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_GENERATE_COMPOSITE_FILE
+// at:q (cd:JFrame): Generate Output Products: addNotify
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, at:q)
+// bt:g (cd:JFrame):  Managing Output Products : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: generate_target all [get_files  /home/gkmikros/Dropbox/CE435/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.srcs/sources_1/bd/lab3_simple/lab3_simple.bd] 
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// [Engine Memory]: 1,081 MB (+30962kb) [00:01:54]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// [GUI Memory]: 76 MB (+553kb) [00:01:54]
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Verilog Output written to : /home/gkmikros/Dropbox/CE435/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.srcs/sources_1/bd/lab3_simple/hdl/lab3_simple.v Verilog Output written to : /home/gkmikros/Dropbox/CE435/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.srcs/sources_1/bd/lab3_simple/hdl/lab3_simple_wrapper.v Wrote  : </home/gkmikros/Dropbox/CE435/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.srcs/sources_1/bd/lab3_simple/lab3_simple.bd>  
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block sobel_filter_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 . 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,092 MB. GUI used memory: 37 MB. Current time: 6/20/17 4:53:30 PM EEST
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma . INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_ps7_0_100M . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/xbar . INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/xbar . INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconcat_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m00_couplers/auto_pc . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/auto_us . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s01_couplers/auto_us . INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7_0_axi_periph/s00_couplers/auto_pc . 
+// Tcl Message: Exporting to file /home/gkmikros/Dropbox/CE435/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.srcs/sources_1/bd/lab3_simple/hw_handoff/lab3_simple.hwh 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Generated Block Design Tcl file /home/gkmikros/Dropbox/CE435/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.srcs/sources_1/bd/lab3_simple/hw_handoff/lab3_simple_bd.tcl Generated Hardware Definition File /home/gkmikros/Dropbox/CE435/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.srcs/sources_1/bd/lab3_simple/hdl/lab3_simple.hwdef 
+// Tcl Message: generate_target: Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 6168.000 ; gain = 119.473 ; free physical = 108 ; free virtual = 4912 
+// [Engine Memory]: 1,145 MB (+9727kb) [00:02:01]
+// Tcl Message: catch { config_ip_cache -export [get_ips -all lab3_simple_sobel_filter_0_0] } 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all lab3_simple_axi_dma_1] } 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: catch { config_ip_cache -export [get_ips -all lab3_simple_xbar_0] } 
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP lab3_simple_xbar_0, cache-ID = 5ae4ca18ef835af8; cache size = 38.705 MB. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: OOC_IP_CACHE_USED
+// Tcl Message: catch { [ delete_ip_run [get_ips -all lab3_simple_xbar_0] ] } 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: catch { config_ip_cache -export [get_ips -all lab3_simple_auto_pc_0] } 
+// TclEventType: OOC_IP_CACHE_USED
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP lab3_simple_auto_pc_0, cache-ID = 588c080e8b1919f6; cache size = 38.705 MB. 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: catch { config_ip_cache -export [get_ips -all lab3_simple_auto_us_0] } 
+// TclEventType: OOC_IP_CACHE_USED
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP lab3_simple_auto_us_0, cache-ID = b2fede3a43936a5d; cache size = 38.705 MB. 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all lab3_simple_auto_us_1] } 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: catch { config_ip_cache -export [get_ips -all lab3_simple_auto_pc_1] } 
+// TclEventType: OOC_IP_CACHE_USED
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP lab3_simple_auto_pc_1, cache-ID = 83e7b606e4f79014; cache size = 38.705 MB. 
+// TclEventType: PROJ_DESIGN_MODE_SET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: export_ip_user_files -of_objects [get_files /home/gkmikros/Dropbox/CE435/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.srcs/sources_1/bd/lab3_simple/lab3_simple.bd] -no_script -sync -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_NEW
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_NEW
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// [GUI Memory]: 80 MB (+205kb) [00:02:05]
+// TclEventType: RUN_ADD
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_NEW
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] /home/gkmikros/Dropbox/CE435/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.srcs/sources_1/bd/lab3_simple/lab3_simple.bd] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs -jobs 2 {lab3_simple_sobel_filter_0_0_synth_1 lab3_simple_axi_dma_1_synth_1 lab3_simple_auto_us_1_synth_1} 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Jun 20 16:53:42 2017] Launched lab3_simple_sobel_filter_0_0_synth_1, lab3_simple_axi_dma_1_synth_1, lab3_simple_auto_us_1_synth_1... Run output will be captured here: lab3_simple_sobel_filter_0_0_synth_1: /home/gkmikros/Dropbox/CE435/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.runs/lab3_simple_sobel_filter_0_0_synth_1/runme.log lab3_simple_axi_dma_1_synth_1: /home/gkmikros/Dropbox/CE435/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.runs/lab3_simple_axi_dma_1_synth_1/runme.log lab3_simple_auto_us_1_synth_1: /home/gkmikros/Dropbox/CE435/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.runs/lab3_simple_auto_us_1_synth_1/runme.log 
+// TclEventType: PROJECT_CHANGE
+// [GUI Memory]: 86 MB (+1781kb) [00:02:11]
+// TclEventType: PROJECT_CHANGE
+// a:a (cd:JFrame): Critical Messages: addNotify
+// 'bh' command handler elapsed time: 32 seconds
+// Elapsed time: 30 seconds
+dismissDialog("Managing Output Products"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 23 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, a:a)
+dismissDialog("Critical Messages"); // a:a (cd:JFrame)
+// PAPropertyPanels.initPanels (axi_mem_intercon_M00_AXI) elapsed time: 0.2s
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 4000 ms.
+// Elapsed time: 237 seconds
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 4000 ms.
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 81 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 14, true); // u:K (t:D, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// 'cn' command handler elapsed time: 8 seconds
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// bt:g (cd:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Tue Jun 20 16:59:46 2017] Launched synth_1... Run output will be captured here: /home/gkmikros/Dropbox/CE435/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.runs/synth_1/runme.log [Tue Jun 20 16:59:46 2017] Launched impl_1... Run output will be captured here: /home/gkmikros/Dropbox/CE435/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bt:g (cd:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 4000 ms.
+// ah:y (cd:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 271 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_REPORTS_WINDOW, "View Reports"); // a:JRadioButton (JPanel:JComponent, ah:y)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:y)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ah:y (cd:JFrame)
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Timing Summary Report ;  ;  ; ", 8, "Timing Summary Report", 0, false); // x:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Timing Summary Report ;  ;  ; ", 8, "Timing Summary Report", 0, false); // x:ab (JViewport:JComponent, cd:JFrame)
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 4000 ms.
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, open_project /home/gkmikros/Dropbox/CE435/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.xpr. , [IP_Flow 19-1700] Loaded user IP repository '/home/gkmikros/Dropbox/CE435/Lab3/ip_repo_gray/Gray_counter_ip_1.0'.. ]", 3, true); // ah:i (JViewport:JComponent, cd:JFrame) - Node
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, false); // g:JCheckBox (JPanel:JComponent, cd:JFrame): FALSE
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, false); // g:JCheckBox (JPanel:JComponent, cd:JFrame): FALSE
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, lab3_simple, generate_target all [get_files  /home/gkmikros/Dropbox/CE435/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.srcs/sources_1/bd/lab3_simple/lab3_simple.bd]. , [BD 41-1629] </processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0> is excluded from all addressable master spaces.. ]", 2); // ah:i (JViewport:JComponent, cd:JFrame)
+// Elapsed time: 49 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, lab3_simple, generate_target all [get_files  /home/gkmikros/Dropbox/CE435/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.srcs/sources_1/bd/lab3_simple/lab3_simple.bd]. , [BD 41-1629] </processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0> is excluded from all addressable master spaces.. ]", 2, true); // ah:i (JViewport:JComponent, cd:JFrame) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "bd_addr_blk;-;/processing_system7_0/S_AXI_ACP/ACP_M_AXI_GP0;-;lab3_simple;-;4;-;"); // ah:i (JViewport:JComponent, cd:JFrame)
+// PAPropertyPanels.initPanels (ui.data.g.a@39dd650) elapsed time: 0.4s
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "Data_S2MM (32 address bits : 4G) ;  ;  ;  ;  ; ", 11, "Data_S2MM (32 address bits : 4G)", 0, true); // c:ab (JViewport:JComponent, cd:JFrame) - Node
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "Data_S2MM (32 address bits : 4G) ;  ;  ;  ;  ; ", 11, "Data_S2MM (32 address bits : 4G)", 0, true); // c:ab (JViewport:JComponent, cd:JFrame) - Node
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "Data_S2MM (32 address bits : 4G) ;  ;  ;  ;  ; ", 11, "Data_S2MM (32 address bits : 4G)", 0, true); // c:ab (JViewport:JComponent, cd:JFrame) - Node
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "Data_S2MM (32 address bits : 4G) ;  ;  ;  ;  ; ", 11, "Data_S2MM (32 address bits : 4G)", 0, true); // c:ab (JViewport:JComponent, cd:JFrame) - Node
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "Data_S2MM (32 address bits : 4G) ;  ;  ;  ;  ; ", 11, "Data_S2MM (32 address bits : 4G)", 0, true); // c:ab (JViewport:JComponent, cd:JFrame) - Node
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "Data_S2MM (32 address bits : 4G) ;  ;  ;  ;  ; ", 11, "Data_S2MM (32 address bits : 4G)", 0, true); // c:ab (JViewport:JComponent, cd:JFrame) - Node
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "Data_S2MM (32 address bits : 4G) ;  ;  ;  ;  ; ", 11, "Data_S2MM (32 address bits : 4G)", 0, true); // c:ab (JViewport:JComponent, cd:JFrame) - Node
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "Data_S2MM (32 address bits : 4G) ;  ;  ;  ;  ; ", 11, "Data_S2MM (32 address bits : 4G)", 0, true); // c:ab (JViewport:JComponent, cd:JFrame) - Node
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "Data_S2MM (32 address bits : 4G) ;  ;  ;  ;  ; ", 11, "Data_S2MM (32 address bits : 4G)", 0, true); // c:ab (JViewport:JComponent, cd:JFrame) - Node
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "Data_S2MM (32 address bits : 4G) ;  ;  ;  ;  ; ", 11, "Data_S2MM (32 address bits : 4G)", 0, true); // c:ab (JViewport:JComponent, cd:JFrame) - Node
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "Data_S2MM (32 address bits : 4G) ;  ;  ;  ;  ; ", 11, "Data_S2MM (32 address bits : 4G)", 0, true); // c:ab (JViewport:JComponent, cd:JFrame) - Node
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "Data_S2MM (32 address bits : 4G) ;  ;  ;  ;  ; ", 11, "Data_S2MM (32 address bits : 4G)", 0, true); // c:ab (JViewport:JComponent, cd:JFrame) - Node
+// [GUI Memory]: 90 MB (+107kb) [00:15:28]
+// Elapsed time: 119 seconds
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_M_AXI_GP0 ; 0x4000_0000 ; 1G ; 0x7FFF_FFFF", 16, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_M_AXI_GP0 ; 0x4000_0000 ; 1G ; 0x7FFF_FFFF", 16, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_M_AXI_GP0 ; 0x4000_0000 ; 1G ; 0x7FFF_FFFF", 16, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_M_AXI_GP0 ; 0x4000_0000 ; 1G ; 0x7FFF_FFFF", 16, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_M_AXI_GP0 ; 0x4000_0000 ; 1G ; 0x7FFF_FFFF", 16, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_M_AXI_GP0 ; 0x4000_0000 ; 1G ; 0x7FFF_FFFF", 16, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_M_AXI_GP0 ; 0x4000_0000 ; 1G ; 0x7FFF_FFFF", 16, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_M_AXI_GP0 ; 0x4000_0000 ; 1G ; 0x7FFF_FFFF", 16, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_M_AXI_GP0 ; 0x4000_0000 ; 1G ; 0x7FFF_FFFF", 16, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_M_AXI_GP0 ; 0x4000_0000 ; 1G ; 0x7FFF_FFFF", 16, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_M_AXI_GP0 ; 0x4000_0000 ; 1G ; 0x7FFF_FFFF", 16, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_M_AXI_GP0 ; 0x4000_0000 ; 1G ; 0x7FFF_FFFF", 16, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_M_AXI_GP0 ; 0x4000_0000 ; 1G ; 0x7FFF_FFFF", 16, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_M_AXI_GP0 ; 0x4000_0000 ; 1G ; 0x7FFF_FFFF", 16, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_M_AXI_GP0 ; 0x4000_0000 ; 1G ; 0x7FFF_FFFF", 16, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_M_AXI_GP0 ; 0x4000_0000 ; 1G ; 0x7FFF_FFFF", 16, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+// [GUI Memory]: 95 MB (+10kb) [00:24:38]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,181 MB. GUI used memory: 46 MB. Current time: 6/20/17 5:23:31 PM EEST
+// Elapsed time: 1090 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Y:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_IP_LOCATION, "Open Recent IP Location"); // Y:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // Y:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Y:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_BITSTREAM_FILES, "Export Bitstream File..."); // ab:JMenuItem (JPopupMenu:JComponent, Popup:JWindow)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_BITSTREAM_FILES
+dismissFileChooser();
+// 'a' command handler elapsed time: 6 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Y:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_IP_LOCATION, "Open Recent IP Location"); // Y:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // Y:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Y:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_EXPORT_HARDWARE, "Export Hardware..."); // ab:JMenuItem (JPopupMenu:JComponent, Popup:JWindow)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_EXPORT_HARDWARE
+// X:q (cd:JFrame): Export Hardware: addNotify
+selectCheckBox(PAResourceItoN.NewExportHardwareDialog_INCLUDE_BITSTREAM, "Include bitstream", true); // g:JCheckBox (JPanel:JComponent, X:q): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, X:q)
+// 'm' command handler elapsed time: 3 seconds
+dismissDialog("Export Hardware"); // X:q (cd:JFrame)
+// Tcl Message: file mkdir /home/gkmikros/Dropbox/CE435/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.sdk 
+// Tcl Message: file copy -force /home/gkmikros/Dropbox/CE435/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.runs/impl_1/lab3_simple_wrapper.sysdef /home/gkmikros/Dropbox/CE435/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.sdk/lab3_simple_wrapper.hdf  
+// Elapsed time: 13 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Y:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_IP_LOCATION, "Open Recent IP Location"); // Y:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // Y:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Y:JMenu (JPopupMenu:JComponent, Popup:JWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ab:JMenuItem (JPopupMenu:JComponent, Popup:JWindow)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa:q (cd:JFrame): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aa:q)
+dismissDialog("Launch SDK"); // aa:q (cd:JFrame)
+// Tcl Message: launch_sdk -workspace /home/gkmikros/Dropbox/CE435/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.sdk -hwspec /home/gkmikros/Dropbox/CE435/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.sdk/lab3_simple_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace /home/gkmikros/Dropbox/CE435/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.sdk -hwspec /home/gkmikros/Dropbox/CE435/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.sdk/lab3_simple_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,182 MB. GUI used memory: 41 MB. Current time: 6/20/17 5:53:31 PM EEST
+// PAPropertyPanels.initPanels (ui.data.g.h@3b8cf10) elapsed time: 0.2s
+// Elapsed time: 1666 seconds
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_IOP ; 0xE000_0000 ; 4M ; 0xE03F_FFFF", 15, "ACP_IOP", 2, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_IOP ; 0xE000_0000 ; 4M ; 0xE03F_FFFF", 9, "0xE000_0000", 3, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_IOP ; 0xE000_0000 ; 4M ; 0xE03F_FFFF", 15, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "Excluded Address Segments (2) ;  ;  ;  ;  ; ", 8, "Excluded Address Segments (2)", 0, true, false, false, false, true, false); // c:ab (JViewport:JComponent, cd:JFrame) - Popup Trigger - Node
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "Excluded Address Segments (2) ;  ;  ;  ;  ; ", 8, "Excluded Address Segments (2)", 0, true); // c:ab (JViewport:JComponent, cd:JFrame) - Node
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_IOP ; 0xE000_0000 ; 4M ; 0xE03F_FFFF", 9, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_IOP ; 0xE000_0000 ; 4M ; 0xE03F_FFFF", 9, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_IOP ; 0xE000_0000 ; 4M ; 0xE03F_FFFF", 9, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_IOP ; 0xE000_0000 ; 4M ; 0xE03F_FFFF", 9, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_IOP ; 0xE000_0000 ; 4M ; 0xE03F_FFFF", 9, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_IOP ; 0xE000_0000 ; 4M ; 0xE03F_FFFF", 9, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_IOP ; 0xE000_0000 ; 4M ; 0xE03F_FFFF", 9, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_IOP ; 0xE000_0000 ; 4M ; 0xE03F_FFFF", 9, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_IOP ; 0xE000_0000 ; 4M ; 0xE03F_FFFF", 9, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_IOP ; 0xE000_0000 ; 4M ; 0xE03F_FFFF", 9, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_IOP ; 0xE000_0000 ; 4M ; 0xE03F_FFFF", 9, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_IOP ; 0xE000_0000 ; 4M ; 0xE03F_FFFF", 9, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_IOP ; 0xE000_0000 ; 4M ; 0xE03F_FFFF", 9, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_IOP ; 0xE000_0000 ; 4M ; 0xE03F_FFFF", 9, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_IOP ; 0xE000_0000 ; 4M ; 0xE03F_FFFF", 9, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_IOP ; 0xE000_0000 ; 4M ; 0xE03F_FFFF", 9, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_IOP ; 0xE000_0000 ; 4M ; 0xE03F_FFFF", 9, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_IOP ; 0xE000_0000 ; 4M ; 0xE03F_FFFF", 9, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_IOP ; 0xE000_0000 ; 4M ; 0xE03F_FFFF", 9, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_IOP ; 0xE000_0000 ; 4M ; 0xE03F_FFFF", 9, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_IOP ; 0xE000_0000 ; 4M ; 0xE03F_FFFF", 9, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_IOP ; 0xE000_0000 ; 4M ; 0xE03F_FFFF", 9, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_IOP ; 0xE000_0000 ; 4M ; 0xE03F_FFFF", 9, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_IOP ; 0xE000_0000 ; 4M ; 0xE03F_FFFF", 9, "S_AXI_ACP", 1, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_IOP ; 0xE000_0000 ; 4M ; 0xE03F_FFFF", 9, "S_AXI_ACP", 1, false); // c:ab (JViewport:JComponent, cd:JFrame)
+// Elapsed time: 15 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// bt:g (cd:JFrame):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {/home/gkmikros/Dropbox/CE435/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.srcs/sources_1/bd/lab3_simple/lab3_simple.bd} 
+dismissDialog("Open Block Design"); // bt:g (cd:JFrame)
+// PAPropertyPanels.initPanels (axi_mem_intercon) elapsed time: 0.4s
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// L:bt (cd:JFrame):  Re-customize IP : addNotify
+// p:g (cd:JFrame): Re-customize IP: addNotify
+// Elapsed time: 21 seconds
+dismissDialog("Re-customize IP"); // L:bt (cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,187 MB. GUI used memory: 44 MB. Current time: 6/20/17 5:55:11 PM EEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Slave Interfaces", 1); // cP:g (C:JPanel, p:g)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Master Interfaces", 2); // cP:g (C:JPanel, p:g)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, p:g)
+dismissDialog("Re-customize IP"); // p:g (cd:JFrame)
+// Elapsed time: 37 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Editor", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_QSPI_LINEAR ; 0xFC00_0000 ; 16M ; 0xFCFF_FFFF", 7, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_QSPI_LINEAR ; 0xFC00_0000 ; 16M ; 0xFCFF_FFFF", 7, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_QSPI_LINEAR ; 0xFC00_0000 ; 16M ; 0xFCFF_FFFF", 7, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_QSPI_LINEAR ; 0xFC00_0000 ; 16M ; 0xFCFF_FFFF", 7, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_QSPI_LINEAR ; 0xFC00_0000 ; 16M ; 0xFCFF_FFFF", 7, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_QSPI_LINEAR ; 0xFC00_0000 ; 16M ; 0xFCFF_FFFF", 7, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_QSPI_LINEAR ; 0xFC00_0000 ; 16M ; 0xFCFF_FFFF", 7, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_QSPI_LINEAR ; 0xFC00_0000 ; 16M ; 0xFCFF_FFFF", 7, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_QSPI_LINEAR ; 0xFC00_0000 ; 16M ; 0xFCFF_FFFF", 7, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_QSPI_LINEAR ; 0xFC00_0000 ; 16M ; 0xFCFF_FFFF", 7, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_QSPI_LINEAR ; 0xFC00_0000 ; 16M ; 0xFCFF_FFFF", 7, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_QSPI_LINEAR ; 0xFC00_0000 ; 16M ; 0xFCFF_FFFF", 7, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_QSPI_LINEAR ; 0xFC00_0000 ; 16M ; 0xFCFF_FFFF", 7, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_M_AXI_GP0 ; 0x4000_0000 ; 1G ; 0x7FFF_FFFF", 16, "processing_system7_0", 0, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "Data_S2MM (32 address bits : 4G) ;  ;  ;  ;  ; ", 11, "Data_S2MM (32 address bits : 4G)", 0, true); // c:ab (JViewport:JComponent, cd:JFrame) - Node
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "Data_S2MM (32 address bits : 4G) ;  ;  ;  ;  ; ", 11, "Data_S2MM (32 address bits : 4G)", 0, true); // c:ab (JViewport:JComponent, cd:JFrame) - Node
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "Data_S2MM (32 address bits : 4G) ;  ;  ;  ;  ; ", 11, "Data_S2MM (32 address bits : 4G)", 0, true); // c:ab (JViewport:JComponent, cd:JFrame) - Node
+// Elapsed time: 29 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// L:bt (cd:JFrame):  Re-customize IP : addNotify
+// p:g (cd:JFrame): Re-customize IP: addNotify
+// cm:q (p:g): Configuration Presets: addNotify
+// Elapsed time: 15 seconds
+dismissDialog("Re-customize IP"); // L:bt (cd:JFrame)
+selectButton("Peripheral I/O Pins", "Peripheral I/O Pins"); // k:JideButton (ci:ButtonPanel, p:g)
+selectButton("Peripheral I/O Pins", "Peripheral I/O Pins"); // k:JideButton (ci:ButtonPanel, p:g)
+// [Engine Memory]: 1,271 MB (+72429kb) [01:05:31]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,271 MB. GUI used memory: 81 MB. Current time: 6/20/17 5:57:06 PM EEST
+selectButton("MIO Configuration", "MIO Configuration"); // k:JideButton (ci:ButtonPanel, p:g)
+expandTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals", 1); // aX:cv (JViewport:JComponent, p:g)
+collapseTreeTable(PAResourceItoN.MIOConfigTreeTablePanel_MIO_CONFIG_TREE_TABLE, "I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals ; I/O Peripherals", 1); // aX:cv (JViewport:JComponent, p:g)
+selectButton("PS-PL Configuration", "PS-PL Configuration"); // k:JideButton (ci:ButtonPanel, p:g)
+expandTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "ACP Slave AXI Interface ; ACP Slave AXI Interface ; ACP Slave AXI Interface", 4); // aA:cv (JViewport:JComponent, p:g)
+// [GUI Memory]: 118 MB (+19387kb) [01:05:51]
+expandTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "DMA Controller ; DMA Controller ; DMA Controller", 7); // aA:cv (JViewport:JComponent, p:g)
+expandTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "PS-PL Cross Trigger interface ; 0 ; Enables PL cross trigger signals to PS and vice-versa", 12); // aA:cv (JViewport:JComponent, p:g)
+expandTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "HP Slave AXI Interface ; HP Slave AXI Interface ; HP Slave AXI Interface", 3); // aA:cv (JViewport:JComponent, p:g)
+expandTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "GP Slave AXI Interface ; GP Slave AXI Interface ; GP Slave AXI Interface", 2); // aA:cv (JViewport:JComponent, p:g)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, lab3_simple, generate_target all [get_files  /home/gkmikros/Dropbox/CE435/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.srcs/sources_1/bd/lab3_simple/lab3_simple.bd]. ]", 1, true); // ah:i (JViewport:JComponent, cd:JFrame) - Node
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, p:g)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, p:g)
+dismissDialog("Re-customize IP"); // p:g (cd:JFrame)
+// [GUI Memory]: 124 MB (+227kb) [01:06:11]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Editor", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_DDR_LOWOCM ; 0x0000_0000 ; 1G ; 0x3FFF_FFFF", 12, "ACP_DDR_LOWOCM", 2, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_DDR_LOWOCM ; 0x0000_0000 ; 1G ; 0x3FFF_FFFF", 12, "ACP_DDR_LOWOCM", 2, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "processing_system7_0 ; S_AXI_ACP ; ACP_M_AXI_GP0 ; 0x4000_0000 ; 1G ; 0x7FFF_FFFF", 16, "ACP_M_AXI_GP0", 2, false); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// L:bt (cd:JFrame):  Re-customize IP : addNotify
+// p:g (cd:JFrame): Re-customize IP: addNotify
+// cm:q (p:g): Configuration Presets: addNotify
+// [GUI Memory]: 133 MB (+2504kb) [01:06:42]
+// Elapsed time: 16 seconds
+dismissDialog("Re-customize IP"); // L:bt (cd:JFrame)
+selectButton("Peripheral I/O Pins", "Peripheral I/O Pins"); // k:JideButton (ci:ButtonPanel, p:g)
+// [GUI Memory]: 146 MB (+6674kb) [01:06:46]
+selectButton("PS-PL Configuration", "PS-PL Configuration"); // k:JideButton (ci:ButtonPanel, p:g)
+expandTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "GP Slave AXI Interface ; GP Slave AXI Interface ; GP Slave AXI Interface", 2); // aA:cv (JViewport:JComponent, p:g)
+expandTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "HP Slave AXI Interface ; HP Slave AXI Interface ; HP Slave AXI Interface", 5); // aA:cv (JViewport:JComponent, p:g)
+expandTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "S AXI HP0 interface ; 0 ; Enables AXI high performance slave interface 0", 6); // aA:cv (JViewport:JComponent, p:g)
+selectTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "S AXI GP0 interface ; 0 ; Enables General purpose 32-bit AXI Slave interface 0", 3, "S AXI GP0 interface", 0, false); // aA:cv (JViewport:JComponent, p:g)
+selectTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "S AXI GP0 interface ; 0 ; Enables General purpose 32-bit AXI Slave interface 0", 3, "S AXI GP0 interface", 0, false); // aA:cv (JViewport:JComponent, p:g)
+// [GUI Memory]: 154 MB (+1234kb) [01:07:01]
+// Elapsed time: 11 seconds
+expandTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "AXI Non Secure Enablement  ; 0 ; Enable AXI Non Secure Transaction", 1); // aA:cv (JViewport:JComponent, p:g)
+expandTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "GP Master AXI Interface ; GP Master AXI Interface ; GP Master AXI Interface", 2); // aA:cv (JViewport:JComponent, p:g)
+expandTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "ACP Slave AXI Interface ; ACP Slave AXI Interface ; ACP Slave AXI Interface", 14); // aA:cv (JViewport:JComponent, p:g)
+expandTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "DMA Controller ; DMA Controller ; DMA Controller", 17); // aA:cv (JViewport:JComponent, p:g)
+expandTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "PS-PL Cross Trigger interface ; 0 ; Enables PL cross trigger signals to PS and vice-versa", 22); // aA:cv (JViewport:JComponent, p:g)
+selectTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "Peripheral request interface 3 ; 0 ; Enables Interface 3 which supports the connection of DMA-capable peripherals resident in the PL ", 21, "Peripheral request interface 3", 0, false); // aA:cv (JViewport:JComponent, p:g)
+selectTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "Peripheral request interface 3 ; 0 ; Enables Interface 3 which supports the connection of DMA-capable peripherals resident in the PL ", 21, "Peripheral request interface 3", 0, false); // aA:cv (JViewport:JComponent, p:g)
+// Elapsed time: 19 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, p:g)
+dismissDialog("Re-customize IP"); // p:g (cd:JFrame)
+// [GUI Memory]: 162 MB (+192kb) [01:10:19]
+// Elapsed time: 279 seconds
+selectButton(RDIResource.FilterToolBar_SHOW_ALL, "Show All"); // a:JButton (JPanel:JComponent, cd:JFrame)
+selectButton(RDIResource.FilterToolBar_SHOW_ALL, "Show All"); // a:JButton (JPanel:JComponent, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// L:bt (cd:JFrame):  Re-customize IP : addNotify
+// p:g (cd:JFrame): Re-customize IP: addNotify
+// cm:q (p:g): Configuration Presets: addNotify
+// Elapsed time: 1293 seconds
+dismissDialog("Re-customize IP"); // L:bt (cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,299 MB. GUI used memory: 133 MB. Current time: 6/20/17 6:25:51 PM EEST
+selectButton("PS-PL Configuration", "PS-PL Configuration"); // k:JideButton (ci:ButtonPanel, p:g)
+expandTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "ACP Slave AXI Interface ; ACP Slave AXI Interface ; ACP Slave AXI Interface", 4); // aA:cv (JViewport:JComponent, p:g)
+selectTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "S AXI ACP interface ; 1 ; Enables AXI coherent 64-bit slave interface", 5, "1", 1, false); // aA:cv (JViewport:JComponent, p:g)
+expandTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "HP Slave AXI Interface ; HP Slave AXI Interface ; HP Slave AXI Interface", 3); // aA:cv (JViewport:JComponent, p:g)
+selectTreeTable(PAResourceEtoH.GenSettingTreeTablePanel_GEN_SETTING_TREE_TABLE, "S AXI HP0 interface ; 0 ; Enables AXI high performance slave interface 0", 4, "0", 1, true); // aA:cv (JViewport:JComponent, p:g) - Node
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, p:g)
+dismissDialog("Re-customize IP"); // p:g (cd:JFrame)
+// p:g (cd:JFrame): Re-customize IP: addNotify
+// bt:g (p:g):  Customize IP : addNotify
+// Tcl Message: startgroup 
+// Tcl Command: 'set_property -dict [list CONFIG.PCW_USE_S_AXI_ACP {0} CONFIG.PCW_USE_S_AXI_HP0 {1}] [get_bd_cells processing_system7_0]'
+// Tcl Message: set_property -dict [list CONFIG.PCW_USE_S_AXI_ACP {0} CONFIG.PCW_USE_S_AXI_HP0 {1}] [get_bd_cells processing_system7_0] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE

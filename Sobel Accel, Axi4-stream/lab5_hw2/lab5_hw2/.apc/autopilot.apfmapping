@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="sobel.cpp" path="C:\Users\geoka\Documents\GitHub\uni-projects\lab5\lab5_hw\sobel.cpp"/>
+    <originFiles name="sobel.h" path="C:\Users\geoka\Documents\GitHub\uni-projects\lab5\lab5_hw\sobel.h"/>
+  </source>
+  <testbench>
+    <originFiles name="sobeltb.cpp" path="C:\Users\geoka\Documents\GitHub\uni-projects\lab5\lab5_hw\sobeltb.cpp"/>
+    <originFiles name="golden.gre" path="C:\Users\geoka\Documents\GitHub\uni-projects\lab5\lab5_hw\golden.gre"/>
+    <originFiles name="input.gre" path="C:\Users\geoka\Documents\GitHub\uni-projects\lab5\lab5_hw\input.gre"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

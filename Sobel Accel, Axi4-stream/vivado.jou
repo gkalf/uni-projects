@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Wed Jun 21 14:30:08 2017
+# Process ID: 15082
+# Current directory: /home/gkmikros/Dropbox/CE435/lab5
+# Command line: vivado
+# Log file: /home/gkmikros/Dropbox/CE435/lab5/vivado.log
+# Journal file: /home/gkmikros/Dropbox/CE435/lab5/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/gkmikros/Dropbox/CE435/lab5/lab5_sw/lab5_sw.xpr
+launch_sdk -workspace /home/gkmikros/Dropbox/CE435/lab5/lab5_sw/lab5_sw.sdk -hwspec /home/gkmikros/Dropbox/CE435/lab5/lab5_sw/lab5_sw.sdk/lab3_simple_wrapper.hdf

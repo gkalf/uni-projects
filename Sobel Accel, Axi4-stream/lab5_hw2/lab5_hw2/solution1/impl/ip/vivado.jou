@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Apr 26 18:41:18 2020
+# Process ID: 12720
+# Current directory: C:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw2/lab5_hw2/solution1/impl/ip
+# Command line: vivado.exe -notrace -mode batch -source run_ippack.tcl
+# Log file: C:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw2/lab5_hw2/solution1/impl/ip/vivado.log
+# Journal file: C:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw2/lab5_hw2/solution1/impl/ip\vivado.jou
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace

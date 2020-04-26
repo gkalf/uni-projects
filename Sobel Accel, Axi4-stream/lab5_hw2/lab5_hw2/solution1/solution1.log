@@ -1,0 +1,263 @@
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg484-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] CSim failed with errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg484-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim file generation done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg484-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] CSim failed with errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg484-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] CSim failed with errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg484-1'
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] CSim failed with errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg484-1'
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file '../lab5_hw/sobel.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:02 ; elapsed = 00:00:57 . Memory (MB): peak = 168.488 ; gain = 77.566
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:02 ; elapsed = 00:00:57 . Memory (MB): peak = 168.488 ; gain = 77.566
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'hls::LineBuffer<3, 1024, unsigned char, 0>::shift_pixels_up' into 'hls::LineBuffer<3, 1024, unsigned char, 0>::shift_up' (C:/Xilinx/Vivado/2019.1/common/technology/autopilot/hls/hls_video_mem.h:863).
+INFO: [XFORM 203-603] Inlining function 'hls::LineBuffer<3, 1024, unsigned char, 0>::shift_up' into 'sobel_filter' (../lab5_hw/sobel.cpp:38).
+INFO: [XFORM 203-603] Inlining function 'hls::LineBuffer<3, 1024, unsigned char, 0>::insert_bottom_row' into 'hls::LineBuffer<3, 1024, unsigned char, 0>::insert_top' (C:/Xilinx/Vivado/2019.1/common/technology/autopilot/hls/hls_video_mem.h:883).
+INFO: [XFORM 203-603] Inlining function 'hls::LineBuffer<3, 1024, unsigned char, 0>::insert_top' into 'sobel_filter' (../lab5_hw/sobel.cpp:39).
+INFO: [XFORM 203-603] Inlining function 'hls::Window<3, 3, unsigned char>::insert_pixel' into 'hls::Window<3, 3, unsigned char>::insert' (C:/Xilinx/Vivado/2019.1/common/technology/autopilot/hls/hls_video_mem.h:573).
+INFO: [XFORM 203-603] Inlining function 'hls::Window<3, 3, unsigned char>::insert_pixel' into 'sobel_filter' (../lab5_hw/sobel.cpp:42).
+INFO: [XFORM 203-603] Inlining function 'hls::Window<3, 3, unsigned char>::shift_pixels_left' into 'hls::Window<3, 3, unsigned char>::shift_left' (C:/Xilinx/Vivado/2019.1/common/technology/autopilot/hls/hls_video_mem.h:533).
+INFO: [XFORM 203-603] Inlining function 'hls::Window<3, 3, unsigned char>::shift_left' into 'sobel_filter' (../lab5_hw/sobel.cpp:44).
+INFO: [XFORM 203-603] Inlining function 'hls::LineBuffer<3, 1024, unsigned char, 0>::getval' into 'sobel_filter' (../lab5_hw/sobel.cpp:47).
+INFO: [XFORM 203-603] Inlining function 'hls::LineBuffer<3, 1024, unsigned char, 0>::getval' into 'sobel_filter' (../lab5_hw/sobel.cpp:46).
+INFO: [XFORM 203-603] Inlining function 'hls::LineBuffer<3, 1024, unsigned char, 0>::getval' into 'sobel_filter' (../lab5_hw/sobel.cpp:45).
+INFO: [XFORM 203-603] Inlining function 'hls::Window<3, 3, unsigned char>::insert' into 'sobel_filter' (../lab5_hw/sobel.cpp:45).
+INFO: [XFORM 203-603] Inlining function 'hls::Window<3, 3, unsigned char>::insert' into 'sobel_filter' (../lab5_hw/sobel.cpp:46).
+INFO: [XFORM 203-603] Inlining function 'hls::Window<3, 3, unsigned char>::insert' into 'sobel_filter' (../lab5_hw/sobel.cpp:47).
+INFO: [XFORM 203-603] Inlining function 'hls::Window<3, 3, unsigned char>::getval' into 'sobel_filter' (../lab5_hw/sobel.cpp:68).
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:01:37 ; elapsed = 00:02:35 . Memory (MB): peak = 188.527 ; gain = 97.605
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:01:37 ; elapsed = 00:02:36 . Memory (MB): peak = 223.977 ; gain = 133.055
+INFO: [HLS 200-489] Unrolling loop 'Loop-1.1.1.1' (C:/Xilinx/Vivado/2019.1/common/technology/autopilot/hls/hls_video_mem.h:727) in function 'sobel_filter' completely with a factor of 2.
+INFO: [HLS 200-489] Unrolling loop 'Loop-1.1.1.2' (C:/Xilinx/Vivado/2019.1/common/technology/autopilot/hls/hls_video_mem.h:123) in function 'sobel_filter' completely with a factor of 3.
+INFO: [HLS 200-489] Unrolling loop 'Loop-1.1.1.2.1' (C:/Xilinx/Vivado/2019.1/common/technology/autopilot/hls/hls_video_mem.h:125) in function 'sobel_filter' completely with a factor of 2.
+INFO: [XFORM 203-101] Partitioning array 'pixelbuffer.val' (../lab5_hw/sobel.cpp:26) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'window.val' (../lab5_hw/sobel.cpp:27) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'window.val' (../lab5_hw/sobel.cpp:27) in dimension 2 completely.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (../lab5_hw/sobel.cpp:31:45) to (../lab5_hw/sobel.cpp:52:4) in function 'sobel_filter'... converting 22 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (../lab5_hw/sobel.cpp:94:4) in function 'sobel_filter'... converting 3 basic blocks.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:01:39 ; elapsed = 00:02:37 . Memory (MB): peak = 281.609 ; gain = 190.688
+WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'pixelbuffer.val[1]' (../lab5_hw/sobel.cpp:26).
+WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'pixelbuffer.val[2]' (../lab5_hw/sobel.cpp:26).
+WARNING: [ANALYSIS 214-52] Found false intra dependency for variable 'pixelbuffer.val[1]' (../lab5_hw/sobel.cpp:26).
+WARNING: [ANALYSIS 214-52] Found false intra dependency for variable 'pixelbuffer.val[2]' (../lab5_hw/sobel.cpp:26).
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:01:39 ; elapsed = 00:02:38 . Memory (MB): peak = 296.039 ; gain = 205.117
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'sobel_filter' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'sobel_filter' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 158.598 seconds; current allocated memory: 229.470 MB.
+INFO: [HLS 200-434] Only 0 loops out of a total 6 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.58 seconds; current allocated memory: 230.354 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'sobel_filter' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'sobel_filter/INPUT_IMAGE_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'sobel_filter/INPUT_IMAGE_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'sobel_filter/INPUT_IMAGE_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'sobel_filter/INPUT_IMAGE_V_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'sobel_filter/INPUT_IMAGE_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'sobel_filter/INPUT_IMAGE_V_id_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'sobel_filter/INPUT_IMAGE_V_dest_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'sobel_filter/OUTPUT_IMAGE_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'sobel_filter/OUTPUT_IMAGE_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'sobel_filter/OUTPUT_IMAGE_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'sobel_filter/OUTPUT_IMAGE_V_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'sobel_filter/OUTPUT_IMAGE_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'sobel_filter/OUTPUT_IMAGE_V_id_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'sobel_filter/OUTPUT_IMAGE_V_dest_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'sobel_filter' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'return' to AXI-Lite port ctrl_bus.
+INFO: [SYN 201-210] Renamed object name 'sobel_filter_pixelbuffer_val_1' to 'sobel_filter_pixebkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'sobel_filter_pixelbuffer_val_2' to 'sobel_filter_pixecud' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'sobel_filter_mux_94_8_1_1' to 'sobel_filter_mux_dEe' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'sobel_filter_mac_muladd_3s_8ns_32ns_32_1_1' to 'sobel_filter_mac_eOg' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'sobel_filter_mac_eOg': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sobel_filter_mux_dEe': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'sobel_filter'.
+INFO: [HLS 200-111]  Elapsed time: 0.96 seconds; current allocated memory: 232.884 MB.
+INFO: [RTMG 210-279] Implementing memory 'sobel_filter_Gx_rom' using distributed ROMs.
+INFO: [RTMG 210-279] Implementing memory 'sobel_filter_Gy_rom' using distributed ROMs.
+INFO: [RTMG 210-278] Implementing memory 'sobel_filter_pixebkb_ram (RAM)' using block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:01:42 ; elapsed = 00:02:47 . Memory (MB): peak = 302.301 ; gain = 211.379
+INFO: [VHDL 208-304] Generating VHDL RTL for sobel_filter.
+INFO: [VLOG 209-307] Generating Verilog RTL for sobel_filter.
+INFO: [HLS 200-112] Total elapsed time: 167.143 seconds; peak allocated memory: 232.884 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg484-1'
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 20ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-435] Setting 'config_sdx -optimization_level' configuration: config_export -vivado_optimization_level=2
+INFO: [HLS 200-435] Setting 'config_sdx -target' configuration: config_export -vivado_optimization_level=2
+INFO: [HLS 200-435] Setting 'config_sdx -target' configuration: set_clock_uncertainty default
+INFO: [SYN 201-201] Setting up clock 'default' with an uncertainty of 2.5ns.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 20ns.
+WARNING: [HLS 200-483] The 'config_sdx -optimization_level' command is deprecated and will be removed in a future release. Use 'config_export -vivado_optimization_level' as its replacement.
+INFO: [HLS 200-435] Setting 'config_sdx -optimization_level' configuration: config_export -vivado_optimization_level=2
+INFO: [HLS 200-435] Setting 'config_sdx -target' configuration: config_export -vivado_optimization_level=2
+INFO: [HLS 200-435] Setting 'config_sdx -target' configuration: set_clock_uncertainty default
+WARNING: [HLS 200-484] The 'config_sdx -optimization_level' command is deprecated and will be removed in a future release.
+INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
+INFO: [HLS 200-10] Analyzing design file '../lab5_hw/sobel.cpp' ... 
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:02 ; elapsed = 00:01:03 . Memory (MB): peak = 168.191 ; gain = 82.992
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:02 ; elapsed = 00:01:04 . Memory (MB): peak = 168.191 ; gain = 82.992
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [XFORM 203-603] Inlining function 'hls::LineBuffer<3, 1024, unsigned char, 0>::shift_pixels_up' into 'hls::LineBuffer<3, 1024, unsigned char, 0>::shift_up' (C:/Xilinx/Vivado/2019.1/common/technology/autopilot/hls/hls_video_mem.h:863).
+INFO: [XFORM 203-603] Inlining function 'hls::LineBuffer<3, 1024, unsigned char, 0>::shift_up' into 'sobel_filter' (../lab5_hw/sobel.cpp:38).
+INFO: [XFORM 203-603] Inlining function 'hls::LineBuffer<3, 1024, unsigned char, 0>::insert_bottom_row' into 'hls::LineBuffer<3, 1024, unsigned char, 0>::insert_top' (C:/Xilinx/Vivado/2019.1/common/technology/autopilot/hls/hls_video_mem.h:883).
+INFO: [XFORM 203-603] Inlining function 'hls::LineBuffer<3, 1024, unsigned char, 0>::insert_top' into 'sobel_filter' (../lab5_hw/sobel.cpp:39).
+INFO: [XFORM 203-603] Inlining function 'hls::Window<3, 3, unsigned char>::insert_pixel' into 'hls::Window<3, 3, unsigned char>::insert' (C:/Xilinx/Vivado/2019.1/common/technology/autopilot/hls/hls_video_mem.h:573).
+INFO: [XFORM 203-603] Inlining function 'hls::Window<3, 3, unsigned char>::insert_pixel' into 'sobel_filter' (../lab5_hw/sobel.cpp:42).
+INFO: [XFORM 203-603] Inlining function 'hls::Window<3, 3, unsigned char>::shift_pixels_left' into 'hls::Window<3, 3, unsigned char>::shift_left' (C:/Xilinx/Vivado/2019.1/common/technology/autopilot/hls/hls_video_mem.h:533).
+INFO: [XFORM 203-603] Inlining function 'hls::Window<3, 3, unsigned char>::shift_left' into 'sobel_filter' (../lab5_hw/sobel.cpp:44).
+INFO: [XFORM 203-603] Inlining function 'hls::LineBuffer<3, 1024, unsigned char, 0>::getval' into 'sobel_filter' (../lab5_hw/sobel.cpp:47).
+INFO: [XFORM 203-603] Inlining function 'hls::LineBuffer<3, 1024, unsigned char, 0>::getval' into 'sobel_filter' (../lab5_hw/sobel.cpp:46).
+INFO: [XFORM 203-603] Inlining function 'hls::LineBuffer<3, 1024, unsigned char, 0>::getval' into 'sobel_filter' (../lab5_hw/sobel.cpp:45).
+INFO: [XFORM 203-603] Inlining function 'hls::Window<3, 3, unsigned char>::insert' into 'sobel_filter' (../lab5_hw/sobel.cpp:45).
+INFO: [XFORM 203-603] Inlining function 'hls::Window<3, 3, unsigned char>::insert' into 'sobel_filter' (../lab5_hw/sobel.cpp:46).
+INFO: [XFORM 203-603] Inlining function 'hls::Window<3, 3, unsigned char>::insert' into 'sobel_filter' (../lab5_hw/sobel.cpp:47).
+INFO: [XFORM 203-603] Inlining function 'hls::Window<3, 3, unsigned char>::getval' into 'sobel_filter' (../lab5_hw/sobel.cpp:68).
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:01:34 ; elapsed = 00:02:47 . Memory (MB): peak = 189.641 ; gain = 104.441
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:01:35 ; elapsed = 00:02:48 . Memory (MB): peak = 225.582 ; gain = 140.383
+INFO: [HLS 200-489] Unrolling loop 'Loop-1.1.1.1' (C:/Xilinx/Vivado/2019.1/common/technology/autopilot/hls/hls_video_mem.h:727) in function 'sobel_filter' completely with a factor of 2.
+INFO: [HLS 200-489] Unrolling loop 'Loop-1.1.1.2' (C:/Xilinx/Vivado/2019.1/common/technology/autopilot/hls/hls_video_mem.h:123) in function 'sobel_filter' completely with a factor of 3.
+INFO: [HLS 200-489] Unrolling loop 'Loop-1.1.1.2.1' (C:/Xilinx/Vivado/2019.1/common/technology/autopilot/hls/hls_video_mem.h:125) in function 'sobel_filter' completely with a factor of 2.
+INFO: [XFORM 203-101] Partitioning array 'pixelbuffer.val' (../lab5_hw/sobel.cpp:26) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'window.val' (../lab5_hw/sobel.cpp:27) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'window.val' (../lab5_hw/sobel.cpp:27) in dimension 2 completely.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (../lab5_hw/sobel.cpp:31:45) to (../lab5_hw/sobel.cpp:52:4) in function 'sobel_filter'... converting 22 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (../lab5_hw/sobel.cpp:94:4) in function 'sobel_filter'... converting 3 basic blocks.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:01:36 ; elapsed = 00:02:50 . Memory (MB): peak = 282.480 ; gain = 197.281
+WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'pixelbuffer.val[2]' (../lab5_hw/sobel.cpp:26).
+WARNING: [ANALYSIS 214-52] Found false inter dependency for variable 'pixelbuffer.val[1]' (../lab5_hw/sobel.cpp:26).
+WARNING: [ANALYSIS 214-52] Found false intra dependency for variable 'pixelbuffer.val[2]' (../lab5_hw/sobel.cpp:26).
+WARNING: [ANALYSIS 214-52] Found false intra dependency for variable 'pixelbuffer.val[1]' (../lab5_hw/sobel.cpp:26).
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:01:36 ; elapsed = 00:02:52 . Memory (MB): peak = 296.652 ; gain = 211.453
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'sobel_filter' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'sobel_filter' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 174.588 seconds; current allocated memory: 229.531 MB.
+INFO: [HLS 200-434] Only 0 loops out of a total 6 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 1.592 seconds; current allocated memory: 230.421 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'sobel_filter' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'sobel_filter/INPUT_IMAGE_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'sobel_filter/INPUT_IMAGE_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'sobel_filter/INPUT_IMAGE_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'sobel_filter/INPUT_IMAGE_V_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'sobel_filter/INPUT_IMAGE_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'sobel_filter/INPUT_IMAGE_V_id_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'sobel_filter/INPUT_IMAGE_V_dest_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'sobel_filter/OUTPUT_IMAGE_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'sobel_filter/OUTPUT_IMAGE_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'sobel_filter/OUTPUT_IMAGE_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'sobel_filter/OUTPUT_IMAGE_V_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'sobel_filter/OUTPUT_IMAGE_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'sobel_filter/OUTPUT_IMAGE_V_id_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'sobel_filter/OUTPUT_IMAGE_V_dest_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'sobel_filter' to 's_axilite & ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Bundling port 'return' to AXI-Lite port ctrl_bus.
+INFO: [SYN 201-210] Renamed object name 'sobel_filter_pixelbuffer_val_1' to 'sobel_filter_pixebkb' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'sobel_filter_pixelbuffer_val_2' to 'sobel_filter_pixecud' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'sobel_filter_mux_94_8_1_1' to 'sobel_filter_mux_dEe' due to the length limit 20
+INFO: [SYN 201-210] Renamed object name 'sobel_filter_mac_muladd_3s_8ns_32ns_32_1_1' to 'sobel_filter_mac_eOg' due to the length limit 20
+INFO: [RTGEN 206-100] Generating core module 'sobel_filter_mac_eOg': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'sobel_filter_mux_dEe': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'sobel_filter'.
+INFO: [HLS 200-111]  Elapsed time: 1.544 seconds; current allocated memory: 232.949 MB.
+INFO: [RTMG 210-279] Implementing memory 'sobel_filter_Gx_rom' using distributed ROMs.
+INFO: [RTMG 210-279] Implementing memory 'sobel_filter_Gy_rom' using distributed ROMs.
+INFO: [RTMG 210-278] Implementing memory 'sobel_filter_pixebkb_ram (RAM)' using block RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:01:40 ; elapsed = 00:03:07 . Memory (MB): peak = 302.824 ; gain = 217.625
+INFO: [VHDL 208-304] Generating VHDL RTL for sobel_filter.
+INFO: [VLOG 209-307] Generating Verilog RTL for sobel_filter.
+INFO: [HLS 200-112] Total elapsed time: 187.319 seconds; peak allocated memory: 232.949 MB.
+==============================================================
+Vivado(TM) HLS - High-Level Synthesis from C, C++ and SystemC v2019.1 (64-bit)
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 20ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-435] Setting 'config_sdx -optimization_level' configuration: config_export -vivado_optimization_level=2
+INFO: [HLS 200-435] Setting 'config_sdx -target' configuration: config_export -vivado_optimization_level=2
+INFO: [HLS 200-435] Setting 'config_sdx -target' configuration: set_clock_uncertainty default
+INFO: [SYN 201-201] Setting up clock 'default' with an uncertainty of 2.5ns.
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.

@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Apr 26 21:11:53 2020
+# Process ID: 14196
+# Current directory: C:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw_sw/sobel_hw_sw
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10456 C:\Users\geoka\Documents\GitHub\uni-projects\lab5\lab5_hw_sw\sobel_hw_sw\sobel_hw_sw.xpr
+# Log file: C:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw_sw/sobel_hw_sw/vivado.log
+# Journal file: C:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw_sw/sobel_hw_sw\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.xpr
+update_compile_order -fileset sources_1
+launch_runs impl_2 -jobs 4
+wait_on_run impl_2
+open_run impl_2
+launch_runs impl_2 -to_step write_bitstream -jobs 4
+wait_on_run impl_2
+launch_sdk -workspace C:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.sdk -hwspec C:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.sdk/lab3_simple_wrapper.hdf
+launch_sdk -workspace C:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.sdk -hwspec C:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.sdk/lab3_simple_wrapper.hdf
+file copy -force C:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.runs/impl_2/lab3_simple_wrapper.sysdef C:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.sdk/lab3_simple_wrapper.hdf
+
+launch_sdk -workspace C:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.sdk -hwspec C:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw_sw/sobel_hw_sw/sobel_hw_sw.sdk/lab3_simple_wrapper.hdf

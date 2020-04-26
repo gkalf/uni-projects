@@ -1,0 +1,24 @@
+INFO: [HLS 200-10] Running 'C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/vivado_hls.exe'
+INFO: [HLS 200-10] For user 'geoka' on host 'desktop-ke3ubo5' (Windows NT_amd64 version 6.2) on Sun Apr 26 18:41:03 +0100 2020
+INFO: [HLS 200-10] In directory 'C:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw2'
+Sourcing Tcl script 'C:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw2/lab5_hw2/solution1/export.tcl'
+INFO: [HLS 200-10] Opening project 'C:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw2/lab5_hw2'.
+INFO: [HLS 200-10] Opening solution 'C:/Users/geoka/Documents/GitHub/uni-projects/lab5/lab5_hw2/lab5_hw2/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 20ns.
+INFO: [HLS 200-10] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-435] Setting 'config_sdx -optimization_level' configuration: config_export -vivado_optimization_level=2
+INFO: [HLS 200-435] Setting 'config_sdx -target' configuration: config_export -vivado_optimization_level=2
+INFO: [HLS 200-435] Setting 'config_sdx -target' configuration: set_clock_uncertainty default
+INFO: [SYN 201-201] Setting up clock 'default' with an uncertainty of 2.5ns.
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+
+****** Vivado v2019.1 (64-bit)
+  **** SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+  **** IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 26 18:41:38 2020...
