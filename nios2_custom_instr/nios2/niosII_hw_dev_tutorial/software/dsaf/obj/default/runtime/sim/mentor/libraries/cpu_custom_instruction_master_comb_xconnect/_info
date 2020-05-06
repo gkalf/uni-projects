@@ -1,0 +1,27 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\geoka\Documents\GitHub\uni-projects\nios2_custom_instr\nios2\niosII_hw_dev_tutorial\software\dsaf\obj\default\runtime\sim\mentor
+vnios2_cpu_custom_instruction_master_comb_xconnect
+DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+!i10b 1
+!s100 TC]IW5dGE=5UXmHB>nR4W3
+I6D`Eaao;59E8[zRCE8VM50
+VC2M>^G`;^]WAi?6TG@=:B1
+!s105 nios2_cpu_custom_instruction_master_comb_xconnect_sv_unit
+S1
+Z1 dC:\Users\geoka\Documents\GitHub\uni-projects\nios2_custom_instr\nios2\niosII_hw_dev_tutorial\software\dsaf\obj\default\runtime\sim\mentor
+w1588632590
+8C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_cpu_custom_instruction_master_comb_xconnect.sv
+FC:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_cpu_custom_instruction_master_comb_xconnect.sv
+L0 27
+Z2 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1588633090.834000
+!s107 C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_cpu_custom_instruction_master_comb_xconnect.sv|
+!s90 -reportprogress|300|-sv|C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_cpu_custom_instruction_master_comb_xconnect.sv|-work|cpu_custom_instruction_master_comb_xconnect|
+!s101 -O0
+o-sv -work cpu_custom_instruction_master_comb_xconnect -O0

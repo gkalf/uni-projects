@@ -1,0 +1,24 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\geoka\Documents\GitHub\uni-projects\nios2_custom_instr\nios2\niosII_hw_dev_tutorial\software\dsaf\obj\default\runtime\sim\mentor
+vnios2_led_pio
+!i10b 1
+!s100 ?9[m4mmC?zKbkdE4cn]ag1
+ImkT1YRBHPzDDNCLn>=TLG0
+VH02zHajJbQ1^aXkOP7nK?3
+Z1 dC:\Users\geoka\Documents\GitHub\uni-projects\nios2_custom_instr\nios2\niosII_hw_dev_tutorial\software\dsaf\obj\default\runtime\sim\mentor
+w1588632590
+8C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_led_pio.v
+FC:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_led_pio.v
+L0 21
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1588633091.832000
+!s107 C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_led_pio.v|
+!s90 -reportprogress|300|C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_led_pio.v|-work|led_pio|
+!s101 -O0
+o-work led_pio -O0

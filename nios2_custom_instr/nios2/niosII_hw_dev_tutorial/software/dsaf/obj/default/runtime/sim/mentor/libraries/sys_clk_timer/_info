@@ -1,0 +1,24 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\geoka\Documents\GitHub\uni-projects\nios2_custom_instr\nios2\niosII_hw_dev_tutorial\software\dsaf\obj\default\runtime\sim\mentor
+vnios2_sys_clk_timer
+!i10b 1
+!s100 SG9Ozg91]zXcXi6[cP11L1
+IIe4@XD34ZzlFCQ=9eOIV@0
+VANN1LgPz036UkETM_D5]Y3
+Z1 dC:\Users\geoka\Documents\GitHub\uni-projects\nios2_custom_instr\nios2\niosII_hw_dev_tutorial\software\dsaf\obj\default\runtime\sim\mentor
+w1588632587
+8C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_sys_clk_timer.v
+FC:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_sys_clk_timer.v
+L0 21
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1588633092.430000
+!s107 C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_sys_clk_timer.v|
+!s90 -reportprogress|300|C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_sys_clk_timer.v|-work|sys_clk_timer|
+!s101 -O0
+o-work sys_clk_timer -O0

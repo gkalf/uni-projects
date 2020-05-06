@@ -1,0 +1,24 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\geoka\Documents\GitHub\uni-projects\nios2_custom_instr\nios2\niosII_hw_dev_tutorial\software\dsaf\obj\default\runtime\sim\mentor
+vnios2_onchip_mem
+!i10b 1
+!s100 kdgVEPY4^0NL^8;HK?Z_X2
+IcVmUKooJg4>e15MOjZJN=3
+VQFm?8hjYGn9[RdLejRSbP3
+Z1 dC:\Users\geoka\Documents\GitHub\uni-projects\nios2_custom_instr\nios2\niosII_hw_dev_tutorial\software\dsaf\obj\default\runtime\sim\mentor
+w1588632563
+8C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_onchip_mem.v
+FC:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_onchip_mem.v
+L0 21
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1588633096.181000
+!s107 C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_onchip_mem.v|
+!s90 -reportprogress|300|C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_onchip_mem.v|-work|onchip_mem|
+!s101 -O0
+o-work onchip_mem -O0

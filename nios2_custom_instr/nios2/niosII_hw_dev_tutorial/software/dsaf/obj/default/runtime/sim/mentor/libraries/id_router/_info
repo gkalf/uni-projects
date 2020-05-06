@@ -1,0 +1,49 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\geoka\Documents\GitHub\uni-projects\nios2_custom_instr\nios2\niosII_hw_dev_tutorial\software\dsaf\obj\default\runtime\sim\mentor
+vnios2_id_router
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+!i10b 1
+!s100 `>M^h49XV^k5C`DMA6bAn2
+InI_h?A66mI1jJ15JDJ74g0
+V^4hn4la1@`<K4HLZnc=;W3
+Z2 !s105 nios2_id_router_sv_unit
+S1
+Z3 dC:\Users\geoka\Documents\GitHub\uni-projects\nios2_custom_instr\nios2\niosII_hw_dev_tutorial\software\dsaf\obj\default\runtime\sim\mentor
+Z4 w1588632590
+Z5 8C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_id_router.sv
+Z6 FC:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_id_router.sv
+L0 86
+Z7 OV;L;10.1d;51
+r1
+!s85 0
+31
+Z8 !s108 1588633087.331000
+Z9 !s107 C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_id_router.sv|
+Z10 !s90 -reportprogress|300|-sv|C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_id_router.sv|-work|id_router|
+!s101 -O0
+Z11 o-sv -work id_router -O0
+vnios2_id_router_default_decode
+R1
+!i10b 1
+!s100 c<ienS@TA5g]eUBnMNo:=2
+Ih2=?z@J]N:XjN6jLb=S_z1
+V<D=cz8]U@>MM5o@b?7n1l0
+R2
+S1
+R3
+R4
+R5
+R6
+L0 45
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!s101 -O0
+R11

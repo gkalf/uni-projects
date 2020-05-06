@@ -1,0 +1,28 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\geoka\Documents\GitHub\uni-projects\nios2_custom_instr\nios2\niosII_hw_dev_tutorial\software\dsaf\obj\default\runtime\sim\mentor
+valtera_avalon_reset_source
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+DXx26 altera_avalon_vip_pkgs_lib 13 verbosity_pkg 0 22 zkj[=Vl_4Z4je3M0ba7ie2
+!i10b 1
+!s100 kJRzKR@=`z_2bE3z0A5WF0
+I]cZeQHe@T=ILBe:99A_hd1
+Vk1]bU7T^0F5>e8jlRd2OT1
+!s105 altera_avalon_reset_source_sv_unit
+S1
+Z2 dC:\Users\geoka\Documents\GitHub\uni-projects\nios2_custom_instr\nios2\niosII_hw_dev_tutorial\software\dsaf\obj\default\runtime\sim\mentor
+Z3 w1588632560
+8C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/altera_avalon_reset_source.sv
+FC:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/altera_avalon_reset_source.sv
+L0 23
+Z4 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1588633096.652000
+!s107 C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/altera_avalon_reset_source.sv|
+!s90 -reportprogress|300|-sv|C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/altera_avalon_reset_source.sv|-L|altera_avalon_vip_pkgs_lib|-work|nios2_inst_reset_bfm|
+!s101 -O0
+o-sv -L altera_avalon_vip_pkgs_lib -work nios2_inst_reset_bfm -O0

@@ -1,0 +1,119 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\geoka\Documents\GitHub\uni-projects\nios2_custom_instr\nios2\niosII_hw_dev_tutorial\software\dsaf\obj\default\runtime\sim\mentor
+vnios2_cpu
+IIEdC1kn`hd@BFILo5Wiz33
+VYLjAW>4had?L3@8AX1BLa1
+Z1 dC:\Users\geoka\Documents\GitHub\uni-projects\nios2_custom_instr\nios2\niosII_hw_dev_tutorial\software\dsaf\obj\default\runtime\sim\mentor
+Z2 w1588632585
+8C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_cpu.vo
+FC:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_cpu.vo
+L0 31
+Z3 OV;L;10.1d;51
+r1
+31
+Z4 o-work cpu -O0
+!i10b 1
+!s100 iKQD]jbAU:4]EEGOED3;f2
+!s85 0
+!s108 1588633093.715000
+!s107 C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_cpu.vo|
+!s90 -reportprogress|300|C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_cpu.vo|-work|cpu|
+!s101 -O0
+vnios2_cpu_jtag_debug_module_sysclk
+InzfdI@l8[0O8BJ:>SJZiZ1
+V5@4SR8Fz;EbgZ>@GLkHVQ0
+R1
+R2
+8C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_cpu_jtag_debug_module_sysclk.v
+FC:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_cpu_jtag_debug_module_sysclk.v
+L0 21
+R3
+r1
+31
+R4
+!i10b 1
+!s100 _@VBL=RNNd_YOIodz9UQm1
+!s85 0
+!s108 1588633094.439000
+!s107 C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_cpu_jtag_debug_module_sysclk.v|
+!s90 -reportprogress|300|C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_cpu_jtag_debug_module_sysclk.v|-work|cpu|
+!s101 -O0
+vnios2_cpu_jtag_debug_module_tck
+I?6GNS_^9O^2aIeh[zP<bB0
+Vn06=4o9`n?c`G2b:PLXC^1
+R1
+R2
+8C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_cpu_jtag_debug_module_tck.v
+FC:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_cpu_jtag_debug_module_tck.v
+L0 21
+R3
+r1
+31
+R4
+!i10b 1
+!s100 BjR8[_Fg1OB0GT8C_deQS1
+!s85 0
+!s108 1588633094.701000
+!s107 C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_cpu_jtag_debug_module_tck.v|
+!s90 -reportprogress|300|C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_cpu_jtag_debug_module_tck.v|-work|cpu|
+!s101 -O0
+vnios2_cpu_jtag_debug_module_wrapper
+IHJUg9E9T<4N1HzohW3TfO1
+VJ]Nz<MZR4HNjJzD:RcTXQ3
+R1
+R2
+8C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_cpu_jtag_debug_module_wrapper.v
+FC:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_cpu_jtag_debug_module_wrapper.v
+L0 21
+R3
+r1
+31
+R4
+!i10b 1
+!s100 d]3Y`5PVi[_kOAza3En3R0
+!s85 0
+!s108 1588633094.943000
+!s107 C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_cpu_jtag_debug_module_wrapper.v|
+!s90 -reportprogress|300|C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_cpu_jtag_debug_module_wrapper.v|-work|cpu|
+!s101 -O0
+vnios2_cpu_oci_test_bench
+II<aUYH=oR1IkbY_R<`a<=3
+VJNVSS?k`FY=9U8K?nh00L3
+R1
+R2
+8C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_cpu_oci_test_bench.v
+FC:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_cpu_oci_test_bench.v
+L0 21
+R3
+r1
+31
+R4
+!i10b 1
+!s100 kBE@LKHc5QFK]@dl82z_?3
+!s85 0
+!s108 1588633095.563000
+!s107 C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_cpu_oci_test_bench.v|
+!s90 -reportprogress|300|C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_cpu_oci_test_bench.v|-work|cpu|
+!s101 -O0
+vnios2_cpu_test_bench
+!i10b 1
+!s100 FNEzC9a@TE2O:T8FRR[S]2
+IlFe=VWmV0?9e1G5k]<LIm2
+VUk1_1iii_G6=77nmLF0oI1
+R1
+R2
+8C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_cpu_test_bench.v
+FC:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_cpu_test_bench.v
+L0 21
+R3
+r1
+!s85 0
+31
+!s108 1588633095.858000
+!s107 C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_cpu_test_bench.v|
+!s90 -reportprogress|300|C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_cpu_test_bench.v|-work|cpu|
+!s101 -O0
+R4

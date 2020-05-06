@@ -1,0 +1,49 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\geoka\Documents\GitHub\uni-projects\nios2_custom_instr\nios2\niosII_hw_dev_tutorial\software\dsaf\obj\default\runtime\sim\mentor
+valtera_avalon_st_pipeline_base
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+!i10b 1
+!s100 de9C3D6IzC>h3QFEXl6Oi0
+IV7;?_j1;Jk?=l>b=Q<?563
+VzC;0]nBLKo0Q[zO07mJ[H0
+!s105 altera_avalon_st_pipeline_base_v_unit
+S1
+Z2 dC:\Users\geoka\Documents\GitHub\uni-projects\nios2_custom_instr\nios2\niosII_hw_dev_tutorial\software\dsaf\obj\default\runtime\sim\mentor
+Z3 w1588632590
+8C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/altera_avalon_st_pipeline_base.v
+FC:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/altera_avalon_st_pipeline_base.v
+L0 22
+Z4 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1588633086.588000
+!s107 C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/altera_avalon_st_pipeline_base.v|
+!s90 -reportprogress|300|-sv|C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/altera_avalon_st_pipeline_base.v|-work|limiter|
+!s101 -O0
+Z5 o-sv -work limiter -O0
+valtera_merlin_traffic_limiter
+R1
+IEE`728]4U^@]Zk@51U5[03
+VFToJ:O^P1mK>hGEjaBQXC3
+S1
+R2
+R3
+8C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/altera_merlin_traffic_limiter.sv
+FC:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/altera_merlin_traffic_limiter.sv
+L0 44
+R4
+r1
+31
+R5
+!i10b 1
+!s100 UYa2NQJNQ9UVFTZlFG;O32
+!s105 altera_merlin_traffic_limiter_sv_unit
+!s85 0
+!s108 1588633086.298000
+!s107 C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/altera_merlin_traffic_limiter.sv|
+!s90 -reportprogress|300|-sv|C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/altera_merlin_traffic_limiter.sv|-work|limiter|
+!s101 -O0

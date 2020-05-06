@@ -1,0 +1,44 @@
+library verilog;
+use verilog.vl_types.all;
+entity nios2_cpu is
+    port(
+        clk             : in     vl_logic;
+        d_address       : out    vl_logic_vector(16 downto 0);
+        d_byteenable    : out    vl_logic_vector(3 downto 0);
+        d_irq           : in     vl_logic_vector(31 downto 0);
+        d_read          : out    vl_logic;
+        d_readdata      : in     vl_logic_vector(31 downto 0);
+        d_waitrequest   : in     vl_logic;
+        d_write         : out    vl_logic;
+        d_writedata     : out    vl_logic_vector(31 downto 0);
+        E_ci_combo_a    : out    vl_logic_vector(4 downto 0);
+        E_ci_combo_b    : out    vl_logic_vector(4 downto 0);
+        E_ci_combo_c    : out    vl_logic_vector(4 downto 0);
+        E_ci_combo_dataa: out    vl_logic_vector(31 downto 0);
+        E_ci_combo_datab: out    vl_logic_vector(31 downto 0);
+        E_ci_combo_estatus: out    vl_logic;
+        E_ci_combo_ipending: out    vl_logic_vector(31 downto 0);
+        E_ci_combo_n    : out    vl_logic_vector(7 downto 0);
+        E_ci_combo_readra: out    vl_logic;
+        E_ci_combo_readrb: out    vl_logic;
+        E_ci_combo_result: in     vl_logic_vector(31 downto 0);
+        E_ci_combo_status: out    vl_logic;
+        E_ci_combo_writerc: out    vl_logic;
+        i_address       : out    vl_logic_vector(16 downto 0);
+        i_read          : out    vl_logic;
+        i_readdata      : in     vl_logic_vector(31 downto 0);
+        i_readdatavalid : in     vl_logic;
+        i_waitrequest   : in     vl_logic;
+        jtag_debug_module_address: in     vl_logic_vector(8 downto 0);
+        jtag_debug_module_byteenable: in     vl_logic_vector(3 downto 0);
+        jtag_debug_module_debugaccess: in     vl_logic;
+        jtag_debug_module_debugaccess_to_roms: out    vl_logic;
+        jtag_debug_module_read: in     vl_logic;
+        jtag_debug_module_readdata: out    vl_logic_vector(31 downto 0);
+        jtag_debug_module_resetrequest: out    vl_logic;
+        jtag_debug_module_waitrequest: out    vl_logic;
+        jtag_debug_module_write: in     vl_logic;
+        jtag_debug_module_writedata: in     vl_logic_vector(31 downto 0);
+        reset_n         : in     vl_logic
+    );
+end nios2_cpu;
