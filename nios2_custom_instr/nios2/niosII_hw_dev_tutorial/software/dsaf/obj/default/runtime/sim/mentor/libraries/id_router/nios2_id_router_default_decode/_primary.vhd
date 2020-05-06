@@ -9,9 +9,9 @@ entity nios2_id_router_default_decode is
     );
     port(
         default_destination_id: out    vl_logic_vector(2 downto 0);
-        default_wr_channel: out    vl_logic_vector(5 downto 0);
-        default_rd_channel: out    vl_logic_vector(5 downto 0);
-        default_src_channel: out    vl_logic_vector(5 downto 0)
+        default_wr_channel: out    vl_logic_vector(6 downto 0);
+        default_rd_channel: out    vl_logic_vector(6 downto 0);
+        default_src_channel: out    vl_logic_vector(6 downto 0)
     );
     attribute mti_svvh_generic_type : integer;
     attribute mti_svvh_generic_type of DEFAULT_CHANNEL : constant is 1;

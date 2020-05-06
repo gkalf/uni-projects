@@ -9,7 +9,7 @@ valtera_avalon_sc_fifo
 I_g5VC^:CKFd:8eMIa79@V3
 VjOzUMS5nAQIa6?lLKEfID0
 Z1 dC:\Users\geoka\Documents\GitHub\uni-projects\nios2_custom_instr\nios2\niosII_hw_dev_tutorial\software\dsaf\obj\default\runtime\sim\mentor
-w1588632590
+w1588802758
 8C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/altera_avalon_sc_fifo.v
 FC:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/altera_avalon_sc_fifo.v
 L0 21
@@ -17,7 +17,7 @@ OV;L;10.1d;51
 r1
 !s85 0
 31
-!s108 1588633088.709000
+!s108 1588804702.764000
 !s107 C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/altera_avalon_sc_fifo.v|
 !s90 -reportprogress|300|C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/altera_avalon_sc_fifo.v|-work|cpu_jtag_debug_module_translator_avalon_universal_slave_0_agent_rsp_fifo|
 !s101 -O0

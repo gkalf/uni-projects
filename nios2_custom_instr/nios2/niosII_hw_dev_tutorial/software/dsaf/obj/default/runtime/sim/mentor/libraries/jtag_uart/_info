@@ -9,7 +9,7 @@ vnios2_jtag_uart
 IaOV=aIV^2K@kz[eM]F1]P3
 VB[V4b7BC2C9W1AOSanVkH3
 Z1 dC:\Users\geoka\Documents\GitHub\uni-projects\nios2_custom_instr\nios2\niosII_hw_dev_tutorial\software\dsaf\obj\default\runtime\sim\mentor
-Z2 w1588632586
+Z2 w1588802755
 Z3 8C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_jtag_uart.v
 Z4 FC:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_jtag_uart.v
 L0 327
@@ -17,7 +17,7 @@ Z5 OV;L;10.1d;51
 r1
 !s85 0
 31
-Z6 !s108 1588633092.724000
+Z6 !s108 1588804706.968000
 Z7 !s107 C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_jtag_uart.v|
 Z8 !s90 -reportprogress|300|C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_jtag_uart.v|-work|jtag_uart|
 !s101 -O0

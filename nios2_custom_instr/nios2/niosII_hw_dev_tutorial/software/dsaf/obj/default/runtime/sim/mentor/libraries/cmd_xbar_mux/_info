@@ -10,14 +10,14 @@ VeEm48mj>0hhNR4acO5n:k1
 Z2 !s105 altera_merlin_arbitrator_sv_unit
 S1
 Z3 dC:\Users\geoka\Documents\GitHub\uni-projects\nios2_custom_instr\nios2\niosII_hw_dev_tutorial\software\dsaf\obj\default\runtime\sim\mentor
-Z4 w1588632591
+Z4 w1588802759
 Z5 8C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/altera_merlin_arbitrator.sv
 Z6 FC:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/altera_merlin_arbitrator.sv
 L0 228
 Z7 OV;L;10.1d;51
 r1
 31
-Z8 !s108 1588633084.465000
+Z8 !s108 1588804698.960000
 Z9 !s107 C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/altera_merlin_arbitrator.sv|
 Z10 !s90 -reportprogress|300|-sv|C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/altera_merlin_arbitrator.sv|-work|cmd_xbar_mux|
 Z11 o-sv -work cmd_xbar_mux -O0
@@ -50,9 +50,9 @@ R11
 vnios2_cmd_xbar_mux
 R1
 !i10b 1
-!s100 =78;HZ0Ia>aa8m12n>=ZD2
-IXi0c:@b]_:helb20F>>Rg2
-VW;SE7Lgba?X1UD09KD9Z?0
+!s100 Lm[CcWzZBj0BFPX35dhco3
+Iif:dFd]MkZbJPgzh=LJaN3
+VAb5>oTizmh1ohnQ_kz_aI1
 !s105 nios2_cmd_xbar_mux_sv_unit
 S1
 R3
@@ -64,7 +64,7 @@ R7
 r1
 !s85 0
 31
-!s108 1588633084.805000
+!s108 1588804699.288000
 !s107 C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_cmd_xbar_mux.sv|
 !s90 -reportprogress|300|-sv|C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_cmd_xbar_mux.sv|-work|cmd_xbar_mux|
 !s101 -O0

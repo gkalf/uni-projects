@@ -11,7 +11,7 @@ entity nios2_id_router is
         sink_ready      : out    vl_logic;
         src_valid       : out    vl_logic;
         src_data        : out    vl_logic_vector(89 downto 0);
-        src_channel     : out    vl_logic_vector(5 downto 0);
+        src_channel     : out    vl_logic_vector(6 downto 0);
         src_startofpacket: out    vl_logic;
         src_endofpacket : out    vl_logic;
         src_ready       : in     vl_logic

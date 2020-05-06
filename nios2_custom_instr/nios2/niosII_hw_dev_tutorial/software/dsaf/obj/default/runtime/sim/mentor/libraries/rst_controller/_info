@@ -7,7 +7,7 @@ valtera_reset_controller
 I9gQFY@^go@;WQ?DWEBJ5X1
 VBWWT<i0A@QcN4KE]hBS<V0
 Z1 dC:\Users\geoka\Documents\GitHub\uni-projects\nios2_custom_instr\nios2\niosII_hw_dev_tutorial\software\dsaf\obj\default\runtime\sim\mentor
-Z2 w1588632590
+Z2 w1588802759
 8C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/altera_reset_controller.v
 FC:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/altera_reset_controller.v
 L0 29
@@ -18,7 +18,7 @@ Z4 o-work rst_controller -O0
 !i10b 1
 !s100 g8R2LkcP_k2Inf:Ta]lgZ1
 !s85 0
-!s108 1588633085.714000
+!s108 1588804700.214000
 !s107 C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/altera_reset_controller.v|
 !s90 -reportprogress|300|C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/altera_reset_controller.v|-work|rst_controller|
 !s101 -O0
@@ -36,7 +36,7 @@ R3
 r1
 !s85 0
 31
-!s108 1588633086.054000
+!s108 1588804700.442000
 !s107 C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/altera_reset_synchronizer.v|
 !s90 -reportprogress|300|C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/altera_reset_synchronizer.v|-work|rst_controller|
 !s101 -O0

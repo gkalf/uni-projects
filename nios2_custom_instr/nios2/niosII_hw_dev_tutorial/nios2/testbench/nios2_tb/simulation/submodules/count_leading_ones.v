@@ -7,7 +7,7 @@ wire    [size-1:0] rslt;
 
 reg 	 [4:0] bit_position;
 
-assign rslt = (inA==32'hFFFFFFFF)?32'd32:bit_position ;
+assign rslt = (inA==32'hFFFFFFFF)?32'd32:bit_position;
 
 always @(inA)
 	begin: search_for_1

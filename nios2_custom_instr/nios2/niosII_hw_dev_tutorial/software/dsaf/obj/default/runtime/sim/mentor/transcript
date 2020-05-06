@@ -427,29 +427,29 @@
 # 
 # ** Warning: (vsim-3722) C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_onchip_mem.v(66): [TFMPC] - Missing connection for port 'eccstatus'.
 # 
-# ** Warning: (vsim-3017) C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2.v(536): [TFMPC] - Too few port connections. Expected 38, found 35.
+# ** Warning: (vsim-3017) C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2.v(589): [TFMPC] - Too few port connections. Expected 38, found 35.
 # 
 #         Region: /nios2_tb/nios2_inst/cpu
-# ** Warning: (vsim-3722) C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2.v(536): [TFMPC] - Missing connection for port 'E_ci_combo_estatus'.
+# ** Warning: (vsim-3722) C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2.v(589): [TFMPC] - Missing connection for port 'E_ci_combo_estatus'.
 # 
-# ** Warning: (vsim-3722) C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2.v(536): [TFMPC] - Missing connection for port 'E_ci_combo_ipending'.
+# ** Warning: (vsim-3722) C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2.v(589): [TFMPC] - Missing connection for port 'E_ci_combo_ipending'.
 # 
-# ** Warning: (vsim-3722) C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2.v(536): [TFMPC] - Missing connection for port 'E_ci_combo_status'.
+# ** Warning: (vsim-3722) C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2.v(589): [TFMPC] - Missing connection for port 'E_ci_combo_status'.
 # 
-# ** Warning: (vsim-3017) C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2.v(549): [TFMPC] - Too few port connections. Expected 12, found 10.
+# ** Warning: (vsim-3017) C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2.v(602): [TFMPC] - Too few port connections. Expected 12, found 10.
 # 
 #         Region: /nios2_tb/nios2_inst/jtag_uart
-# ** Warning: (vsim-3722) C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2.v(549): [TFMPC] - Missing connection for port 'dataavailable'.
+# ** Warning: (vsim-3722) C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2.v(602): [TFMPC] - Missing connection for port 'dataavailable'.
 # 
-# ** Warning: (vsim-3722) C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2.v(549): [TFMPC] - Missing connection for port 'readyfordata'.
+# ** Warning: (vsim-3722) C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2.v(602): [TFMPC] - Missing connection for port 'readyfordata'.
 # 
 # ** Warning: Design size of 55 instances exceeds ModelSim ALTERA recommended capacity.
 # This may because you are loading cell libraries which are not recommended with
 # the ModelSim Altera version. Expect performance to be adversely affected.
 #   
-run -all
+run 1ms
 # Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
-# Time: 0  Instance: nios2_tb.nios2_inst.cpu.niO1O1O
+# Time: 0  Instance: nios2_tb.nios2_inst.cpu.niO1lll
 #                    0: INFO: nios2_tb.nios2_inst_clk_bfm.__hello: - Hello from altera_clock_source.
 #                    0: INFO: nios2_tb.nios2_inst_clk_bfm.__hello: -   $Revision: #1 $
 #                    0: INFO: nios2_tb.nios2_inst_clk_bfm.__hello: -   $Date: 2013/03/07 $
@@ -464,11 +464,29 @@ run -all
 #                    0: INFO: nios2_tb.nios2_inst_reset_bfm.reset_assert: Reset asserted
 #               990000: INFO: nios2_tb.nios2_inst_reset_bfm.reset_deassert: Reset deasserted
 # Warning : Address pointed at port A is out of bound!
-# Time: 48870000  Instance: nios2_tb.nios2_inst.onchip_mem.the_altsyncram
+# Time: 49110000  Instance: nios2_tb.nios2_inst.onchip_mem.the_altsyncram
 # Warning : Address pointed at port A is out of bound!
-# Time: 48870000  Instance: nios2_tb.nios2_inst.onchip_mem.the_altsyncram
-add wave -position insertpoint sim:/nios2_tb/nios2_inst/count_leading_ones_0/*
-restart
+# Time: 49110000  Instance: nios2_tb.nios2_inst.onchip_mem.the_altsyncram
+# Warning : Address pointed at port A is out of bound!
+# Time: 53370000  Instance: nios2_tb.nios2_inst.onchip_mem.the_altsyncram
+# Warning : Address pointed at port A is out of bound!
+# Time: 53370000  Instance: nios2_tb.nios2_inst.onchip_mem.the_altsyncram
+# Hardware result = 1c
+# Completed in 2 ticks
+# Software result = 1c
+# Completed in 206 ticks
+# **********************************************
+# Program Complete.
+# Warning : Address pointed at port A is out of bound!
+# Time: 690090000  Instance: nios2_tb.nios2_inst.onchip_mem.the_altsyncram
+# Warning : Address pointed at port A is out of bound!
+# Time: 690090000  Instance: nios2_tb.nios2_inst.onchip_mem.the_altsyncram
+# Warning : Address pointed at port A is out of bound!
+# Time: 694350000  Instance: nios2_tb.nios2_inst.onchip_mem.the_altsyncram
+# Warning : Address pointed at port A is out of bound!
+# Time: 694350000  Instance: nios2_tb.nios2_inst.onchip_mem.the_altsyncram
+# Hardware result = 1c
+Completed in restart
 # Loading sv_std.std
 # Loading cpu_custom_instruction_master_comb_xconnect.nios2_cpu_custom_instruction_master_comb_xconnect
 # Loading cpu_custom_instruction_master_comb_slave_translator0.altera_customins_slave_translator
@@ -538,28 +556,28 @@ restart
 # 
 # ** Warning: (vsim-3722) C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_onchip_mem.v(66): [TFMPC] - Missing connection for port 'eccstatus'.
 # 
-# ** Warning: (vsim-3017) C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2.v(536): [TFMPC] - Too few port connections. Expected 38, found 35.
+# ** Warning: (vsim-3017) C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2.v(589): [TFMPC] - Too few port connections. Expected 38, found 35.
 # 
 #         Region: /nios2_tb/nios2_inst/cpu
-# ** Warning: (vsim-3722) C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2.v(536): [TFMPC] - Missing connection for port 'E_ci_combo_estatus'.
+# ** Warning: (vsim-3722) C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2.v(589): [TFMPC] - Missing connection for port 'E_ci_combo_estatus'.
 # 
-# ** Warning: (vsim-3722) C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2.v(536): [TFMPC] - Missing connection for port 'E_ci_combo_ipending'.
+# ** Warning: (vsim-3722) C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2.v(589): [TFMPC] - Missing connection for port 'E_ci_combo_ipending'.
 # 
-# ** Warning: (vsim-3722) C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2.v(536): [TFMPC] - Missing connection for port 'E_ci_combo_status'.
+# ** Warning: (vsim-3722) C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2.v(589): [TFMPC] - Missing connection for port 'E_ci_combo_status'.
 # 
-# ** Warning: (vsim-3017) C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2.v(549): [TFMPC] - Too few port connections. Expected 12, found 10.
+# ** Warning: (vsim-3017) C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2.v(602): [TFMPC] - Too few port connections. Expected 12, found 10.
 # 
 #         Region: /nios2_tb/nios2_inst/jtag_uart
-# ** Warning: (vsim-3722) C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2.v(549): [TFMPC] - Missing connection for port 'dataavailable'.
+# ** Warning: (vsim-3722) C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2.v(602): [TFMPC] - Missing connection for port 'dataavailable'.
 # 
-# ** Warning: (vsim-3722) C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2.v(549): [TFMPC] - Missing connection for port 'readyfordata'.
+# ** Warning: (vsim-3722) C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2.v(602): [TFMPC] - Missing connection for port 'readyfordata'.
 # 
 # ** Warning: Design size of 55 instances exceeds ModelSim ALTERA recommended capacity.
 # This may because you are loading cell libraries which are not recommended with
 # the ModelSim Altera version. Expect performance to be adversely affected.
 run
 # Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
-# Time: 0  Instance: nios2_tb.nios2_inst.cpu.niO1O1O
+# Time: 0  Instance: nios2_tb.nios2_inst.cpu.niO1lll
 #                    0: INFO: nios2_tb.nios2_inst_clk_bfm.__hello: - Hello from altera_clock_source.
 #                    0: INFO: nios2_tb.nios2_inst_clk_bfm.__hello: -   $Revision: #1 $
 #                    0: INFO: nios2_tb.nios2_inst_clk_bfm.__hello: -   $Date: 2013/03/07 $
@@ -574,6 +592,27 @@ run
 #                    0: INFO: nios2_tb.nios2_inst_reset_bfm.reset_assert: Reset asserted
 #               990000: INFO: nios2_tb.nios2_inst_reset_bfm.reset_deassert: Reset deasserted
 # Warning : Address pointed at port A is out of bound!
-# Time: 48870000  Instance: nios2_tb.nios2_inst.onchip_mem.the_altsyncram
+# Time: 49110000  Instance: nios2_tb.nios2_inst.onchip_mem.the_altsyncram
 # Warning : Address pointed at port A is out of bound!
-# Time: 48870000  Instance: nios2_tb.nios2_inst.onchip_mem.the_altsyncram
+# Time: 49110000  Instance: nios2_tb.nios2_inst.onchip_mem.the_altsyncram
+# Warning : Address pointed at port A is out of bound!
+# Time: 53370000  Instance: nios2_tb.nios2_inst.onchip_mem.the_altsyncram
+# Warning : Address pointed at port A is out of bound!
+# Time: 53370000  Instance: nios2_tb.nios2_inst.onchip_mem.the_altsyncram
+# Hardware result = 1c
+# Completed in 2 ticks
+# Software result = 1c
+# Completed in 206 ticks
+# **********************************************
+# Program Complete.
+# Warning : Address pointed at port A is out of bound!
+# Time: 690090000  Instance: nios2_tb.nios2_inst.onchip_mem.the_altsyncram
+# Warning : Address pointed at port A is out of bound!
+# Time: 690090000  Instance: nios2_tb.nios2_inst.onchip_mem.the_altsyncram
+# Warning : Address pointed at port A is out of bound!
+# Time: 694350000  Instance: nios2_tb.nios2_inst.onchip_mem.the_altsyncram
+# Warning : Address pointed at port A is out of bound!
+# Time: 694350000  Instance: nios2_tb.nios2_inst.onchip_mem.the_altsyncram
+# Hardware result = 1c
+# Completed in 2 ticks
+Softwa

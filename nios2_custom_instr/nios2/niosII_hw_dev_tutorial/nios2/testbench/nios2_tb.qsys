@@ -48,7 +48,7 @@
  <parameter name="projectName">nios2_quartus2_project.qpf</parameter>
  <parameter name="sopcBorderPoints" value="false" />
  <parameter name="systemHash" value="1" />
- <parameter name="timeStamp" value="1588632550046" />
+ <parameter name="timeStamp" value="1588802724139" />
  <parameter name="useTestBenchNamingPattern" value="true" />
  <instanceScript></instanceScript>
  <module kind="nios2" version="1.0" enabled="1" name="nios2_inst">
