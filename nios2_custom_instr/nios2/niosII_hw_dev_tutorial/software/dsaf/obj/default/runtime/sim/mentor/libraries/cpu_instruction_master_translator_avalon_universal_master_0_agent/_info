@@ -20,7 +20,7 @@ Z2 OV;L;10.1d;51
 r1
 !s85 0
 31
-!s108 1588804703.671000
+!s108 1588894874.702000
 !s107 C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/altera_merlin_master_agent.sv|
 !s90 -reportprogress|300|-sv|C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/altera_merlin_master_agent.sv|-work|cpu_instruction_master_translator_avalon_universal_master_0_agent|
 !s101 -O0

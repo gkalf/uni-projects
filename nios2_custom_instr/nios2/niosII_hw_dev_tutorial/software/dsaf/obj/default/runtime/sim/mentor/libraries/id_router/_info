@@ -20,7 +20,7 @@ Z7 OV;L;10.1d;51
 r1
 !s85 0
 31
-Z8 !s108 1588804701.559000
+Z8 !s108 1588894871.821000
 Z9 !s107 C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_id_router.sv|
 Z10 !s90 -reportprogress|300|-sv|C:/Users/geoka/Documents/GitHub/uni-projects/nios2_custom_instr/nios2/niosII_hw_dev_tutorial/nios2/testbench/nios2_tb/simulation/submodules/nios2_id_router.sv|-work|id_router|
 !s101 -O0
